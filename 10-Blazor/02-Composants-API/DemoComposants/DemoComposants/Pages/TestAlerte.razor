@@ -1,0 +1,44 @@
+﻿@page "/testAlerte"
+
+<h1>Test Alerte avec fermeture</h1>
+
+@if (afficherSuccess)
+{
+    <Alerte 
+        Message="Tâche ajoutée avec succès !" 
+        Type="success"
+        OnClose="FermerSuccess"/>
+}
+
+@if (afficherErreur)
+{
+    <Alerte 
+        Message="Impossible de supprimer"
+        Type="danger"
+        OnClose="FermerErreur" />
+}
+
+<button class="btn btn-primary" @onclick="AfficherTout">
+    Réafficher les alertes
+</button>
+
+
+@code {
+    private bool afficherSuccess = true;
+    private bool afficherErreur = true;
+
+    private void FermerSuccess()
+    {
+        afficherSuccess = false;
+    }
+
+    private void FermerErreur()
+    {
+        afficherErreur = false;
+    }
+    private void AfficherTout()
+    {
+        afficherSuccess = true;
+        afficherErreur = true;
+    }
+}

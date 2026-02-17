@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\d\\gestioncommande\\gestioncommande\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|solutionrelative:gestioncommande\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\d\\gestioncommande\\gestioncommande\\servicecommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|solutionrelative:gestioncommande\\servicecommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\d\\gestioncommande\\gestioncommande\\notificationconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|solutionrelative:gestioncommande\\notificationconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\d\\gestioncommande\\gestioncommande\\journalconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|solutionrelative:gestioncommande\\journalconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\d\\gestioncommande\\gestioncommande\\depotcommandefichier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|solutionrelative:gestioncommande\\depotcommandefichier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\d\\gestioncommande\\gestioncommande\\interfaces\\iservicenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|solutionrelative:gestioncommande\\interfaces\\iservicenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\d\\gestioncommande\\gestioncommande\\interfaces\\ijournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|solutionrelative:gestioncommande\\interfaces\\ijournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\d\\gestioncommande\\gestioncommande\\interfaces\\idepotcommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|solutionrelative:gestioncommande\\interfaces\\idepotcommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\d\\gestioncommande\\gestioncommande\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DB2861-47B8-4E89-BA6E-E0612B808779}|GestionCommande\\GestionCommande.csproj|solutionrelative:gestioncommande\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServiceNotification.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Interfaces\\IServiceNotification.cs",
+              "RelativeDocumentMoniker": "GestionCommande\\Interfaces\\IServiceNotification.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Interfaces\\IServiceNotification.cs",
+              "RelativeToolTip": "GestionCommande\\Interfaces\\IServiceNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:57:17.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IJournal.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Interfaces\\IJournal.cs",
+              "RelativeDocumentMoniker": "GestionCommande\\Interfaces\\IJournal.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Interfaces\\IJournal.cs*",
+              "RelativeToolTip": "GestionCommande\\Interfaces\\IJournal.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:56:54.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDepotCommande.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Interfaces\\IDepotCommande.cs",
+              "RelativeDocumentMoniker": "GestionCommande\\Interfaces\\IDepotCommande.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Interfaces\\IDepotCommande.cs*",
+              "RelativeToolTip": "GestionCommande\\Interfaces\\IDepotCommande.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:56:46.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationConsole.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\NotificationConsole.cs",
+              "RelativeDocumentMoniker": "GestionCommande\\NotificationConsole.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\NotificationConsole.cs",
+              "RelativeToolTip": "GestionCommande\\NotificationConsole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:53:46.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JournalConsole.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\JournalConsole.cs",
+              "RelativeDocumentMoniker": "GestionCommande\\JournalConsole.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\JournalConsole.cs*",
+              "RelativeToolTip": "GestionCommande\\JournalConsole.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:53:15.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepotCommandeFichier.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\DepotCommandeFichier.cs",
+              "RelativeDocumentMoniker": "GestionCommande\\DepotCommandeFichier.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\DepotCommandeFichier.cs*",
+              "RelativeToolTip": "GestionCommande\\DepotCommandeFichier.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:52:18.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceCommande.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\ServiceCommande.cs",
+              "RelativeDocumentMoniker": "GestionCommande\\ServiceCommande.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\ServiceCommande.cs*",
+              "RelativeToolTip": "GestionCommande\\ServiceCommande.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:51:59.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Commande.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Models\\Commande.cs",
+              "RelativeDocumentMoniker": "GestionCommande\\Models\\Commande.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Models\\Commande.cs",
+              "RelativeToolTip": "GestionCommande\\Models\\Commande.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:50:54.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Program.cs",
+              "RelativeDocumentMoniker": "GestionCommande\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\D\\GestionCommande\\GestionCommande\\Program.cs*",
+              "RelativeToolTip": "GestionCommande\\Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:49:48.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

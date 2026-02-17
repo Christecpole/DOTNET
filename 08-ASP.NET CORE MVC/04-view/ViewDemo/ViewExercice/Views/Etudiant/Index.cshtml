@@ -1,0 +1,56 @@
+﻿@model List<Etudiant>
+@{
+    ViewData["Title"] = "Liste des étudiants";
+
+    var totalEtudiant = Model.Count; // Récupere le nombre d'étudiant dans la liste
+
+    var moyenne = Model.Average(s => s.Note); //LINQ : Pour chaque étudiant s, prend la note(s.Note) et tu calcule la moyenne.
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="alert alert-info">
+    <strong>@totalEtudiant</strong> étudiant(s) au total | Moyenne générale : <strong>@moyenne.ToString("F2")</strong> / 20 @*F2 => formatte decimal à 2 décimales(ex : 11,52)*@
+</div>
+
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>Prénom</th>
+            <th>Nom</th>
+            <th>Note</th>
+            <th>Statut</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var etudiant in Model)
+        {
+            <tr>
+                <td>@etudiant.Id</td>
+                <td>@etudiant.Prenom</td>
+                <td>@etudiant.Nom</td>
+                <td><strong>@etudiant.Note</strong></td>
+                <td>
+                    @if(etudiant.Note >= 10)
+                    {
+                        <span class="badge bg-success">Admis</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Non Admis</span>
+                    }
+                    @if(etudiant.Note >= 16)
+                    {
+                        <span class="badge bg-warning">Excellent</span>
+                    }
+                </td>
+            </tr>
+        }
+      
+    </tbody>
+</table>
+
+
+
+

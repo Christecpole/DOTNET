@@ -1,0 +1,194 @@
+﻿@page "/todos/edit/{Id:int}"
+@using TodoListBlazor.Dtos
+@using TodoListBlazor.Services
+@inject ITodoService TodoService
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+
+            @if (isLoading)
+            {
+                <div class="text-center py-5">
+                    <div class="spinner-border text-primary" role="status"></div>
+                    <p class="mt-2">Chargement de la tâche...</p>
+                </div>
+            }
+            else if (todo == null)
+            {
+                <div class="alert alert-danger">
+                    Tâche non trouvée !
+                </div>
+                <a href="/dashboard" class="btn btn-primary">Retour au dashboard</a>
+            }
+            else
+            {
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Modifier la Tâche</h4>
+                    </div>
+
+                    <div class="card-body">
+
+                        @if (!string.IsNullOrEmpty(errorMessage))
+                        {
+                            <div class="alert alert-danger">
+                                @errorMessage
+                            </div>
+                        }
+
+                        @if (!string.IsNullOrEmpty(successMessage))
+                        {
+                            <div class="alert alert-success">
+                                @successMessage
+                            </div>
+                        }
+
+                        <EditForm Model="todo" OnValidSubmit="HandleSubmit">
+                            <DataAnnotationsValidator />
+
+                            <div class="mb-3">
+                                <label class="form-label">
+                                    Titre <span class="text-danger">*</span>
+                                </label>
+                                <InputText @bind-Value="todo.Title" class="form-control" />
+                                <ValidationMessage For="@(() => todo.Title)" class="text-danger" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Description</label>
+                                <InputTextArea @bind-Value="todo.Description"
+                                               class="form-control"
+                                               rows="3" />
+                                <ValidationMessage For="@(() => todo.Description)" class="text-danger" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Priorité</label>
+                                <InputSelect @bind-Value="todo.Priority" class="form-select">
+                                    <option value="1">Basse</option>
+                                    <option value="2">Normale</option>
+                                    <option value="3"> Haute</option>
+                                </InputSelect>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Date limite</label>
+                                <InputDate @bind-Value="todo.DueDate" class="form-control" />
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <InputCheckbox @bind-Value="todo.IsCompleted"
+                                               class="form-check-input"
+                                               id="isCompleted" />
+                                <label class="form-check-label" for="isCompleted">
+                                    Tâche terminée
+                                </label>
+                            </div>
+
+                            <div class="d-flex gap-2 justify-content-end">
+                                <a href="/dashboard" class="btn btn-secondary">
+                                    Annuler
+                                </a>
+                                <button type="submit" class="btn btn-primary" disabled="@isSubmitting">
+                                    @if (isSubmitting)
+                                    {
+                                        <span class="spinner-border spinner-border-sm me-2"></span>
+                                    }
+                                    Enregistrer
+                                </button>
+                            </div>
+
+                        </EditForm>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+
+    //Paramere de route l'id vient de l'url /todos/edit/2
+    [Parameter]
+    public int Id { get; set; }
+
+    private TodoItem? todo;
+    private bool isLoading = true;
+    private bool isSubmitting = false;
+    private string? errorMessage;
+    private string? successMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //verifie si connecté
+        var isAuthenticated = await AuthService.IsAuthenticatedAsync();
+        if (!isAuthenticated)
+        {
+            Navigation.NavigateTo("/Auth/LoginPage");
+        }
+
+        //charger la tâche depuis l'API
+        await LoadTodo();
+    }
+
+    private async Task LoadTodo()
+    {
+        isLoading = true;
+
+        try
+        {
+            todo = await TodoService.GetByIdAsync(Id);
+
+            if(todo == null)
+            {
+                errorMessage = "Cette tâche n'existe pas.";
+            }
+
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Erreur : {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task HandleSubmit()
+    {
+        if (todo == null) return;
+
+        isSubmitting = true;
+        errorMessage = null;
+        successMessage = null;
+
+        try
+        {
+            var success = await TodoService.UpdateAsync(todo);
+
+            if (success)
+            {
+                successMessage = "Tâche mise à jour avec succès !";
+
+                //Rediriger vers dashboard après une seconde
+                await Task.Delay(1000);
+                Navigation.NavigateTo("/dashboard");
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Erreur : {ex.Message}";
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+
+
+}

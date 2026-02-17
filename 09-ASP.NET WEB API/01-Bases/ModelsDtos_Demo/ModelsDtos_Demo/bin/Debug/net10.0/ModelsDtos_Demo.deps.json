@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ModelsDtos_Demo/1.0.0": {
+        "runtime": {
+          "ModelsDtos_Demo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModelsDtos_Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\bin\Debug\net10.0\Tableaux.exe
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\bin\Debug\net10.0\Tableaux.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\bin\Debug\net10.0\Tableaux.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\bin\Debug\net10.0\Tableaux.dll
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\bin\Debug\net10.0\Tableaux.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\Tableaux.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\Tableaux.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\Tableaux.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\Tableaux.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\Tableaux.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\Tableaux.dll
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\refint\Tableaux.dll
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\Tableaux.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\Tableaux.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Tableaux\obj\Debug\net10.0\ref\Tableaux.dll

@@ -1,0 +1,60 @@
+﻿Vous devez créer un formulaire de contact fonctionnel
+
+Créer le ViewModel `ContactViewModel`**
+
+**Propriétés à créer avec leurs validations :**
+
+1. **`Name` (Nom)** :
+   - Obligatoire avec message : "Veuillez entrer votre nom"
+   - Longueur entre 2 et 50 caractères avec message : "Le nom doit contenir entre 2 et 50 caractères"
+   - Label d'affichage : "Votre nom"
+
+2. **`Email` (Email)** :
+   - Obligatoire avec message : "Veuillez entrer votre email"
+   - Validation du format email avec message : "Format d'email invalide"
+   - Label d'affichage : "Votre email"
+   - Placeholder : "exemple@domaine.com"
+
+3. **`Subject` (Sujet)** :
+   - Obligatoire avec message : "Veuillez entrer un sujet"
+   - Longueur entre 5 et 100 caractères avec message : "Le sujet doit contenir entre 5 et 100 caractères"
+   - Label d'affichage : "Sujet du message"
+
+4. **`Message` (Message)** :
+   - Obligatoire avec message : "Veuillez entrer votre message"
+   - Longueur entre 20 et 2000 caractères avec message : "Le message doit contenir entre 20 et 2000 caractères"
+   - **Important** : Utiliser `[DataType(DataType.MultilineText)]` pour générer un `<textarea>`
+   - Label d'affichage : "Votre message"
+
+5. **`Phone` (Téléphone)** :
+   - **Optionnel** (pas de `[Required]`)
+   - Validation du format téléphone avec message : "Numéro de téléphone invalide" (uniquement si rempli)
+   - Label d'affichage : "Téléphone (optionnel)"
+   - Placeholder : "06 12 34 56 78"
+
+6. **`Urgency` (Urgence)** :
+   - Obligatoire avec message : "Veuillez sélectionner un niveau d'urgence"
+   - Label d'affichage : "Niveau d'urgence"
+   - Type : `string` (pour stocker la valeur sélectionnée)
+
+7. **`UrgencyOptions` (Liste pour le dropdown)** :
+   - Type : `List<SelectListItem>`
+   - Initialiser avec 3 options :
+     - "Basse" (Value = "low")
+     - "Normale" (Value = "normal", Selected = true)
+     - "Haute" (Value = "high")
+
+
+1. Créez le fichier `Controllers/ContactController.cs`
+
+**Actions à créer :**
+
+1. **Action GET `Index()`** :
+   - Créer une instance de `ContactViewModel`
+   - Initialiser la liste `UrgencyOptions` avec les 3 options
+   - Retourner la vue avec le ViewModel
+
+2. **Action POST `Index(ContactViewModel model)`** :
+   - **OBLIGATOIRE** : Vérifier `ModelState.IsValid`
+   - Si invalide : Réinitialiser `UrgencyOptions` et réafficher la vue
+   - Si valide : Afficher un message de succès (utiliser `TempData`) et rediriger

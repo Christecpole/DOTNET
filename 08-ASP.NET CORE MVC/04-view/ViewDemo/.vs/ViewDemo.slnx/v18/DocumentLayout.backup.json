@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\views\\produitformulaire\\creerproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\views\\produitformulaire\\creerproduit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\views\\utilisateur\\creerunutilisateur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\views\\utilisateur\\creerunutilisateur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\views\\utilisateur\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\views\\utilisateur\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\controllers\\produitformulairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\controllers\\produitformulairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\views\\produitformulaire\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\views\\produitformulaire\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\views\\produitformulaire\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\views\\produitformulaire\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\04-view\\viewdemo\\viewdemo\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037F6024-A9BC-42D8-9089-1809B2DDD613}|ViewDemo\\ViewDemo.csproj|solutionrelative:viewdemo\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\Utilisateur\\Index.cshtml",
+              "RelativeDocumentMoniker": "ViewDemo\\Views\\Utilisateur\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\Utilisateur\\Index.cshtml",
+              "RelativeToolTip": "ViewDemo\\Views\\Utilisateur\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T15:37:54.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreerUnUtilisateur.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\Utilisateur\\CreerUnUtilisateur.cshtml",
+              "RelativeDocumentMoniker": "ViewDemo\\Views\\Utilisateur\\CreerUnUtilisateur.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\Utilisateur\\CreerUnUtilisateur.cshtml",
+              "RelativeToolTip": "ViewDemo\\Views\\Utilisateur\\CreerUnUtilisateur.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T15:37:23.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UtilisateurController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Controllers\\UtilisateurController.cs",
+              "RelativeDocumentMoniker": "ViewDemo\\Controllers\\UtilisateurController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Controllers\\UtilisateurController.cs",
+              "RelativeToolTip": "ViewDemo\\Controllers\\UtilisateurController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T15:31:02.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "ViewDemo\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "ViewDemo\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T15:29:54.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\ProduitFormulaire\\Details.cshtml",
+              "RelativeDocumentMoniker": "ViewDemo\\Views\\ProduitFormulaire\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\ProduitFormulaire\\Details.cshtml",
+              "RelativeToolTip": "ViewDemo\\Views\\ProduitFormulaire\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T15:18:47.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ViewDemo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ViewDemo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T14:29:55.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\ProduitFormulaire\\Index.cshtml",
+              "RelativeDocumentMoniker": "ViewDemo\\Views\\ProduitFormulaire\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\ProduitFormulaire\\Index.cshtml",
+              "RelativeToolTip": "ViewDemo\\Views\\ProduitFormulaire\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T14:21:46.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Produit.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Models\\Produit.cs",
+              "RelativeDocumentMoniker": "ViewDemo\\Models\\Produit.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Models\\Produit.cs",
+              "RelativeToolTip": "ViewDemo\\Models\\Produit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T14:04:50.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreerProduit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\ProduitFormulaire\\CreerProduit.cshtml",
+              "RelativeDocumentMoniker": "ViewDemo\\Views\\ProduitFormulaire\\CreerProduit.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Views\\ProduitFormulaire\\CreerProduit.cshtml",
+              "RelativeToolTip": "ViewDemo\\Views\\ProduitFormulaire\\CreerProduit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T14:02:09.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProduitFormulaireController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Controllers\\ProduitFormulaireController.cs",
+              "RelativeDocumentMoniker": "ViewDemo\\Controllers\\ProduitFormulaireController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\04-view\\ViewDemo\\ViewDemo\\Controllers\\ProduitFormulaireController.cs",
+              "RelativeToolTip": "ViewDemo\\Controllers\\ProduitFormulaireController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T13:56:24.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

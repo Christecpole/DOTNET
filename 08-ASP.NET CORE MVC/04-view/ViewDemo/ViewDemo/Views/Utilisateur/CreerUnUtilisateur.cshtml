@@ -1,0 +1,24 @@
+﻿@model Utilisateur
+
+@{
+    ViewData["Title"] = "Créer un utilisateur";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-controller="Utilisateur" asp-action="CreerUnUtilisateur" method="post">
+    <div>
+        <label asp-for="Nom" class="form-label"></label>
+        <input asp-for="Nom" class="form-control"/>
+    </div>
+
+    @*Liste déroulante*@
+    <div>
+        <label asp-for="CodePays" class="form-label"></label>
+        <select asp-for="CodePays" asp-items="ViewBag.pays" class="form-select" >
+            <option value="">--Choisir un pays</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Créer</button>
+</form>

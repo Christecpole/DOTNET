@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\bin\Debug\net10.0\Exercice3.exe
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\bin\Debug\net10.0\Exercice3.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\bin\Debug\net10.0\Exercice3.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\bin\Debug\net10.0\Exercice3.dll
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\bin\Debug\net10.0\Exercice3.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\Exercice3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\Exercice3.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\Exercice3.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\Exercice3.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\Exercice3.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\Exercice3.dll
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\refint\Exercice3.dll
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\Exercice3.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\Exercice3.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\.exercices\Correction\Exercice3\obj\Debug\net10.0\ref\Exercice3.dll

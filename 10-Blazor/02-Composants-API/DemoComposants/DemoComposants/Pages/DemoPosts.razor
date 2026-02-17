@@ -1,0 +1,111 @@
+﻿@page "/demoPosts"
+@using DemoComposants.Models
+@inject HttpClient Http
+
+<h2>Listes de Posts depuis JSONPlaceholder</h2>
+
+@if (isLoading)
+{
+    <div class="d-flex align-items-center">
+        <div class="spinner-border text-primary me-2" role="status"></div>
+        <span class="visually-hidden">Chargement en cours....</span>
+    </div>
+}
+else if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">
+        @errorMessage
+    </div>
+}
+else
+{
+    @* <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Titre</th>
+                <th>Contenu</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var post in posts)
+            {
+                <tr>
+                    <td>@post.Id</td>
+                    <td>@post.Title</td>
+                    <td>@post.Body</td>
+                </tr>
+            }
+        </tbody>
+    </table> *@
+
+    <div class="row">
+        @foreach(var post in posts)
+        {
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@post.Title</h5>
+                        <p class="card-text text-truncate">@post.Body</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Post #@post.Id
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div class="text-center my-4">
+            <button class="btn btn-primary" @onclick="ChargerPlusDePosts" disabled="@isLoading">
+                @if (isLoading)
+                {
+                    <span class="spinner-border spinner-border-sm me-2"></span>
+                }
+                + de posts
+            </button>
+        </div>
+    </div>
+}
+
+
+@code {
+    private List<Post> posts = new List<Post>();
+    private bool isLoading = true;
+    private string errorMessage = "";
+    private int currentPage = 0;
+    private const int pageSize = 10;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ChargerPlusDePosts();
+    }
+
+    private async Task ChargerPlusDePosts()
+    {
+        isLoading = true;
+        errorMessage = "";
+        
+        try
+        {
+            var start = currentPage * pageSize;
+            //Appel Get vers l'API
+            var postsPaginees = await Http.GetFromJsonAsync<List<Post>>($"posts?_start={start}&_limit={pageSize}") ?? new();
+
+            posts.AddRange(postsPaginees);
+            currentPage++;
+        }
+        catch (HttpRequestException)
+        {
+            errorMessage = "Impossible de contacter le server";
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Erreur : {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

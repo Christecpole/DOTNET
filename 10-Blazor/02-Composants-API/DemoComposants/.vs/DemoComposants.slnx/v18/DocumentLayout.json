@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\components\\alerte.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\components\\alerte.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\pages\\testalerte.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\pages\\testalerte.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\pages\\democycledevie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\pages\\democycledevie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\pages\\demohttpclient.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\pages\\demohttpclient.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\pages\\demoposts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\pages\\demoposts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\annexes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\annexes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\exercice.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\exercice.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\pages\\demoeventcallback.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\pages\\demoeventcallback.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\pages\\databinding.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\pages\\databinding.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\02-composants-api\\democomposants\\democomposants\\components\\bouton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E6B6DD5-5E0B-4F44-1F23-5872CBAD9919}|DemoComposants\\DemoComposants.csproj|solutionrelative:democomposants\\components\\bouton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\Home.razor",
+              "RelativeToolTip": "DemoComposants\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T10:12:22.564Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DemoPosts.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DemoPosts.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Pages\\DemoPosts.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DemoPosts.razor",
+              "RelativeToolTip": "DemoComposants\\Pages\\DemoPosts.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T14:54:28.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DemoHttpClient.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DemoHttpClient.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Pages\\DemoHttpClient.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DemoHttpClient.razor",
+              "RelativeToolTip": "DemoComposants\\Pages\\DemoHttpClient.razor",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T13:27:18.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "DemoComposants\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "DemoComposants\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:22:43.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoCycleDeVie.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DemoCycleDeVie.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Pages\\DemoCycleDeVie.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DemoCycleDeVie.razor",
+              "RelativeToolTip": "DemoComposants\\Pages\\DemoCycleDeVie.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T13:06:44.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestAlerte.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\TestAlerte.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Pages\\TestAlerte.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\TestAlerte.razor",
+              "RelativeToolTip": "DemoComposants\\Pages\\TestAlerte.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T12:54:01.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Alerte.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Components\\Alerte.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Components\\Alerte.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Components\\Alerte.razor",
+              "RelativeToolTip": "DemoComposants\\Components\\Alerte.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T12:45:37.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Layout\\NavMenu.razor*",
+              "RelativeToolTip": "DemoComposants\\Layout\\NavMenu.razor*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T10:42:45.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "DemoComposants\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Models\\Post.cs",
+              "RelativeToolTip": "DemoComposants\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:56:18.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Annexes.md",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Annexes.md",
+              "RelativeDocumentMoniker": "DemoComposants\\Annexes.md",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Annexes.md",
+              "RelativeToolTip": "DemoComposants\\Annexes.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-05T13:51:22.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Program.cs",
+              "RelativeDocumentMoniker": "DemoComposants\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Program.cs",
+              "RelativeToolTip": "DemoComposants\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T11:31:08.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\Weather.razor",
+              "RelativeToolTip": "DemoComposants\\Pages\\Weather.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T11:22:45.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Exercice.md",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Exercice.md",
+              "RelativeDocumentMoniker": "DemoComposants\\Exercice.md",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Exercice.md",
+              "RelativeToolTip": "DemoComposants\\Exercice.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-05T11:12:55.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DemoEventCallback.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DemoEventCallback.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Pages\\DemoEventCallback.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DemoEventCallback.razor",
+              "RelativeToolTip": "DemoComposants\\Pages\\DemoEventCallback.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T10:51:58.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataBinding.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DataBinding.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Pages\\DataBinding.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Pages\\DataBinding.razor",
+              "RelativeToolTip": "DemoComposants\\Pages\\DataBinding.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T10:29:40.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Bouton.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Components\\Bouton.razor",
+              "RelativeDocumentMoniker": "DemoComposants\\Components\\Bouton.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\02-Composants-API\\DemoComposants\\DemoComposants\\Components\\Bouton.razor",
+              "RelativeToolTip": "DemoComposants\\Components\\Bouton.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T10:10:48.747Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

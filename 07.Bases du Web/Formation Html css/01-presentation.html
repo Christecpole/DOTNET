@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Introduction Html</title>
+    </head>
+    <body>
+        <section id="les titres">
+             <!--Ceci est un commentaire-->
+            <h1>Titre plus important</h1> <!--C'est un titre d'une imprtance capitale pour le navigateur-->
+            <h2>Titre moins important</h2>
+        </section>
+       
+        <hr>
+
+        <section id="les-paragraphes">
+        <p>C'est un paragraphe.</p>
+
+        <p>Ceci est un paragraphe avec des balises de texte enrichi :
+            <b>un texte en gras,</b>
+            <strong>un mot clé, en gras</strong>
+
+            <i>un texte en italique.</i>
+            <u>un texte souligné.</u>
+
+            <sup>en exposant.</sup>
+            <sub>en indice</sub>
+
+            <em>un mot clé, en italique par defaut</em>
+
+            <span class="backgroundrouge">pas de style : sert à encadrer un texte pour le modifier en css.</span>
+
+        </p>    
+        </section>
+        <hr>
+        <section id="les-listes">
+            <h2>Les listes</h2>
+
+            <ul class="ul1">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+            </ul>
+
+            <ol reversed="reversed">
+                <li>Item1</li>
+                <li>Item1</li>
+                <li>Item2
+                    <ol>
+                        <li>Sous item1</li>
+                        <li>Sous item2</li>
+                    </ol>
+                </li>
+            </ul> <li>Item2</li>
+                <li>Item3</li>
+            </ol>
+
+            <ul>    
+        </section>
+
+        <hr>
+          
+
+        <section id="Les-balises">
+    <h2>Balises de structure</h2>
+
+            <div>
+                rôle de division , pas de style par defaut, on s'en sert principalement pour encapsuler des blocs à styliser.
+            </div>
+
+            <section>
+                role sementique pour le seo
+                diviser differentes parties de notre page par theme.
+                est ce que le bloc de contenu a du sens tout seul ? non alors on met une section
+
+            </section>
+
+            <article>
+                definit un article tel qu'un article de blog ou un produit de ecommerce.
+                est ce que le bloc de contenu a du sens tout seul ? oui alors on met un article
+            </article>
+
+            <nav>
+                role sémentique : indique une liste de liens.
+                plusieurs nav dans une même page.
+            </nav>
+
+            <main>
+                contenu principal de la page.
+                Peut contenir des secion, des divs, des articles.
+                une seule balise main par page.
+            </main>
+
+            <header>
+                à ne pas confondre avec le "head"
+                indique une entête de page., de section, de card, d'article
+                on peut avoir plusieurs header dans la page.
+            </header>
+            <footer>
+                Pied de page ou fin de section : infos de contact, copyrigth, liens légaux...)
+                peut en avoir plusieurs par page
+            </footer>
+
+            <aside>
+                contenu secondaire, sidebarn pub , articles connexes, des définitions, des citations...
+            </aside>
+        </section>
+        <hr>
+        <section id="les-medias">
+            <p>
+                <img src="https://www.c-monspot.fr/fichier/s_rubrique/32/goeland.marin_reconnaitre.jpg"/>
+            </p>
+
+            <p>
+                <img width="500" src="images/mountains.jpg" alt="Vue sur des montagnes..">
+            </p>
+
+            <p>
+                <video width="500" controls>
+                    <source src="videos/cookies.mp4" type="video/mp4">
+                </video>
+            </p>
+
+            <iframe width="1296" height="729" src="https://www.youtube.com/embed/JJrmfYhE5DQ" title="The Toxic Avenger - Bien cordialement" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80976.34335512592!2d3.0794753165680526!3d50.63620529539276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d7ca41d2e233%3A0xeda8ebce54d68759!2sVilleneuve-d&#39;Ascq!5e0!3m2!1sfr!2sfr!4v1768819832154!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80976.34335512592!2d3.0794753165680526!3d50.63620529539276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d7ca41d2e233%3A0xeda8ebce54d68759!2sVilleneuve-d&#39;Ascq!5e0!3m2!1sfr!2sfr!4v1768819942167!5m2!1sfr!2sfr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            <figure>
+                <img width="300" src="images/mountains.jpg" alt="Description de l'image pour l'accessibilité">
+                <figcaption>De superbe montagnes</figcaption>
+            </figure>
+        
+        </section>
+
+        <section id="les-liens">
+            <h2>Les liens</h2>
+
+            <p>Pour en savoir plus <a href="#">Cliquez ici !</a></p>
+
+            <ul>
+                <li>
+                    <a href="https://www.google.fr" target="_blank">Google lien externe</a>
+                </li>
+                <li>
+                    <a href="#les-listes">Accéder aux listes</a>
+                </li>
+                <li>
+                    <a href="mailto: oussama@test.com">oussama@test.com</a>
+                </li>
+                <li>
+                    <a href="tel:060000000">06 00 00 00 00</a>
+                </li>
+                <li>
+                    <a href="./exemple.html" download="exemple.html">Telecharger ce fichier.</a>
+                </li>
+                <li>
+                    <a href="./exemple.html">Acceder à une nouvelle page de notre site</a>
+                </li>
+            </ul>
+            <nav>
+                <ul>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                </ul>
+            </nav>
+
+
+
+        </section>
+
+
+    </body>
+
+</html>

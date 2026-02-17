@@ -1,0 +1,14 @@
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\bin\Debug\net10.0\CompteBancaire.exe
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\bin\Debug\net10.0\CompteBancaire.deps.json
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\bin\Debug\net10.0\CompteBancaire.runtimeconfig.json
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\bin\Debug\net10.0\CompteBancaire.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\bin\Debug\net10.0\CompteBancaire.pdb
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\obj\Debug\net10.0\CompteBancaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\obj\Debug\net10.0\CompteBancaire.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\obj\Debug\net10.0\CompteBancaire.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\obj\Debug\net10.0\CompteBancaire.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\obj\Debug\net10.0\CompteBancaire.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\obj\Debug\net10.0\refint\CompteBancaire.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\obj\Debug\net10.0\CompteBancaire.pdb
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\obj\Debug\net10.0\CompteBancaire.genruntimeconfig.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\L\CompteBancaire\CompteBancaire\obj\Debug\net10.0\ref\CompteBancaire.dll

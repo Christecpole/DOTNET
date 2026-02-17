@@ -1,0 +1,39 @@
+﻿@page "/syntaxe/variables"
+@layout SyntaxeLayout
+
+<h1>Variables</h1>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        Affichage simple avec @@variables 
+    </div>
+    <div class="card-body">
+        <p>Nom : <strong>@nom</strong></p>
+        <p>Age : <strong>@age</strong></p>
+        <p>Nom : <strong>@date.ToString("dd MMMM yyyy")</strong></p>
+    </div>
+</div>
+
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        Affichage simple avec @@(expression)
+    </div>
+    <div class="card-body">
+        <p>Majeur : <strong>@(age>=18 ? "Oui" : "Non")</strong></p>
+        <p>Age X2 : <strong>@(age*2)</strong></p>
+        <p>En Majuscule : <strong>@(nom.ToUpper())</strong></p>
+    </div>
+</div>
+
+
+
+
+
+@code {
+    private string nom = "Oussama";
+    private int age = 22;
+    private DateTime date = DateTime.Now;
+}
+
+

@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor\\todolistblazor\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0056F0B-184F-3E42-D357-C38F6C751FCA}|TodoListBlazor\\TodoListBlazor.csproj|solutionrelative:todolistblazor\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotFound.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Pages\\NotFound.razor",
+              "RelativeDocumentMoniker": "TodoListBlazor\\Pages\\NotFound.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Pages\\NotFound.razor",
+              "RelativeToolTip": "TodoListBlazor\\Pages\\NotFound.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T13:01:11.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "TodoListBlazor\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Program.cs",
+              "RelativeToolTip": "TodoListBlazor\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T12:53:05.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\App.razor",
+              "RelativeDocumentMoniker": "TodoListBlazor\\App.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\App.razor",
+              "RelativeToolTip": "TodoListBlazor\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T12:52:15.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "TodoListBlazor\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Pages\\Counter.razor",
+              "RelativeToolTip": "TodoListBlazor\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T12:51:35.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\_Imports.razor",
+              "RelativeDocumentMoniker": "TodoListBlazor\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\_Imports.razor",
+              "RelativeToolTip": "TodoListBlazor\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T12:51:20.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "TodoListBlazor\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "TodoListBlazor\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T12:49:09.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "TodoListBlazor\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "TodoListBlazor\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T12:47:52.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TodoListBlazor\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TodoListBlazor\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-04T12:47:23.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "TodoListBlazor\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\wwwroot\\index.html",
+              "RelativeToolTip": "TodoListBlazor\\wwwroot\\index.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-04T12:45:39.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "TodoListBlazor\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor\\TodoListBlazor\\Pages\\Home.razor",
+              "RelativeToolTip": "TodoListBlazor\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T12:41:12.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

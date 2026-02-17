@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\views\\home\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\views\\home\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\01-fondamentaux\\monpremierprojet_mvc\\monpremierprojet_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85393BE1-F3B7-D8E6-78F5-D267998CDEB6}|MonPremierProjet_MVC\\MonPremierProjet_MVC.csproj|solutionrelative:monpremierprojet_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Home\\Index.cshtml.css",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Views\\Home\\Index.cshtml.css",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Home\\Index.cshtml.css",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Views\\Home\\Index.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-22T08:18:00.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-21T16:02:21.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bootstrap.js",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeToolTip": "MonPremierProjet_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-21T16:01:42.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\appsettings.json",
+              "RelativeToolTip": "MonPremierProjet_MVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-21T16:00:26.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-21T16:00:05.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-21T15:59:40.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-21T15:59:29.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-21T15:59:28.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-21T15:59:22.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-21T15:52:13.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Models\\Product.cs",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T15:47:45.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T15:47:02.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-21T15:44:14.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T15:39:36.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "MonPremierProjet_MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\01-fondamentaux\\MonPremierProjet_MVC\\MonPremierProjet_MVC\\Program.cs",
+              "RelativeToolTip": "MonPremierProjet_MVC\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T15:38:22.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

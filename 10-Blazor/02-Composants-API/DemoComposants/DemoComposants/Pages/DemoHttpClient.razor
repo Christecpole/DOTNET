@@ -1,0 +1,147 @@
+﻿@page "/demoHttpClient"
+@using DemoComposants.Models
+
+@inject HttpClient Http
+
+<h1>Demo HttpClient</h1>
+
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5>Créer un utilisateur (POST)</h5>
+    </div>
+    <div class="card-body">
+        <div class="mb-3">
+            <label>Nom</label>
+            <input class="form-control" @bind="newUserName" />
+        </div>
+        <div class="mb-3">
+            <label>Email</label>
+            <input class="form-control" @bind="newUserEmail" />
+        </div>
+        <button class="btn btn-success" @onclick="CreateUser">
+            + Créer
+        </button>
+        @if (!string.IsNullOrEmpty(createMessage))
+        {
+            <div class="alert alert-info mt-2">@createMessage</div>
+        }
+    </div>
+
+</div>
+
+<hr />
+
+<h2>Listes d'utilisateurs depuis JSONPlaceholder</h2>
+
+@if (isLoading)
+{
+    <div class="d-flex align-items-center">
+        <div class="spinner-border text-primary me-2"></div>
+        <span class="visually-hidden">Chargement en cours....</span>
+    </div>
+}
+else if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">
+        @errorMessage
+    </div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nom</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var user in utilisateurs)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+
+@code {
+    private List<Utilisateur> utilisateurs = new List<Utilisateur>();
+    private bool isLoading = true;
+    private string errorMessage = "";
+
+    //champs pour la création
+    private string newUserName = "";
+    private string newUserEmail = "";
+    private string createMessage = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+        errorMessage = "";
+
+        try
+        {
+            //Appel Get vers l'API
+            utilisateurs = await Http.GetFromJsonAsync<List<Utilisateur>>("users") ?? new();
+        }
+        catch (HttpRequestException)
+        {
+            errorMessage = "Impossible de contacter le server";
+        }
+        catch(Exception ex)
+        {
+            errorMessage = $"Erreur : {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    //methode pour créer un utilisateur
+    private async Task CreateUser()
+    {
+        var nouvelUtilisateur = new Utilisateur
+        {
+            Name = newUserName,
+            Email = newUserEmail
+        };
+
+        try
+        {
+            // POST vers API
+            var response = await Http.PostAsJsonAsync("users", nouvelUtilisateur);
+
+            if (response.IsSuccessStatusCode)
+            {
+                // Récupérer l'utilisateur crée (avec son id)
+                var utilisateurCree = await response.Content.ReadFromJsonAsync<Utilisateur>();
+                createMessage = $"Utilisateur créé avec l'id : {utilisateurCree?.Id}";
+                utilisateurs.Add(utilisateurCree);
+                //Vider les champs du formulaire
+                newUserName = "";
+                newUserEmail = "";
+            }
+            else
+            {
+                createMessage = "Erreur lors de la création";
+            }
+        }
+        catch (Exception ex)
+        {
+
+            createMessage = $"Erreur : {ex.Message}";
+        }
+    }
+
+
+}

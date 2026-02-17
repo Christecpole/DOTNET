@@ -1,0 +1,104 @@
+﻿@page "/demo"
+
+@*
+    | Syntaxe | Ce que ça fait |
+    |---------|---------------|
+    | `@variable` | Affiche la valeur |
+    | `@(expression)` | Calcul ou condition |
+    | `@if { } else { }` | Affichage conditionnel |
+    | `@foreach (var x in liste) { }` | Répète pour chaque élément |
+    | `@for (int i = 0; i < n; i++) { }` | Boucle avec index |
+    | `@onclick="Methode"` | Appelle au clic |
+    | `@onclick="() => Methode(param)"` | Appelle avec paramètre |
+    | `@bind="variable"` | Liaison champ ↔ variable |
+    | `@bind:event="oninput"` | Mise à jour instantanée |
+    | `@code { }` | Code C# de la page |
+*@
+
+<h1>Demo Razor</h1>
+
+<p>Nom = @nom</p>
+<p>Prenom = @prenom</p>
+<p>Age = @age</p>
+
+<p>Majeur : @(age>=18 ? "Oui" : "Non")</p>
+<p>Dans 10ans : @nom aura @(age+10) ans</p>
+
+<hr />
+@if (estConnecte)
+{
+    <div class="alert alert-success">Bienvenue @prenom @nom !</div>
+}
+else
+{
+    <div class="alert alert-danger">Veuillez vous connecter !</div>
+
+}
+
+<hr />
+<h3>Liste de fruits</h3>
+
+<ul>
+    @foreach(var fruit in fruits)
+    {
+        <li>@fruit</li>
+    }
+</ul>
+
+<hr />
+<h3>Comptage</h3>
+
+@for(int i = 1; i<=5; i++)
+{
+    <span class="badge bg-primary me-1">@i</span>
+}
+
+<hr />
+<h3>Compteur sans parametres</h3>
+
+<p>Valeur : @compteur1</p>
+<button class="btn btn-success" @onclick="Incrementer">+1</button>
+
+<hr />
+<h3>Compteur (onclicke avec parametres)</h3>
+
+<p>Valeur : @compteur2</p>
+<button class="btn btn-success" @onclick="() => Ajouter(5)">+5</button>
+<button class="btn btn-primary" @onclick="() => Ajouter(-1)">-1</button>
+
+<hr />
+
+<h3>Saisie "bind" liaison bidirectionnelle</h3>
+<input type="text" class="form-control" @bind="texte"/>
+<p>Vous avez écrit : @texte</p>
+
+<hr />
+<h3>Saisie "bind" avec mise à jour instantanée</h3>
+
+<input type="text" class="form-control" @bind="texte2" @bind:event="oninput"/>
+<p>Vous avez écrit : @texte2</p>
+
+@code {
+    private string texte2 = "";
+    private string texte = "";
+
+    private int compteur1 = 0;
+    private int compteur2 = 0;
+    private string nom = "Marie";
+    private string prenom = "Jean";
+    private int age = 25;
+
+    private bool estConnecte = true;
+
+    private List<string> fruits = new() { "Pomme", "Banane", "Orange" };
+
+    private void Incrementer()
+    {
+        compteur1++;
+    }
+
+    private void Ajouter(int valeur)
+    {
+        compteur2 += valeur;
+    }
+}

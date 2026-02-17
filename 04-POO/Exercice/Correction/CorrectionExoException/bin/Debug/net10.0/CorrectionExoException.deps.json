@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CorrectionExoException/1.0.0": {
+        "runtime": {
+          "CorrectionExoException.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CorrectionExoException/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

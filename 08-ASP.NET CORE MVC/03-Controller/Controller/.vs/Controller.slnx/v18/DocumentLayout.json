@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\03-Controller\\Controller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8983507-CFDF-94A3-48F3-A7D000A58449}|ControllerDemo\\ControllerDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\03-controller\\controller\\controllerdemo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8983507-CFDF-94A3-48F3-A7D000A58449}|ControllerDemo\\ControllerDemo.csproj|solutionrelative:controllerdemo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8983507-CFDF-94A3-48F3-A7D000A58449}|ControllerDemo\\ControllerDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\03-controller\\controller\\controllerdemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8983507-CFDF-94A3-48F3-A7D000A58449}|ControllerDemo\\ControllerDemo.csproj|solutionrelative:controllerdemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8983507-CFDF-94A3-48F3-A7D000A58449}|ControllerDemo\\ControllerDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\03-controller\\controller\\controllerdemo\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8983507-CFDF-94A3-48F3-A7D000A58449}|ControllerDemo\\ControllerDemo.csproj|solutionrelative:controllerdemo\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8983507-CFDF-94A3-48F3-A7D000A58449}|ControllerDemo\\ControllerDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\03-controller\\controller\\controllerdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8983507-CFDF-94A3-48F3-A7D000A58449}|ControllerDemo\\ControllerDemo.csproj|solutionrelative:controllerdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\03-Controller\\Controller\\ControllerDemo\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ControllerDemo\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\03-Controller\\Controller\\ControllerDemo\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ControllerDemo\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:35:36.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\03-Controller\\Controller\\ControllerDemo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControllerDemo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\03-Controller\\Controller\\ControllerDemo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ControllerDemo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T14:53:35.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\03-Controller\\Controller\\ControllerDemo\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ControllerDemo\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\03-Controller\\Controller\\ControllerDemo\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ControllerDemo\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T14:31:10.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\03-Controller\\Controller\\ControllerDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ControllerDemo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\03-Controller\\Controller\\ControllerDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ControllerDemo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAHoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T14:30:09.477Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

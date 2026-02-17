@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\bin\Debug\net10.0\Demo06Collections.exe
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\bin\Debug\net10.0\Demo06Collections.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\bin\Debug\net10.0\Demo06Collections.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\bin\Debug\net10.0\Demo06Collections.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\bin\Debug\net10.0\Demo06Collections.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\Demo06Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\Demo06Collections.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\Demo06Collections.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\Demo06Collections.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\Demo06Collections.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\Demo06Collections.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\refint\Demo06Collections.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\Demo06Collections.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\Demo06Collections.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo06Collections\obj\Debug\net10.0\ref\Demo06Collections.dll

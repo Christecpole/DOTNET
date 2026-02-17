@@ -1,0 +1,6 @@
+@IntroRest_HostAddress = http://localhost:5183
+
+GET {{IntroRest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\i\\appareils\\appareils\\serviceimpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|solutionrelative:appareils\\serviceimpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\i\\appareils\\appareils\\imprimanteconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|solutionrelative:appareils\\imprimanteconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\i\\appareils\\appareils\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|solutionrelative:appareils\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\i\\appareils\\appareils\\lecteurfichier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|solutionrelative:appareils\\lecteurfichier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\i\\appareils\\appareils\\iappareil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|solutionrelative:appareils\\iappareil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\i\\appareils\\appareils\\ifax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|solutionrelative:appareils\\ifax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\i\\appareils\\appareils\\iimpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|solutionrelative:appareils\\iimpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\i\\appareils\\appareils\\iecriture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|solutionrelative:appareils\\iecriture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\i\\appareils\\appareils\\ilecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25786D98-86BE-4DA9-9E03-43D90CA696F8}|Appareils\\Appareils.csproj|solutionrelative:appareils\\ilecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceImpression.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\ServiceImpression.cs",
+              "RelativeDocumentMoniker": "Appareils\\ServiceImpression.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\ServiceImpression.cs",
+              "RelativeToolTip": "Appareils\\ServiceImpression.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:41:12.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImprimanteConsole.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\ImprimanteConsole.cs",
+              "RelativeDocumentMoniker": "Appareils\\ImprimanteConsole.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\ImprimanteConsole.cs",
+              "RelativeToolTip": "Appareils\\ImprimanteConsole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:39:06.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFax.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\IFax.cs",
+              "RelativeDocumentMoniker": "Appareils\\IFax.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\IFax.cs",
+              "RelativeToolTip": "Appareils\\IFax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:37:00.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IImpression.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\IImpression.cs",
+              "RelativeDocumentMoniker": "Appareils\\IImpression.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\IImpression.cs",
+              "RelativeToolTip": "Appareils\\IImpression.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:36:34.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEcriture.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\IEcriture.cs",
+              "RelativeDocumentMoniker": "Appareils\\IEcriture.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\IEcriture.cs",
+              "RelativeToolTip": "Appareils\\IEcriture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:36:06.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ILecture.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\ILecture.cs",
+              "RelativeDocumentMoniker": "Appareils\\ILecture.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\ILecture.cs",
+              "RelativeToolTip": "Appareils\\ILecture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:34:57.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LecteurFichier.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\LecteurFichier.cs",
+              "RelativeDocumentMoniker": "Appareils\\LecteurFichier.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\LecteurFichier.cs",
+              "RelativeToolTip": "Appareils\\LecteurFichier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:28:20.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAppareil.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\IAppareil.cs",
+              "RelativeDocumentMoniker": "Appareils\\IAppareil.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\IAppareil.cs",
+              "RelativeToolTip": "Appareils\\IAppareil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:26:25.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\Program.cs",
+              "RelativeDocumentMoniker": "Appareils\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\I\\Appareils\\Appareils\\Program.cs",
+              "RelativeToolTip": "Appareils\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:23:37.978Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

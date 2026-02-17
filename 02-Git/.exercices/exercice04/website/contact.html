@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <main>
+        <h1>Contact</h1>
+        <hr>
+        <form action="/api/contact">
+            <div class="mb-2">
+                <span for="email">Email:</span>
+                <input type="email" name="email" rquired>
+            </div>
+            <div class="mb-2">
+                <span for="subject">Subject:</span>
+                <input type="text" name="subject" required>
+            </div>
+            <div class="mb-2">
+                <span for="content">Content:</span>
+                <textarea name="content"></textarea>
+            </div>
+            <hr>
+            <button>Send</button>
+        </form>
+    </main>
+</body>
+</html>

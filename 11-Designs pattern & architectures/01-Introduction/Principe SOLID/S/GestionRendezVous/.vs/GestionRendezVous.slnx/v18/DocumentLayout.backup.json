@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionrendezvous\\gestionrendezvous\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|solutionrelative:gestionrendezvous\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionrendezvous\\gestionrendezvous\\services\\servicerendezvous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|solutionrelative:gestionrendezvous\\services\\servicerendezvous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionrendezvous\\gestionrendezvous\\validation\\validateurrendezvous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|solutionrelative:gestionrendezvous\\validation\\validateurrendezvous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionrendezvous\\gestionrendezvous\\rappel\\rappelconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|solutionrelative:gestionrendezvous\\rappel\\rappelconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionrendezvous\\gestionrendezvous\\persistance\\depotrendezvousfichier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|solutionrelative:gestionrendezvous\\persistance\\depotrendezvousfichier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionrendezvous\\gestionrendezvous\\models\\rendezvous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120783F2-670C-4A65-82D7-C0DCD04F80E7}|GestionRendezVous\\GestionRendezVous.csproj|solutionrelative:gestionrendezvous\\models\\rendezvous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceRendezVous.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Services\\ServiceRendezVous.cs",
+              "RelativeDocumentMoniker": "GestionRendezVous\\Services\\ServiceRendezVous.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Services\\ServiceRendezVous.cs*",
+              "RelativeToolTip": "GestionRendezVous\\Services\\ServiceRendezVous.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:47:34.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RappelConsole.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Rappel\\RappelConsole.cs",
+              "RelativeDocumentMoniker": "GestionRendezVous\\Rappel\\RappelConsole.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Rappel\\RappelConsole.cs",
+              "RelativeToolTip": "GestionRendezVous\\Rappel\\RappelConsole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:46:07.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepotRendezVousFichier.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Persistance\\DepotRendezVousFichier.cs",
+              "RelativeDocumentMoniker": "GestionRendezVous\\Persistance\\DepotRendezVousFichier.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Persistance\\DepotRendezVousFichier.cs",
+              "RelativeToolTip": "GestionRendezVous\\Persistance\\DepotRendezVousFichier.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:45:25.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidateurRendezVous.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Validation\\ValidateurRendezVous.cs",
+              "RelativeDocumentMoniker": "GestionRendezVous\\Validation\\ValidateurRendezVous.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Validation\\ValidateurRendezVous.cs",
+              "RelativeToolTip": "GestionRendezVous\\Validation\\ValidateurRendezVous.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:44:45.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RendezVous.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Models\\RendezVous.cs",
+              "RelativeDocumentMoniker": "GestionRendezVous\\Models\\RendezVous.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Models\\RendezVous.cs",
+              "RelativeToolTip": "GestionRendezVous\\Models\\RendezVous.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:44:18.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Program.cs",
+              "RelativeDocumentMoniker": "GestionRendezVous\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionRendezVous\\GestionRendezVous\\Program.cs*",
+              "RelativeToolTip": "GestionRendezVous\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:43:44.733Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

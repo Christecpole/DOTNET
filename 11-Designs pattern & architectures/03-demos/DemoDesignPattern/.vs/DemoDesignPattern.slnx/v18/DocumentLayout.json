@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\creational\\factorymethod\\vehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\creational\\factorymethod\\vehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\creational\\factorymethod\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\creational\\factorymethod\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\creational\\factorymethod\\truckfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\creational\\factorymethod\\truckfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\creational\\factorymethod\\carfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\creational\\factorymethod\\carfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\creational\\factorymethod\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\creational\\factorymethod\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\creational\\factorymethod\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\creational\\factorymethod\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\behavorial\\observer\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\behavorial\\observer\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\behavorial\\observer\\myobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\behavorial\\observer\\myobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\behavorial\\observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\behavorial\\observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\strucutural\\decorator\\pizzadecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\strucutural\\decorator\\pizzadecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\strucutural\\decorator\\olivedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\strucutural\\decorator\\olivedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\strucutural\\decorator\\cheesedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\strucutural\\decorator\\cheesedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\strucutural\\decorator\\plainpizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\strucutural\\decorator\\plainpizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\strucutural\\decorator\\ipizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\strucutural\\decorator\\ipizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\03-demos\\demodesignpattern\\demodesignpattern\\creational\\builder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49198B5C-1DA2-2610-B5B9-1ADDF28A0EBC}|DemoDesignPattern\\DemoDesignPattern.csproj|solutionrelative:demodesignpattern\\creational\\builder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TruckFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\TruckFactory.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Creational\\FactoryMethod\\TruckFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\TruckFactory.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Creational\\FactoryMethod\\TruckFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:33:20.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\Truck.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Creational\\FactoryMethod\\Truck.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\Truck.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Creational\\FactoryMethod\\Truck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:32:26.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\CarFactory.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Creational\\FactoryMethod\\CarFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\CarFactory.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Creational\\FactoryMethod\\CarFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:29:35.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\Car.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Creational\\FactoryMethod\\Car.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\Car.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Creational\\FactoryMethod\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:28:31.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\VehicleFactory.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Creational\\FactoryMethod\\VehicleFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\VehicleFactory.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Creational\\FactoryMethod\\VehicleFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:26:21.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\IVehicle.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Creational\\FactoryMethod\\IVehicle.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\FactoryMethod\\IVehicle.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Creational\\FactoryMethod\\IVehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:24:52.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Behavorial\\Observer\\Subject.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Behavorial\\Observer\\Subject.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Behavorial\\Observer\\Subject.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Behavorial\\Observer\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T15:03:30.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyObserver.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Behavorial\\Observer\\MyObserver.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Behavorial\\Observer\\MyObserver.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Behavorial\\Observer\\MyObserver.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Behavorial\\Observer\\MyObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T15:00:23.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IObserver.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Behavorial\\Observer\\IObserver.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Behavorial\\Observer\\IObserver.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Behavorial\\Observer\\IObserver.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Behavorial\\Observer\\IObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T14:59:34.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OliveDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\OliveDecorator.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Strucutural\\Decorator\\OliveDecorator.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\OliveDecorator.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Strucutural\\Decorator\\OliveDecorator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:50:21.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CheeseDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\CheeseDecorator.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Strucutural\\Decorator\\CheeseDecorator.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\CheeseDecorator.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Strucutural\\Decorator\\CheeseDecorator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:45:13.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PizzaDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\PizzaDecorator.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Strucutural\\Decorator\\PizzaDecorator.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\PizzaDecorator.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Strucutural\\Decorator\\PizzaDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:37:27.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlainPizza.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\PlainPizza.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Strucutural\\Decorator\\PlainPizza.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\PlainPizza.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Strucutural\\Decorator\\PlainPizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:34:21.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPizza.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\IPizza.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Strucutural\\Decorator\\IPizza.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Strucutural\\Decorator\\IPizza.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Strucutural\\Decorator\\IPizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:32:48.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\Builder\\Person.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Creational\\Builder\\Person.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Creational\\Builder\\Person.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Creational\\Builder\\Person.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwC8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T09:53:01.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Program.cs",
+              "RelativeDocumentMoniker": "DemoDesignPattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\03-demos\\DemoDesignPattern\\DemoDesignPattern\\Program.cs",
+              "RelativeToolTip": "DemoDesignPattern\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T09:31:02.152Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

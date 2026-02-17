@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\bin\Debug\net10.0\CorrectionExoException.exe
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\bin\Debug\net10.0\CorrectionExoException.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\bin\Debug\net10.0\CorrectionExoException.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\bin\Debug\net10.0\CorrectionExoException.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\bin\Debug\net10.0\CorrectionExoException.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\CorrectionExoException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\CorrectionExoException.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\CorrectionExoException.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\CorrectionExoException.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\CorrectionExoException.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\CorrectionExoException.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\refint\CorrectionExoException.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\CorrectionExoException.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\CorrectionExoException.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoException\obj\Debug\net10.0\ref\CorrectionExoException.dll

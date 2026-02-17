@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Correction/Correction.csproj" />
+  <Project Path="Exercice04/Exercice04.csproj" />
+  <Project Path="Exercice2/Exercice2.csproj" Id="da51cc1b-b313-40e8-a28c-a31b76ff675f" />
+  <Project Path="Exercice3/Exercice3.csproj" Id="c88d90f4-be55-4e21-9609-f25b80e39050" />
+</Solution>

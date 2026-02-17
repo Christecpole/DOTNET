@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Exercice1/Exercice1.csproj" />
+  <Project Path="Exercice2/Exercice2.csproj" Id="647fc03d-5d1d-4693-9e5c-a8cebba4fb5a" />
+  <Project Path="Exercice3/Exercice3.csproj" Id="10fe21ac-2641-4e03-9abb-b4262ff38fce" />
+  <Project Path="Exercice4/Exercice4.csproj" Id="0e013dfe-0581-467b-b73f-ada2c1bb1196" />
+  <Project Path="ExercicesDesignPattern/ExercicesDesignPattern.csproj" />
+</Solution>

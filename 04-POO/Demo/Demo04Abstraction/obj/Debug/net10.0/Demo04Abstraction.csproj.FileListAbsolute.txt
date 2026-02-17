@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\bin\Debug\net10.0\Demo04Abstraction.exe
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\bin\Debug\net10.0\Demo04Abstraction.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\bin\Debug\net10.0\Demo04Abstraction.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\bin\Debug\net10.0\Demo04Abstraction.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\bin\Debug\net10.0\Demo04Abstraction.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\Demo04Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\Demo04Abstraction.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\Demo04Abstraction.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\Demo04Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\Demo04Abstraction.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\Demo04Abstraction.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\refint\Demo04Abstraction.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\Demo04Abstraction.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\Demo04Abstraction.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo04Abstraction\obj\Debug\net10.0\ref\Demo04Abstraction.dll

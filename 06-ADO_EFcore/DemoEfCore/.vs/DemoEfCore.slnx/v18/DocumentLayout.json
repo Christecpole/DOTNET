@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\06-ADO_EFcore\\DemoEfCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5B34DF-E8EB-473E-B279-43661754CA1F}|DemoEfCore\\DemoEfCore.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\06-ado_efcore\\demoefcore\\demoefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5B34DF-E8EB-473E-B279-43661754CA1F}|DemoEfCore\\DemoEfCore.csproj|solutionrelative:demoefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5B34DF-E8EB-473E-B279-43661754CA1F}|DemoEfCore\\DemoEfCore.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\06-ado_efcore\\demoefcore\\demoefcore\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5B34DF-E8EB-473E-B279-43661754CA1F}|DemoEfCore\\DemoEfCore.csproj|solutionrelative:demoefcore\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5B34DF-E8EB-473E-B279-43661754CA1F}|DemoEfCore\\DemoEfCore.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\06-ado_efcore\\demoefcore\\demoefcore\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5B34DF-E8EB-473E-B279-43661754CA1F}|DemoEfCore\\DemoEfCore.csproj|solutionrelative:demoefcore\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\06-ADO_EFcore\\DemoEfCore\\DemoEfCore\\Data\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "DemoEfCore\\Data\\StudentDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\06-ADO_EFcore\\DemoEfCore\\DemoEfCore\\Data\\StudentDbContext.cs",
+              "RelativeToolTip": "DemoEfCore\\Data\\StudentDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:46:57.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\06-ADO_EFcore\\DemoEfCore\\DemoEfCore\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "DemoEfCore\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\06-ADO_EFcore\\DemoEfCore\\DemoEfCore\\Models\\Student.cs",
+              "RelativeToolTip": "DemoEfCore\\Models\\Student.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wCcAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:38:25.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\06-ADO_EFcore\\DemoEfCore\\DemoEfCore\\Program.cs",
+              "RelativeDocumentMoniker": "DemoEfCore\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\06-ADO_EFcore\\DemoEfCore\\DemoEfCore\\Program.cs",
+              "RelativeToolTip": "DemoEfCore\\Program.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAiwJUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:29:32.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

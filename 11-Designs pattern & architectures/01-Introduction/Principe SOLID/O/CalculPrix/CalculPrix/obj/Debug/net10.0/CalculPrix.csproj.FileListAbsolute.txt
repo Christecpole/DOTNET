@@ -1,0 +1,14 @@
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\bin\Debug\net10.0\CalculPrix.exe
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\bin\Debug\net10.0\CalculPrix.deps.json
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\bin\Debug\net10.0\CalculPrix.runtimeconfig.json
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\bin\Debug\net10.0\CalculPrix.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\bin\Debug\net10.0\CalculPrix.pdb
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\obj\Debug\net10.0\CalculPrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\obj\Debug\net10.0\CalculPrix.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\obj\Debug\net10.0\CalculPrix.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\obj\Debug\net10.0\CalculPrix.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\obj\Debug\net10.0\CalculPrix.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\obj\Debug\net10.0\refint\CalculPrix.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\obj\Debug\net10.0\CalculPrix.pdb
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\obj\Debug\net10.0\CalculPrix.genruntimeconfig.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\O\CalculPrix\CalculPrix\obj\Debug\net10.0\ref\CalculPrix.dll

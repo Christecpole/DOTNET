@@ -1,0 +1,13 @@
+﻿@{
+    var produits = new[] { "Ordinateur", "Clavier", "Souris", "Ecran" };
+}
+
+<h2>Liste des produits</h2>
+
+<ul>
+    @foreach(var produit in produits)
+    {
+        <li>@produit</li>
+    }
+    
+</ul>

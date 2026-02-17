@@ -1,0 +1,15 @@
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\bin\Debug\net10.0\CorrectionExo1.exe
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\bin\Debug\net10.0\CorrectionExo1.deps.json
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\bin\Debug\net10.0\CorrectionExo1.runtimeconfig.json
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\bin\Debug\net10.0\CorrectionExo1.dll
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\bin\Debug\net10.0\CorrectionExo1.pdb
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\CorrectionExo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\CorrectionExo1.AssemblyInfoInputs.cache
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\CorrectionExo1.AssemblyInfo.cs
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\CorrectionExo1.csproj.CoreCompileInputs.cache
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\CorrectionExo1.sourcelink.json
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\CorrectionExo1.dll
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\refint\CorrectionExo1.dll
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\CorrectionExo1.pdb
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\CorrectionExo1.genruntimeconfig.cache
+C:\Users\utopios\Desktop\poec_net_1512\POO\Exercice\Correction\CorrectionExo1\obj\Debug\net10.0\ref\CorrectionExo1.dll

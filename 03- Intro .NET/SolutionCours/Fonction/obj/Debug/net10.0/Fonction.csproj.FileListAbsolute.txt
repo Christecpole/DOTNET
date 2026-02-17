@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\bin\Debug\net10.0\Fonction.exe
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\bin\Debug\net10.0\Fonction.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\bin\Debug\net10.0\Fonction.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\bin\Debug\net10.0\Fonction.dll
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\bin\Debug\net10.0\Fonction.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\Fonction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\Fonction.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\Fonction.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\Fonction.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\Fonction.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\Fonction.dll
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\refint\Fonction.dll
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\Fonction.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\Fonction.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\.NET\SolutionCours\Fonction\obj\Debug\net10.0\ref\Fonction.dll

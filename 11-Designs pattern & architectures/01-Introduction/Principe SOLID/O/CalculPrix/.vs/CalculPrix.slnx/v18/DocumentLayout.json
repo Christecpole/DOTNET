@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\o\\calculprix\\calculprix\\services\\serviceprix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|solutionrelative:calculprix\\services\\serviceprix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\o\\calculprix\\calculprix\\strategies\\tarificationpremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|solutionrelative:calculprix\\strategies\\tarificationpremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\o\\calculprix\\calculprix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|solutionrelative:calculprix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\o\\calculprix\\calculprix\\strategies\\tarificationpro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|solutionrelative:calculprix\\strategies\\tarificationpro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\o\\calculprix\\calculprix\\strategies\\tarificationvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|solutionrelative:calculprix\\strategies\\tarificationvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\o\\calculprix\\calculprix\\strategies\\tarificationstandard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|solutionrelative:calculprix\\strategies\\tarificationstandard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\o\\calculprix\\calculprix\\contrats\\istrategietarification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|solutionrelative:calculprix\\contrats\\istrategietarification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\o\\calculprix\\calculprix\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77754FB4-C330-4E68-A60B-52ECA9F50D77}|CalculPrix\\CalculPrix.csproj|solutionrelative:calculprix\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TarificationPremium.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\strategies\\TarificationPremium.cs",
+              "RelativeDocumentMoniker": "CalculPrix\\strategies\\TarificationPremium.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\strategies\\TarificationPremium.cs",
+              "RelativeToolTip": "CalculPrix\\strategies\\TarificationPremium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:39:10.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TarificationPro.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\strategies\\TarificationPro.cs",
+              "RelativeDocumentMoniker": "CalculPrix\\strategies\\TarificationPro.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\strategies\\TarificationPro.cs",
+              "RelativeToolTip": "CalculPrix\\strategies\\TarificationPro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:26:05.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarificationVip.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\strategies\\TarificationVip.cs",
+              "RelativeDocumentMoniker": "CalculPrix\\strategies\\TarificationVip.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\strategies\\TarificationVip.cs",
+              "RelativeToolTip": "CalculPrix\\strategies\\TarificationVip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:25:27.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TarificationStandard.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\strategies\\TarificationStandard.cs",
+              "RelativeDocumentMoniker": "CalculPrix\\strategies\\TarificationStandard.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\strategies\\TarificationStandard.cs",
+              "RelativeToolTip": "CalculPrix\\strategies\\TarificationStandard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:24:14.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStrategieTarification.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\Contrats\\IStrategieTarification.cs",
+              "RelativeDocumentMoniker": "CalculPrix\\Contrats\\IStrategieTarification.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\Contrats\\IStrategieTarification.cs",
+              "RelativeToolTip": "CalculPrix\\Contrats\\IStrategieTarification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:22:35.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicePrix.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\Services\\ServicePrix.cs",
+              "RelativeDocumentMoniker": "CalculPrix\\Services\\ServicePrix.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\Services\\ServicePrix.cs",
+              "RelativeToolTip": "CalculPrix\\Services\\ServicePrix.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwCcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:14:06.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Commande.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\Models\\Commande.cs",
+              "RelativeDocumentMoniker": "CalculPrix\\Models\\Commande.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\Models\\Commande.cs",
+              "RelativeToolTip": "CalculPrix\\Models\\Commande.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:12:49.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\Program.cs",
+              "RelativeDocumentMoniker": "CalculPrix\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\O\\CalculPrix\\CalculPrix\\Program.cs",
+              "RelativeToolTip": "CalculPrix\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:10:00.241Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

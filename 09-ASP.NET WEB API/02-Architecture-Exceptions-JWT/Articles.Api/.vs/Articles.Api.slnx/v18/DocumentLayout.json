@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\data\\dbfake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\data\\dbfake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\services\\auteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\services\\auteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\repositories\\auteurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\repositories\\auteurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\repositories\\iauteurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\repositories\\iauteurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\services\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\services\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\services\\iauteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\services\\iauteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\controllers\\auteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\controllers\\auteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\controllers\\crashtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\controllers\\crashtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\articles.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\articles.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\02-architecture-exceptions-jwt\\articles.api\\articles.api\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F873FD-A3AE-ED69-B620-39B401AF04B3}|Articles.Api\\Articles.Api.csproj|solutionrelative:articles.api\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\PasswordService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\PasswordService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T13:08:32.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuteurService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\AuteurService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\AuteurService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\AuteurService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\AuteurService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA0wAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:43:06.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuteurRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Repositories\\AuteurRepository.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Repositories\\AuteurRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Repositories\\AuteurRepository.cs",
+              "RelativeToolTip": "Articles.Api\\Repositories\\AuteurRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:31:15.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuteurRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Repositories\\IAuteurRepository.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Repositories\\IAuteurRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Repositories\\IAuteurRepository.cs",
+              "RelativeToolTip": "Articles.Api\\Repositories\\IAuteurRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:31:11.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IArticleService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\IArticleService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\IArticleService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\IArticleService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\IArticleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:30:18.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuteurService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\IAuteurService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\IAuteurService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\IAuteurService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\IAuteurService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:30:04.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Articles.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Articles.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-03T11:09:49.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\AuthService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\AuthService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:28:59.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CrashTestcontroller.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Controllers\\CrashTestcontroller.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Controllers\\CrashTestcontroller.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Controllers\\CrashTestcontroller.cs",
+              "RelativeToolTip": "Articles.Api\\Controllers\\CrashTestcontroller.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowC4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:38:07.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuteurController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Controllers\\AuteurController.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Controllers\\AuteurController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Controllers\\AuteurController.cs",
+              "RelativeToolTip": "Articles.Api\\Controllers\\AuteurController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:36:35.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Articles.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Articles.Api.csproj",
+              "RelativeDocumentMoniker": "Articles.Api\\Articles.Api.csproj",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Articles.Api.csproj",
+              "RelativeToolTip": "Articles.Api\\Articles.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-03T09:13:01.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "Articles.Api\\Controllers\\ArticleController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwFIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:04:10.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Program.cs",
+              "RelativeToolTip": "Articles.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T08:19:23.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Articles.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwC0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T08:10:50.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:27:51.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Middlewares\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Middlewares\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Middlewares\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "Articles.Api\\Middlewares\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwEgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:25:24.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Dtos\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Dtos\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Dtos\\LoginResponseDto.cs",
+              "RelativeToolTip": "Articles.Api\\Dtos\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:22:59.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "Articles.Api\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:18:49.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbFake.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Data\\DbFake.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Data\\DbFake.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Data\\DbFake.cs",
+              "RelativeToolTip": "Articles.Api\\Data\\DbFake.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:14:30.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "Articles.Api\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:11:13.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Articles.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\02-Architecture-Exceptions-JWT\\Articles.Api\\Articles.Api\\appsettings.json",
+              "RelativeToolTip": "Articles.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T15:05:41.821Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

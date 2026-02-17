@@ -1,0 +1,14 @@
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\bin\Debug\net10.0\GestionCommande.exe
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\bin\Debug\net10.0\GestionCommande.deps.json
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\bin\Debug\net10.0\GestionCommande.runtimeconfig.json
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\bin\Debug\net10.0\GestionCommande.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\bin\Debug\net10.0\GestionCommande.pdb
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\obj\Debug\net10.0\GestionCommande.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\obj\Debug\net10.0\GestionCommande.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\obj\Debug\net10.0\GestionCommande.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\obj\Debug\net10.0\GestionCommande.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\obj\Debug\net10.0\GestionCommande.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\obj\Debug\net10.0\refint\GestionCommande.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\obj\Debug\net10.0\GestionCommande.pdb
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\obj\Debug\net10.0\GestionCommande.genruntimeconfig.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\D\GestionCommande\GestionCommande\obj\Debug\net10.0\ref\GestionCommande.dll

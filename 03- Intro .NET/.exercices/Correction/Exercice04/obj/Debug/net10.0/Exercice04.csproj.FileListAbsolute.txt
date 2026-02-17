@@ -1,0 +1,15 @@
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\bin\Debug\net10.0\Exercice04.exe
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\bin\Debug\net10.0\Exercice04.deps.json
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\bin\Debug\net10.0\Exercice04.runtimeconfig.json
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\bin\Debug\net10.0\Exercice04.dll
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\bin\Debug\net10.0\Exercice04.pdb
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\Exercice04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\Exercice04.AssemblyInfoInputs.cache
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\Exercice04.AssemblyInfo.cs
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\Exercice04.csproj.CoreCompileInputs.cache
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\Exercice04.sourcelink.json
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\Exercice04.dll
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\refint\Exercice04.dll
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\Exercice04.pdb
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\Exercice04.genruntimeconfig.cache
+C:\Users\utopios\Desktop\poec_net_1512\.NET\.exercices\Correction\Exercice04\obj\Debug\net10.0\ref\Exercice04.dll

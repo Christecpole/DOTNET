@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\bin\Debug\net10.0\CorrectionExoInterface.exe
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\bin\Debug\net10.0\CorrectionExoInterface.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\bin\Debug\net10.0\CorrectionExoInterface.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\bin\Debug\net10.0\CorrectionExoInterface.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\bin\Debug\net10.0\CorrectionExoInterface.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\CorrectionExoInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\CorrectionExoInterface.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\CorrectionExoInterface.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\CorrectionExoInterface.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\CorrectionExoInterface.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\CorrectionExoInterface.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\refint\CorrectionExoInterface.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\CorrectionExoInterface.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\CorrectionExoInterface.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoInterface\obj\Debug\net10.0\ref\CorrectionExoInterface.dll

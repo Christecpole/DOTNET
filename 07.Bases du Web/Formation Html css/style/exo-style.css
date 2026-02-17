@@ -1,0 +1,47 @@
+ul{
+    list-style: square;
+    color: green;
+}
+
+h1{
+    background-color: chartreuse;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px red;
+    /*ombre vers la droite, ombre vers le bas, flou de l'ombre, couleur de l'ombre*/
+    width: 50%;
+    margin: 0 auto;
+    /*1 seulee valeur : tout margin : 10px
+    2 valeurs : haut + bas / droite / gauche margin : 10px 5px
+    3 valeurs : haut / gauche et droite / bas margin : 10px 5px 8px 
+    4 valeurs : haut / droite/ bas / gauche margin : 10px 5px 8px 15px
+    */
+
+}
+
+article{
+    border: solid goldenrod 3px;
+    margin: 30px auto ;
+}
+
+p{
+    font-weight: 500;
+    text-align: right;
+}
+
+.p1{
+    color: green;
+    text-decoration: line-through aqua wavy;
+}
+
+.p2{
+    color: aqua ;
+    text-decoration: line-through green dotted;
+}
+
+footer p{
+    color: blue;
+    text-decoration:line-through aqua wavy;
+}

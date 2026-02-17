@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="DemoSansInstructionSuperieur/DemoSansInstructionSuperieur.csproj" />
+  <Project Path="Fonction/Fonction.csproj" Id="8412a162-33e0-4713-abde-9d8f72a3fa5a" />
+  <Project Path="LesBoucles/LesBoucles.csproj" Id="290e663f-d6c0-4034-b9be-6ac247353a80" />
+  <Project Path="ManipVariables/ManipVariables.csproj" />
+  <Project Path="StructControle/StructControle.csproj" Id="1dc78296-6701-4e25-a4d0-5e6fdabd445e" />
+  <Project Path="Tableaux/Tableaux.csproj" Id="c805d4e9-ba22-40c4-b98f-d0fe6a679ea3" />
+</Solution>

@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\bin\Debug\net10.0\Demo07Exception.exe
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\bin\Debug\net10.0\Demo07Exception.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\bin\Debug\net10.0\Demo07Exception.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\bin\Debug\net10.0\Demo07Exception.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\bin\Debug\net10.0\Demo07Exception.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\Demo07Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\Demo07Exception.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\Demo07Exception.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\Demo07Exception.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\Demo07Exception.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\Demo07Exception.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\refint\Demo07Exception.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\Demo07Exception.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\Demo07Exception.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\Demo07Exception\obj\Debug\net10.0\ref\Demo07Exception.dll

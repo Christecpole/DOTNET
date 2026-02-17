@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\factory\\atelier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\factory\\atelier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\observer\\lutin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\observer\\lutin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\decorator\\jouetdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\decorator\\jouetdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\decorator\\ruban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\decorator\\ruban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\decorator\\papiercadeau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\decorator\\papiercadeau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\factory\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\factory\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\factory\\gameboy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\factory\\gameboy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\factory\\robotfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\factory\\robotfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\factory\\gameboyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\factory\\gameboyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\factory\\jouetfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\factory\\jouetfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\tpateliernoel\\tpateliernoel\\factory\\ijouet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A5C14-8856-482B-8470-429A63C6402C}|TPAtelierNoel\\TPAtelierNoel.csproj|solutionrelative:tpateliernoel\\factory\\ijouet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lutin.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Observer\\Lutin.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Observer\\Lutin.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Observer\\Lutin.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Observer\\Lutin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:35:14.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IObserver.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Observer\\IObserver.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Observer\\IObserver.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Observer\\IObserver.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Observer\\IObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:34:28.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PapierCadeau.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Decorator\\PapierCadeau.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Decorator\\PapierCadeau.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Decorator\\PapierCadeau.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Decorator\\PapierCadeau.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:20:57.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ruban.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Decorator\\Ruban.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Decorator\\Ruban.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Decorator\\Ruban.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Decorator\\Ruban.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:19:15.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JouetDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Decorator\\JouetDecorator.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Decorator\\JouetDecorator.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Decorator\\JouetDecorator.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Decorator\\JouetDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:17:33.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Atelier.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\Atelier.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Factory\\Atelier.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\Atelier.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Factory\\Atelier.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:08:21.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RobotFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\RobotFactory.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Factory\\RobotFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\RobotFactory.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Factory\\RobotFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:06:26.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameBoyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\GameBoyFactory.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Factory\\GameBoyFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\GameBoyFactory.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Factory\\GameBoyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:05:52.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Robot.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\Robot.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Factory\\Robot.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\Robot.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Factory\\Robot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:04:57.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameBoy.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\GameBoy.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Factory\\GameBoy.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\GameBoy.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Factory\\GameBoy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:04:14.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JouetFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\JouetFactory.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Factory\\JouetFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\JouetFactory.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Factory\\JouetFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:02:53.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IJouet.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\IJouet.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Factory\\IJouet.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Factory\\IJouet.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Factory\\IJouet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:01:50.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Program.cs",
+              "RelativeDocumentMoniker": "TPAtelierNoel\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\TPAtelierNoel\\TPAtelierNoel\\Program.cs",
+              "RelativeToolTip": "TPAtelierNoel\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:54:25.238Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

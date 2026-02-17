@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ViewExercice.styles.css" asp-append-version="true" />
+    @await RenderSectionAsync("Styles", required :false) 
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background: #343a40;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            overflow-y: auto;
+        }
+
+            .sidebar h3 {
+                color: white;
+                margin-bottom: 20px;
+            }
+
+            .sidebar hr {
+                border-color: #495057;
+                margin: 15px 0;
+            }
+
+            .sidebar a {
+                color: white;
+                display: block;
+                padding: 12px 15px;
+                text-decoration: none;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                transition: background 0.3s;
+            }
+
+                .sidebar a:hover {
+                    background: #495057;
+                    color: white;
+                }
+
+        .content {
+            flex: 1;
+            margin-left: 250px;
+            padding: 20px;
+            min-height: 100vh;
+            background: #f8f9fa;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="sidebar">
+        <h3>Admin Panel</h3>
+        <hr />
+
+        <!-- Liens de navigation admin -->
+        <a asp-controller="Admin" asp-action="Dashboard">📊 Dashboard</a>
+        <a asp-controller="Admin" asp-action="Articles">📝 Articles</a>
+        <a asp-controller="Admin" asp-action="Users">👥 Utilisateurs</a>
+        <a asp-controller="Admin" asp-action="Settings">⚙️ Paramètres</a>
+
+        <hr />
+
+        <!-- Lien pour retourner au site public -->
+        <a asp-controller="Home" asp-action="Index">🏠 Retour au site</a>
+    </div>
+
+    <div class="content">
+        @RenderBody()
+    </div>
+
+    <partial name="_FooterPartial" />
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

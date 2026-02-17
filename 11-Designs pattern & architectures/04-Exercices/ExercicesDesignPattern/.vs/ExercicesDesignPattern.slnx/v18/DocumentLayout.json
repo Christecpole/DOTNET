@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10FE21AC-2641-4E03-9ABB-B4262FF38FCE}|Exercice3\\Exercice3.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\exercicesdesignpattern\\exercice3\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FE21AC-2641-4E03-9ABB-B4262FF38FCE}|Exercice3\\Exercice3.csproj|solutionrelative:exercice3\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\exercicesdesignpattern\\exercice4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|solutionrelative:exercice4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\exercicesdesignpattern\\exercice4\\bigfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|solutionrelative:exercice4\\bigfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\exercicesdesignpattern\\exercice4\\chatfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|solutionrelative:exercice4\\chatfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\exercicesdesignpattern\\exercice4\\chienfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|solutionrelative:exercice4\\chienfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\exercicesdesignpattern\\exercice4\\animalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|solutionrelative:exercice4\\animalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\exercicesdesignpattern\\exercice4\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|solutionrelative:exercice4\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\exercicesdesignpattern\\exercice4\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|solutionrelative:exercice4\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\11-designs pattern \u0026 architectures\\04-exercices\\exercicesdesignpattern\\exercice4\\ianimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E013DFE-0581-467B-B73F-ADA2C1BB1196}|Exercice4\\Exercice4.csproj|solutionrelative:exercice4\\ianimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice3\\EventManager.cs",
+              "RelativeDocumentMoniker": "Exercice3\\EventManager.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice3\\EventManager.cs",
+              "RelativeToolTip": "Exercice3\\EventManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T13:11:59.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BigFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\BigFactory.cs",
+              "RelativeDocumentMoniker": "Exercice4\\BigFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\BigFactory.cs",
+              "RelativeToolTip": "Exercice4\\BigFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:05:56.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\ChatFactory.cs",
+              "RelativeDocumentMoniker": "Exercice4\\ChatFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\ChatFactory.cs",
+              "RelativeToolTip": "Exercice4\\ChatFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:01:01.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChienFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\ChienFactory.cs",
+              "RelativeDocumentMoniker": "Exercice4\\ChienFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\ChienFactory.cs",
+              "RelativeToolTip": "Exercice4\\ChienFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:59:53.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimalFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\AnimalFactory.cs",
+              "RelativeDocumentMoniker": "Exercice4\\AnimalFactory.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\AnimalFactory.cs",
+              "RelativeToolTip": "Exercice4\\AnimalFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:58:53.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chien.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\Chien.cs",
+              "RelativeDocumentMoniker": "Exercice4\\Chien.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\Chien.cs",
+              "RelativeToolTip": "Exercice4\\Chien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:56:28.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\Chat.cs",
+              "RelativeDocumentMoniker": "Exercice4\\Chat.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\Chat.cs",
+              "RelativeToolTip": "Exercice4\\Chat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:55:32.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAnimal.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\IAnimal.cs",
+              "RelativeDocumentMoniker": "Exercice4\\IAnimal.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\IAnimal.cs",
+              "RelativeToolTip": "Exercice4\\IAnimal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:54:02.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\Program.cs",
+              "RelativeDocumentMoniker": "Exercice4\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\11-Designs pattern \u0026 architectures\\04-Exercices\\ExercicesDesignPattern\\Exercice4\\Program.cs",
+              "RelativeToolTip": "Exercice4\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:51:40.792Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

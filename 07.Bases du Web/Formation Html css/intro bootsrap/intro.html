@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    bibliothèque de classes css qui te permet de faire des interfaces propre, cohérente et responsive sans tout coder à la main
+    En clair : au lieu d'écrire beaucoup de css, on peut écrire des classe comme 'btn btn-primary'
+
+    apporte la possibilité de gérer trois choses : 
+    - la mise en page en colonnes : "container" "col" "row" 
+    - des composants ui déjà créé : 'navbar', 'card', 'modal' 
+    - des utilitaires : des petites classes pour rapidement ajuster nos elements (espacement, flex, couleur)
+
+    Dans asp.net core mvc on fait régulièrement des vue , des pages classiques :
+    -page liste (tableau + actions)
+    -page create/edit (formulaire + validation)
+    -page de détails(liste affichage propre (liste de produits))
+    -"layout global" : (menu/navbar + contenu)
+
+    C'est fait en boostrap nativement.
+
+    Bootstrap permet de faire ui :
+    -pro
+    -responsive
+    -cohérente
+
+    -index : un tableau "table table-striped" + barre deboutons 'd-flex gap-2'
+
+    lien du site de bootsrp :"https://getbootstrap.com/"
+
+    <table class="table">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        </tr>
+        <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        </tr>
+        <tr>
+        <th scope="row">3</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <hr>
+
+    <button class="btn btn-primary">Test bootsrap</button>
+
+    <h2>Responsive</h2>
+
+    faire un pafe qui se range toute seule selon la taille de l'écran (téléphone, pc)
+
+    bootstrap est mobile-first : pense d'abord "téléphone" puis on améliore pour les écrans plus grand
+
+    'sm' => small >= 576px "petits écrans" (mobile par défault)
+    'md' => medium >= 768px "écrans moyens"(souvent des tablettes)
+    'lg' => large >= 992px "grands écrans" (petit ordi)
+    'xl' => extra large >= 1200px "très grands écrans" (ordinateur)
+    'xxl' => extra extra large >= 1400px "ecrans xxl"
+
+    => ce sont des paliers qui disent "à partir de cette largeur on peut utiliser la mise en page plus large"
+
+    container :
+    -'container' : une boite centrée 
+    -'container-fluid' : toute la largeur(bord à bord)
+
+    grid :
+    Principe de base : 'container' -> 'row' -> 'col'
+
+    row : "ligne" de la grid
+    col : "colonne" "case dans la ligne"
+
+    row boostrap est découpée en 12 part (12 colonnes virtuelles)
+    -col-12 veut dire que "je prends 12 parts(colonnes) sur 12 " donc la pleine largeur de la row 
+    -col-6 veut dire "je prends 6 parts(colonnes) sur 12" 50% de la row
+    -col-4 veut dire "je prends 4parts(colonnes) sur 12" 33% de la row
+
+    
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-12 col-md-4 bg-success">
+                <p class="fw-bold text-center ">Contenu A :</p>
+                <p class="small text-danger">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed perferendis nesciunt, itaque, sapiente hic vitae placeat accusantium provident numquam unde tempore, pariatur neque sequi cum laborum iste quis iure aut!</p>
+            </div>
+            <div class="col-12 col-md-8">
+                <p class="mb-3">Contenu B :</p>
+                <p class="text-end ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed perferendis nesciunt, itaque, sapiente hic vitae placeat accusantium provident numquam unde tempore, pariatur neque sequi cum laborum iste quis iure aut!</p>
+            </div>
+           
+        </div>
+       
+
+        
+    </section>
+
+ 
+</body>
+</html>

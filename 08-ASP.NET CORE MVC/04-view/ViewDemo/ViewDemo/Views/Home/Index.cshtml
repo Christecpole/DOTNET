@@ -1,0 +1,30 @@
+﻿@model int
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    var message = "Bonjour depuis Razor";
+    int nombre = 42;
+
+    var nom = "Moi";
+    var prenom = "Oussama";
+
+    var fullname = $"{nom} {prenom}";
+
+    var produits = new List<string> { "Ordinateur", "Clavier", "Souris" };
+    var total = 1200.25m; // informe que c'est un decimal
+}
+
+<h1>@ViewData["Title"]</h1>
+<p>@message</p> <p>@Model</p>
+<p>Le nombre est : @nombre</p>
+<p>Le double de ce nombre est : @(nombre * 2)</p>
+
+<hr />
+
+<h2>Bienvenue @fullname</h2>
+<p>Vous avez @produits.Count produit(s) dans votre panier</p>
+<p>Total : @total.ToString("C")</p>
+
+
+

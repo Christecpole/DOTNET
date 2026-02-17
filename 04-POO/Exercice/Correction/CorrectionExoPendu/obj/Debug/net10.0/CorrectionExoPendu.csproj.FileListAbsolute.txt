@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\CorrectionExoPendu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\CorrectionExoPendu.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\CorrectionExoPendu.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\CorrectionExoPendu.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\CorrectionExoPendu.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\bin\Debug\net10.0\CorrectionExoPendu.exe
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\bin\Debug\net10.0\CorrectionExoPendu.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\bin\Debug\net10.0\CorrectionExoPendu.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\bin\Debug\net10.0\CorrectionExoPendu.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\bin\Debug\net10.0\CorrectionExoPendu.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\CorrectionExoPendu.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\refint\CorrectionExoPendu.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\CorrectionExoPendu.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\CorrectionExoPendu.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoPendu\obj\Debug\net10.0\ref\CorrectionExoPendu.dll

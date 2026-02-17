@@ -1,0 +1,24 @@
+﻿<button class="btn btn-@Couleur" @onclick="HandleClick">
+    @Texte
+</button>
+
+@code {
+    //Cette propriété vient de l'exterieur
+    [Parameter]
+    public string Texte { get; set; } = "Cliquer";
+
+    [Parameter]
+    public string Couleur { get; set; } = "primary";
+
+    //Enventcallback<string> = on envoie une chaine au parent
+    [Parameter]
+    public EventCallback<string> OnClick { get; set; }
+
+    private async Task HandleClick()
+    {
+        //PRévenir le parent
+        await OnClick.InvokeAsync(Texte);
+    }
+
+
+}

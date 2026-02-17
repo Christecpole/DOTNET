@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\08-asp.net core mvc\\06-tp\\tp_asp.netmvc\\tp_asp.netmvc\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|solutionrelative:tp_asp.netmvc\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\08-asp.net core mvc\\06-tp\\tp_asp.netmvc\\tp_asp.netmvc\\services\\produitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|solutionrelative:tp_asp.netmvc\\services\\produitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\08-asp.net core mvc\\06-tp\\tp_asp.netmvc\\tp_asp.netmvc\\services\\iproduitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|solutionrelative:tp_asp.netmvc\\services\\iproduitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\08-asp.net core mvc\\06-tp\\tp_asp.netmvc\\tp_asp.netmvc\\repositories\\produitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|solutionrelative:tp_asp.netmvc\\repositories\\produitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\08-asp.net core mvc\\06-tp\\tp_asp.netmvc\\tp_asp.netmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|solutionrelative:tp_asp.netmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\08-asp.net core mvc\\06-tp\\tp_asp.netmvc\\tp_asp.netmvc\\repositories\\iproduitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|solutionrelative:tp_asp.netmvc\\repositories\\iproduitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\08-asp.net core mvc\\06-tp\\tp_asp.netmvc\\tp_asp.netmvc\\data\\dbfake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567B34F0-780F-001D-616D-FC5A8041DC70}|TP_asp.netMVC\\TP_asp.netMVC.csproj|solutionrelative:tp_asp.netmvc\\data\\dbfake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Program.cs",
+              "RelativeDocumentMoniker": "TP_asp.netMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Program.cs",
+              "RelativeToolTip": "TP_asp.netMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T15:08:02.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProduitService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Services\\ProduitService.cs",
+              "RelativeDocumentMoniker": "TP_asp.netMVC\\Services\\ProduitService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Services\\ProduitService.cs",
+              "RelativeToolTip": "TP_asp.netMVC\\Services\\ProduitService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T14:01:02.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProduitService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Services\\IProduitService.cs",
+              "RelativeDocumentMoniker": "TP_asp.netMVC\\Services\\IProduitService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Services\\IProduitService.cs",
+              "RelativeToolTip": "TP_asp.netMVC\\Services\\IProduitService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:58:37.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProduitRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Repositories\\ProduitRepository.cs",
+              "RelativeDocumentMoniker": "TP_asp.netMVC\\Repositories\\ProduitRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Repositories\\ProduitRepository.cs",
+              "RelativeToolTip": "TP_asp.netMVC\\Repositories\\ProduitRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:32:48.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProduitRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Repositories\\IProduitRepository.cs",
+              "RelativeDocumentMoniker": "TP_asp.netMVC\\Repositories\\IProduitRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Repositories\\IProduitRepository.cs",
+              "RelativeToolTip": "TP_asp.netMVC\\Repositories\\IProduitRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:23:56.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbFake.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Data\\DbFake.cs",
+              "RelativeDocumentMoniker": "TP_asp.netMVC\\Data\\DbFake.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Data\\DbFake.cs",
+              "RelativeToolTip": "TP_asp.netMVC\\Data\\DbFake.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwD0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:11:17.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProduitController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Controllers\\ProduitController.cs",
+              "RelativeDocumentMoniker": "TP_asp.netMVC\\Controllers\\ProduitController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\08-ASP.NET CORE MVC\\06-TP\\TP_asp.netMVC\\TP_asp.netMVC\\Controllers\\ProduitController.cs",
+              "RelativeToolTip": "TP_asp.netMVC\\Controllers\\ProduitController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:10:47.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

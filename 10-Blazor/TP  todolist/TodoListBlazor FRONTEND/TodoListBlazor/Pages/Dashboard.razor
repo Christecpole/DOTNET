@@ -1,0 +1,289 @@
+﻿@page "/dashboard"
+@using TodoListBlazor.Components
+@using TodoListBlazor.Dtos
+@using TodoListBlazor.Services
+@inject ITodoService TodoService
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+
+<PageTitle>Dashboard - TODOList</PageTitle>
+
+@if (isLoading)
+{
+    <div>
+        <div class="spinner-border text-primary"></div>
+        <p class="mt-3 text-muted">Chargements de vos tâches</p>
+    </div>
+}
+else
+{
+    <div class="d-flex justify-content-between align-content-center mb-4">
+        <div>
+            <h1 class="mb-0">Mes tâches</h1>
+            <p class="text-muted mb-0">Bienvenue ! Voici vos tâches.</p>
+        </div>
+        <button class="btn btn-outline-danger" @onclick="Logout">
+            <i class="bi bi-plus-lg"></i>Se Deconnecter
+        </button>
+    </div>
+
+    <div class="row mb-4">
+        @*Card : total des tâches*@
+        <div class="col-md-4">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total</h5>
+                    <h2 class="mb-0">@todos.Count</h2>
+                </div>
+            </div>
+        </div>
+
+        @*Card : tâches terminées*@
+        <div class="col-md-4">
+            <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Terminées</h5>
+                    <h2 class="mb-0">@todos.Where(t=>t.IsCompleted).Count()</h2>
+                </div>
+            </div>
+        </div>
+
+        @*Card : tâches en cours*@
+        <div class="col-md-4">
+            <div class="card bg-warning text-white">
+                <div class="card-body">
+                    <h5 class="card-title">En cours</h5>
+                    <h2 class="mb-0">@todos.Where(t => !t.IsCompleted).Count()</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    @*LISTE DES TÂCHES*@
+
+    <div class="card">
+        <div class="card-header bg-light d-flex justify-content-between align-content-center">
+            <h5 class="mb-0">Liste des tâches</h5>
+            <div class="d-flex gap-2">
+                @*Filtre UI*@
+                <select class="form-select form-select-sm" 
+                        style="width:160px"
+                        @bind="filtre">
+                        <option value="all">Toutes</option>
+                        <option value="done">Terminées</option>
+                        <option value="todo">En cours</option>
+                </select>
+                <button class="btn btn-primary btn-sm" @onclick="ToCreatePage">
+                    <i class="bi bi-plus-lg me-1"></i>Nouvelle tâche
+                </button>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            @if (!TachesFiltrees.Any())
+            {
+                <div class="text-center py-5 text-muted">
+                    <i class="bi bi-inbox display-1"></i>
+                    <p class="mt-3">Aucune tâche pour ce filtre</p>
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    @foreach(var todo in todos)
+                    {
+                        <div class="col-md-6 col-lg-4 mb-3">
+                             <TodoCard
+                                 Todo="todo"
+                                 OnToggle= "HandleToggle"
+                                 OnEdit= "HandleEdit"
+                                 OnDelete= "HandleDelete"
+                             />   
+                        </div>
+                    }
+                </div>
+
+               @*  <ul class="list-group list-group-flush">
+                    @foreach(var tache in TachesFiltrees)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <div class="form-check form-switch">
+                                    <input type="checkbox"
+                                           class="form-check-input me-3"
+                                           checked="@tache.IsCompleted"
+                                           @onchange="async _ => await ToggleTache(tache)" />
+                                </div>
+                               
+                                <div>
+                                    <span class="@(tache.IsCompleted ? "text-decoration-line-through text-muted" : "")">
+                                        @tache.Title
+                                    </span>
+                                    @if (!string.IsNullOrEmpty(tache.Description))
+                                    {
+                                        <small class="d-block text-muted">@tache.Description</small>
+                                    }
+                                </div>
+                            </div>
+                            <span class="badge @GetPriorityBadgeClass(tache.Priority)">
+                                @GetPriorityText(tache.Priority)
+                            </span>
+                        </li>
+                    }
+                </ul> *@
+            }
+        </div>
+    </div>
+
+
+
+}
+
+@if (showDeleteModal && todoToDelete != null)
+{
+    <div class="modal fade show d-block" style="background-color: rgba(0,0,0,0.5);">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title">Confirmer la suppression</h5>
+                    <button type="button" class="btn-close btn-close-white"
+                            @onclick="CancelDelete"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Êtes-vous sûr de vouloir supprimer cette tâche ?</p>
+                    <div class="alert alert-warning">
+                        <strong>@todoToDelete.Title</strong>
+                    </div>
+                    <p class="text-muted small">Cette action est irréversible.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" @onclick="CancelDelete">
+                        Annuler
+                    </button>
+                    <button type="button" class="btn btn-danger"
+                            @onclick="ConfirmDelete"
+                            disabled="@isDeleting">
+                        @if (isDeleting)
+                        {
+                            <span class="spinner-border spinner-border-sm me-2"></span>
+                        }
+                        Supprimer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+
+@code {
+    private List<TodoItem> todos = new();
+    private bool isLoading = true;
+
+    //gestion de la modale de suppression
+    private bool showDeleteModal = false;
+    private TodoItem? todoToDelete;
+    private bool isDeleting = false;
+
+    private void HandleDelete(TodoItem todo)
+    {
+        //afficher le modale au lieu de supprimer directement
+        todoToDelete = todo;
+        showDeleteModal = true;
+    }
+
+    private void CancelDelete()
+    {
+        showDeleteModal = false;
+        todoToDelete = null;
+    }
+
+    private async Task ConfirmDelete()
+    {
+        if (todoToDelete == null) return;
+
+        isDeleting = true;
+
+        var success = await TodoService.DeleteAsync(todoToDelete.Id);
+
+        if (success)
+        {
+            todos.Remove(todoToDelete);
+        }
+
+        isDeleting = false;
+        showDeleteModal = false;
+        todoToDelete = null;
+    }
+
+
+    //Filtre UI
+    private string filtre = "all";
+    private IEnumerable<TodoItem> TachesFiltrees => filtre switch
+    {
+        "done" => todos.Where(t => t.IsCompleted),
+        "todo" => todos.Where(t => !t.IsCompleted),
+        _ => todos
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        if(!await AuthService.IsAuthenticatedAsync())
+        {
+            Navigation.NavigateTo("/Auth/LoginPage");
+            return;
+        }
+
+        todos = await TodoService.GetAllAsync();
+        isLoading = false;
+
+    }
+
+    private void ToCreatePage()
+    {
+        Navigation.NavigateTo("/todos/create");
+    }
+
+    private async Task HandleToggle(TodoItem tache)
+    {
+        if(await TodoService.ToggleAsync(tache.Id))
+        {
+            tache.IsCompleted = !tache.IsCompleted;
+        }
+    }
+
+    private async Task HandleEdit(TodoItem tache)
+    {
+        //Dirige vers la page de modification
+        Navigation.NavigateTo($"/todos/edit/{tache.Id}");
+    }
+
+    private async Task Logout()
+    {
+        await AuthService.LogoutAsync();
+        Navigation.NavigateTo("/Auth/LoginPage");
+    }
+
+    // private string GetPriorityBadgeClass(int priority) => priority switch
+    // {
+    //     >= 4 => "bg-danger",
+    //     >= 3 => "bd-warning",
+    //     _ => "bg-secondary"
+    // };
+
+    // private string GetPriorityText(int priority) => priority switch
+    // {
+    //     5 => "Urgente",
+    //     4 => "Haute",
+    //     3 => "Normale",
+    //     2 => "Basse",
+    //     _ => "Très basse"
+    // };
+
+
+
+}

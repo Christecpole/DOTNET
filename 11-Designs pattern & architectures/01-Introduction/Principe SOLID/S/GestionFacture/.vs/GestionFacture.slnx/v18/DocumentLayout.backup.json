@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionfacture\\gestionfacture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|solutionrelative:gestionfacture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionfacture\\gestionfacture\\services\\servicefacture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|solutionrelative:gestionfacture\\services\\servicefacture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionfacture\\gestionfacture\\notification\\notificationconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|solutionrelative:gestionfacture\\notification\\notificationconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionfacture\\gestionfacture\\persistance\\depotfacturefichier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|solutionrelative:gestionfacture\\persistance\\depotfacturefichier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionfacture\\gestionfacture\\calcul\\calculateurtva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|solutionrelative:gestionfacture\\calcul\\calculateurtva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionfacture\\gestionfacture\\validation\\validateurfacture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|solutionrelative:gestionfacture\\validation\\validateurfacture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|c:\\users\\administrateur\\desktop\\11-designs pattern \u0026 architectures\\01-introduction\\principe solid\\s\\gestionfacture\\gestionfacture\\models\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D7ECA6-E039-4955-950B-ADDC2F14CF3F}|GestionFacture\\GestionFacture.csproj|solutionrelative:gestionfacture\\models\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationConsole.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Notification\\NotificationConsole.cs",
+              "RelativeDocumentMoniker": "GestionFacture\\Notification\\NotificationConsole.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Notification\\NotificationConsole.cs",
+              "RelativeToolTip": "GestionFacture\\Notification\\NotificationConsole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:20:05.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepotFactureFichier.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Persistance\\DepotFactureFichier.cs",
+              "RelativeDocumentMoniker": "GestionFacture\\Persistance\\DepotFactureFichier.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Persistance\\DepotFactureFichier.cs",
+              "RelativeToolTip": "GestionFacture\\Persistance\\DepotFactureFichier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:17:38.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalculateurTva.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Calcul\\CalculateurTva.cs",
+              "RelativeDocumentMoniker": "GestionFacture\\Calcul\\CalculateurTva.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Calcul\\CalculateurTva.cs",
+              "RelativeToolTip": "GestionFacture\\Calcul\\CalculateurTva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:14:49.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValidateurFacture.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Validation\\ValidateurFacture.cs",
+              "RelativeDocumentMoniker": "GestionFacture\\Validation\\ValidateurFacture.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Validation\\ValidateurFacture.cs",
+              "RelativeToolTip": "GestionFacture\\Validation\\ValidateurFacture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:11:58.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceFacture.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Services\\ServiceFacture.cs",
+              "RelativeDocumentMoniker": "GestionFacture\\Services\\ServiceFacture.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Services\\ServiceFacture.cs",
+              "RelativeToolTip": "GestionFacture\\Services\\ServiceFacture.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwBQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T12:57:08.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Facture.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Models\\Facture.cs",
+              "RelativeDocumentMoniker": "GestionFacture\\Models\\Facture.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Models\\Facture.cs",
+              "RelativeToolTip": "GestionFacture\\Models\\Facture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T12:55:43.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Program.cs",
+              "RelativeDocumentMoniker": "GestionFacture\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\11-Designs pattern \u0026 architectures\\01-Introduction\\Principe SOLID\\S\\GestionFacture\\GestionFacture\\Program.cs",
+              "RelativeToolTip": "GestionFacture\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T12:54:26.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|c:\\users\\administrateur\\desktop\\09-asp.net web api\\01-bases\\modelsdtos_demo\\apiclient\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|c:\\users\\administrateur\\desktop\\09-asp.net web api\\01-bases\\modelsdtos_demo\\apiclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|c:\\users\\administrateur\\desktop\\09-asp.net web api\\01-bases\\modelsdtos_demo\\apiclient\\extensions\\extensionmappingclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\extensions\\extensionmappingclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|c:\\users\\administrateur\\desktop\\09-asp.net web api\\01-bases\\modelsdtos_demo\\apiclient\\dtos\\clientdtodetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\dtos\\clientdtodetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|c:\\users\\administrateur\\desktop\\09-asp.net web api\\01-bases\\modelsdtos_demo\\apiclient\\dtos\\clientdtoliste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\dtos\\clientdtoliste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|c:\\users\\administrateur\\desktop\\09-asp.net web api\\01-bases\\modelsdtos_demo\\apiclient\\dtos\\clientdtocreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\dtos\\clientdtocreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|c:\\users\\administrateur\\desktop\\09-asp.net web api\\01-bases\\modelsdtos_demo\\apiclient\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9849FEC4-A655-49A4-BC78-F85807A6938D}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Program.cs",
+              "RelativeDocumentMoniker": "ApiClient\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Program.cs",
+              "RelativeToolTip": "ApiClient\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:44:45.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientDtoDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Dtos\\ClientDtoDetail.cs",
+              "RelativeDocumentMoniker": "ApiClient\\Dtos\\ClientDtoDetail.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Dtos\\ClientDtoDetail.cs",
+              "RelativeToolTip": "ApiClient\\Dtos\\ClientDtoDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:37:47.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExtensionMappingClient.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Extensions\\ExtensionMappingClient.cs",
+              "RelativeDocumentMoniker": "ApiClient\\Extensions\\ExtensionMappingClient.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Extensions\\ExtensionMappingClient.cs",
+              "RelativeToolTip": "ApiClient\\Extensions\\ExtensionMappingClient.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:34:25.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientDtoListe.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Dtos\\ClientDtoListe.cs",
+              "RelativeDocumentMoniker": "ApiClient\\Dtos\\ClientDtoListe.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Dtos\\ClientDtoListe.cs",
+              "RelativeToolTip": "ApiClient\\Dtos\\ClientDtoListe.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:20:54.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientDtoCreation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Dtos\\ClientDtoCreation.cs",
+              "RelativeDocumentMoniker": "ApiClient\\Dtos\\ClientDtoCreation.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Dtos\\ClientDtoCreation.cs",
+              "RelativeToolTip": "ApiClient\\Dtos\\ClientDtoCreation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:12:36.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "ApiClient\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "ApiClient\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:11:08.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "ApiClient\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\09-ASP.NET WEB API\\01-Bases\\ModelsDtos_Demo\\ApiClient\\Models\\Client.cs",
+              "RelativeToolTip": "ApiClient\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:09:33.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

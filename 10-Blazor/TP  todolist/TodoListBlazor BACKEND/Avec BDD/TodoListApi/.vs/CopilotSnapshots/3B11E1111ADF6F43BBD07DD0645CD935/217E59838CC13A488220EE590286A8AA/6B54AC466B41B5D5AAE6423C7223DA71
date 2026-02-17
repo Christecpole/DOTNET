@@ -1,0 +1,66 @@
+﻿using Microsoft.EntityFrameworkCore;
+using TodoListApi.Models;
+
+namespace TodoListApi_avecBDD.Data
+{
+    /// <summary>
+    /// Contexte de base de données pour Entity Framework Core.
+    /// C'est le pont entre nos Models C# et les tables MySQL.
+    /// </summary>
+    public class AppDbContext : DbContext
+    {
+        /// <summary>
+        /// Constructeur qui reçoit la configuration de connexion.
+        /// </summary>
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
+
+        /// <summary>
+        /// Table des tâches (todos)
+        /// Permet de faire : _context.Todos.ToList(), _context.Todos.Add(), etc.
+        /// </summary>
+        public DbSet<TodoItem> Todos { get; set; }
+
+        /// <summary>
+        /// Table des utilisateurs (users)
+        /// </summary>
+        public DbSet<User> Users { get; set; }
+
+        /// <summary>
+        /// Configuration avancée des tables (optionnel mais recommandé).
+        /// Appelé automatiquement par EF Core au démarrage.
+        /// </summary>
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Configuration de la table Todos
+            modelBuilder.Entity<TodoItem>(entity =>
+            {
+                // Index sur IsCompleted pour accélérer les filtres par statut
+                entity.HasIndex(t => t.IsCompleted);
+
+                // Index sur Priority pour accélérer les tris
+                entity.HasIndex(t => t.Priority);
+
+                // Valeur par défaut pour CreatedAt
+                entity.Property(t => t.CreatedAt)
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                    .HasColumnType("timestamp");
+            });
+
+            // Configuration de la table Users
+            modelBuilder.Entity<User>(entity =>
+            {
+                // Username doit être unique
+                entity.HasIndex(u => u.Username).IsUnique();
+
+                // Valeur par défaut pour CreatedAt
+                entity.Property(u => u.CreatedAt)
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                    .HasColumnType("timestamp");
+            });
+        }
+    }
+}

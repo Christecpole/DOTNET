@@ -1,0 +1,81 @@
+﻿@page "/syntaxe/boucles"
+@layout SyntaxeLayout
+
+<h3>Boucles</h3>
+
+<div class="card mb-4">
+    <div class="card-header bg-success text-white">
+        @@foreach - Parcourir une liste
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            @foreach(var fruit in fruits)
+            {
+                <li class="list-group-item">@fruit</li>
+            }
+        </ul>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-success text-white">
+        @@for - Avec numéro
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            @for (int i =0; i< fruits.Count; i++)
+            {
+                <li class="list-group-item">
+                    <span class="badge bg-secondary me-2">@(i+1)</span>
+                    @fruits[i]
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-warning">
+        Liste d'objet - Tableau
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Nom</th>
+                    <th>Age</th>
+                    <th>Ville</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var personne in personnes)
+                {
+                    <tr>
+                        <td>@personne.Nom</td>
+                        <td>@personne.Age</td>
+                        <td>@personne.Ville</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@code {
+    private List<string> fruits = new() { "Pomme", "Banane", "Orange", "Kiwi" };
+
+    public class Personne
+    {
+        public string Nom { get; set; } = "";
+        public int Age { get; set; }
+        public string Ville { get; set; } = "";
+    }
+
+    private List<Personne> personnes = new()
+    {
+        new Personne{ Nom = "Michel", Age = 45, Ville="Paris"},
+        new Personne{ Nom = "Simon", Age = 30, Ville="Lille"},
+        new Personne{ Nom = "Alice", Age = 24, Ville="Marseille"},
+    };
+
+}

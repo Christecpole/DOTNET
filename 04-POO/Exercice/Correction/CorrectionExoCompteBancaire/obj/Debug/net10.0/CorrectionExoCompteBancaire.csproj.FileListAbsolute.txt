@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\bin\Debug\net10.0\CorrectionExoCompteBancaire.exe
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\bin\Debug\net10.0\CorrectionExoCompteBancaire.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\bin\Debug\net10.0\CorrectionExoCompteBancaire.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\bin\Debug\net10.0\CorrectionExoCompteBancaire.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\bin\Debug\net10.0\CorrectionExoCompteBancaire.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\CorrectionExoCompteBancaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\CorrectionExoCompteBancaire.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\CorrectionExoCompteBancaire.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\CorrectionExoCompteBancaire.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\CorrectionExoCompteBancaire.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\CorrectionExoCompteBancaire.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\refint\CorrectionExoCompteBancaire.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\CorrectionExoCompteBancaire.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\CorrectionExoCompteBancaire.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoCompteBancaire\obj\Debug\net10.0\ref\CorrectionExoCompteBancaire.dll

@@ -1,0 +1,15 @@
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\bin\Debug\net10.0\DemoClasse.exe
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\bin\Debug\net10.0\DemoClasse.deps.json
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\bin\Debug\net10.0\DemoClasse.runtimeconfig.json
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\bin\Debug\net10.0\DemoClasse.dll
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\bin\Debug\net10.0\DemoClasse.pdb
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\DemoClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\DemoClasse.AssemblyInfoInputs.cache
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\DemoClasse.AssemblyInfo.cs
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\DemoClasse.csproj.CoreCompileInputs.cache
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\DemoClasse.sourcelink.json
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\DemoClasse.dll
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\refint\DemoClasse.dll
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\DemoClasse.pdb
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\DemoClasse.genruntimeconfig.cache
+C:\Users\utopios\Desktop\poec_net_1512\POO\Demo\DemoClasse\obj\Debug\net10.0\ref\DemoClasse.dll

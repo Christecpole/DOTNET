@@ -1,0 +1,30 @@
+﻿@*
+    Router => Composant blazor qui gère la navigation
+    AppAssembly => quel assembly (projet) chercher les pages
+    @typeof(App).Assembly => l'assembly qui contient App.razor (notre projet)
+    => Le router sait où chercher les fichier
+*@
+<Router AppAssembly="@typeof(App).Assembly" NotFoundPage="typeof(Pages.NotFound)">
+    @*
+        Found =>Bloc affiché si une page correspond à l'url
+        Context="routedata"=> stocke les infos de la routes dans une variable routeData
+                    qui contient pageType> page razor comme counter.razor
+                    qui contient RoutesValues => les parametres de l'url (id=5)
+    *@
+    <Found Context="routeData">
+        @*
+            Composant blazor qui affiche la page trouvé
+            Recupérer les datas dans routeData
+            routeview lit page type et affiiche cette page
+        *@
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)"/>
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+
+    @* <NotFound>
+        
+            Bloc NotFound est affiche si Aucune page ne correspond à l'url'
+        
+        <p>Page non trouvée</p>
+    </NotFound> *@
+</Router>

@@ -1,0 +1,94 @@
+body{
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: antiquewhite;
+    height: 500px;
+    position: relative;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    border: solid 2px black;
+}
+
+.b1{
+    position: static;
+     top: 20px;
+    left: 20px;
+}
+
+.b2{
+    background-color: blueviolet;
+    position: relative;
+
+    top: 20px;
+    left: 20px;
+}
+
+.b3{
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.b4{
+    background-color: blue;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+}
+
+.b5{
+    background-color: cadetblue;
+    position: sticky;
+
+    top: 0;
+}
+p{
+    background-color: black;
+    height: 200px;
+}
+
+.b6{
+    background-color: chocolate;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+}
+
+nav{
+    background-color: yellow;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 80px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 0 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}

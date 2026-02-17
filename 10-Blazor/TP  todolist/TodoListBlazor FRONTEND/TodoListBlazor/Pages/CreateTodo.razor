@@ -1,0 +1,138 @@
+﻿@page "/todos/create"
+@using TodoListBlazor.Dtos
+@using TodoListBlazor.Services
+
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+@inject ITodoService TodoService
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Nouvelle tâche</h4>
+                </div>
+                <div class="card-body">
+                    
+                    @if (!string.IsNullOrEmpty(errorMessage))
+                    {
+                        <div class="alert alert-danger">
+                            @errorMessage
+                        </div>
+                    }
+
+                    <EditForm Model="newTodo" OnValidSubmit="HandleSubmit">
+                        <DataAnnotationsValidator />
+                        
+                        @*Champs titre*@
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Titre <span class="text-danger">*</span>
+                            </label>
+                            <InputText class="form-control"
+                                       placeholder="Ex: Faire les courses"
+                                       @bind-Value="@newTodo.Title"/>
+                            <ValidationMessage For="@(() => newTodo.Title)" class="text-danger" />
+                        </div>
+
+                        @*Champs description*@
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Description
+                            </label>
+                            <InputTextArea class="form-control"
+                                       placeholder="Détails de la tâche..."
+                                       @bind-Value="@newTodo.Description"/>
+                            <ValidationMessage For="@(() => newTodo.Description )" class="text-danger"/>
+                        </div>
+
+                        @*Priorité*@
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Priorité
+                            </label>
+                            <InputSelect class="form-select" @bind-Value="@newTodo.Priority">
+                                <option value="1">Basse</option>
+                                <option value="2">Normal</option>
+                                <option value="3">Haute</option>
+                            </InputSelect>
+                        </div>
+
+                        @*Date limite*@
+                        <div class="mb-3">
+                            <label class="form-label">Date limite</label>
+                            <InputDate @bind-Value="@newTodo.DueDate" class="form-control"/>
+                        </div>
+
+                        @*Boutons*@
+                        <div class="d-flex gap-2 justify-content-end">
+                            <a href="/dashboard" class="btn btn-secondary">
+                                Annuler
+                            </a>
+                            <button type="submit" class="btn btn-success" disabled="@isSubmitting">
+                                @if(isSubmitting)
+                                {
+                                    <span class="spinner-border spinner-border-sm me-2"></span>
+                                }
+                                Créer la tâche
+                            </button>
+                        </div>
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@code {
+    private CreateTodoDto newTodo = new();
+    private bool isSubmitting = false;
+    private string? errorMessage;
+
+    protected async override Task OnInitializedAsync()
+    {
+        //Vérifier si l'utilisateur est connecté
+        var isAuthenticated = await AuthService.IsAuthenticatedAsync();
+        if (!isAuthenticated)
+        {
+            Navigation.NavigateTo("/Auth/LoginPage");
+        }
+    }
+
+    private async Task HandleSubmit()
+    {
+        isSubmitting = true;
+        errorMessage = null;
+
+        try
+        {
+            //Appeler l'api via le service
+            var created = await TodoService.CreateAsync(newTodo);
+
+            if(created != null)
+            {
+                //Succès ! redirige vers dashboard
+                Navigation.NavigateTo("/dashboard");
+            }
+            else
+            {
+                errorMessage = "Impossible de créer la tâche. Veuillez réessayer.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Erreur : {ex.Message}";
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+
+}
+
+<style>
+
+</style>

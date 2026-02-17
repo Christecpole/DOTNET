@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les selecteurs css</title>
+    <style>
+        html{
+            font-size: 16px;
+        }
+        body{
+            background-color: rgb(145, 88, 199);
+            font-family: Arial, Helvetica, sans-serif ;
+        }
+     
+
+        p{
+            color: aqua;
+            font-size: 15px;
+        }
+
+        hr{
+            margin: 40px;
+        }
+
+    
+        #unique{
+            color: chartreuse;
+        }
+
+        div p{
+            color: yellow;
+        }
+
+        section#zone .card p{
+            color: blue;
+            font-weight: bold;
+            border: 2px solid blue;
+            margin: 15px;
+            padding: 15px;
+        }
+
+        .centrer{
+            text-align: center;
+        }
+
+        .grand{
+            font-size: 30px;
+            color: coral;
+        }
+        
+        .important{
+            text-decoration: underline;
+            color: blanchedalmond;
+        }
+        
+        h1{
+            color: brown;
+            font-size: 35px;
+        }
+
+        .backgroundGris{
+            background-color: gray;
+        }
+
+        .box{
+            border: 4px dashed black;
+            padding: 15px;
+            /* margin-bottom: 150px; */
+        }
+
+        .alert{
+            border: 1px solid grey;
+            padding: 10px;
+        }
+
+        .success{
+            color: green;
+            background-color: blanchedalmond;
+        }
+
+        .error{
+            color: white;
+            background-color:red ;
+        }
+
+        .menu{
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu li{
+            margin-right: 15px;
+            padding: 8px ;
+            background-color: beige;
+            border-radius: 5px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black;
+            text-align: left;
+            padding: 10px;
+        }
+
+        th{
+            background-color: aliceblue;
+        }
+
+        label{
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, textarea, select{
+            /* border: 1px solid gray; */
+            border-radius: 4px;
+            width: 300px;
+            padding: 8px;
+            margin-top: 5px;
+
+        }
+        /*mettre des commentaires*/
+        select{
+            background-color: aquamarine;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+            background-size: 20px;
+        }
+
+        button{
+            background-color: steelblue;
+            color: white;
+            padding: 8px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+        img{
+            width: 400px;
+            height: 300px;
+            border-radius: 100px;
+            border: 2px solid black;
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        img:hover{
+            transform: scale(1.2);
+            transform: rotate(10deg);
+            transform: translateX(20px);
+
+            transition: transform 1s;
+        }
+
+        /* button:hover{
+            background-color: black;
+            padding: 30px;
+        } */
+
+        .active:active{
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+
+        .pseudo-focus{
+            border: 2px solid black;
+        }
+
+        .pseudo-focus:focus{
+            border-color: red;
+            outline: none;
+        }
+
+        .text-px{
+            font-size: 50px;
+        }
+
+        .parent{
+            font-size: 24px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .text-em{
+            font-size: 1em; /*1em = taille du parent (ici 24px)*/
+        }
+
+        .text-rem{
+            font-size: 1.5rem;/*1.5 X la taille de html (16px)*/
+        }
+
+        .parent-pourcent {
+            width: 300px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .enfant-pourcent{
+            width: 50%; /*50% de parent*/
+            background-color: lightgreen;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="important">Mon super titre</h1>
+    <h1>deuxieme titre important</h1>
+    <p>Paragraphe classique</p>
+    <hr>
+    <h2 class="important">Mon second titre</h2>
+    <p id="unique">pargraphe unique</p>
+    
+    <div>
+        <p>Paragraphe dans une div</p>
+    </div>
+
+    <section id="zone">
+        <div class="card">
+            <p>Ce paragraphe est ciblé.</p>
+        </div>
+    </section>
+
+    <p class="centrer" >Texte centré avec css</p>
+
+    <hr>
+
+    <h3>Combiner des classes</h3>
+
+    <p class="grand important">Texte important et grand</p>
+
+    <p class="grand backgroundGris centrer">texte grand avec fond gris clair</p>
+
+    <h3>Zone de contenu</h3>
+
+    <div class="box">
+        <p>Paragraphe dans un div</p>
+        <p class="important">Information importante</p>
+
+    </div>
+    <hr>
+
+    <p class="alert centrer success">Formulaire envoyé avec succès !</p>
+
+    <p class="alert center error">Formulaire non envoyé, incomplet</p>
+
+    <h3>Menu simple</h3>
+
+    <ul class="menu">
+        <li>Accueil</li>
+        <li>produits</li>
+        <li>Contact</li>
+    </ul>
+
+    <h2>Tableau simple</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produit</th>
+                <th>Prix</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Farine</td>
+                <td>19&euro;</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Sucre</td>
+                <td>29&euro;</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Blé</td>
+                <td>9&euro;</td>
+                <td>32</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Formulaire de contact</h2>
+
+    <form>
+        <label for="nom">Nom</label>
+        <input id="nom" type="text" class="focus" placeholder="Votre nom">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="ex: nom@mail.com">
+
+        <label for="sujet">Sujet</label>
+        <select id="sujet">
+            <option>Demande d'Information</option>
+            <option>Demande de support</option>
+            <option>Réclamation</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Votre message..."></textarea>
+        <br>
+        <button type="submit">Envoyer</button>
+    </form>
+    
+    <img src="images/mountains.jpg" alt="Vue sur des montagnes..">
+    
+
+
+    <button class="active">Clique et maintiens</button>
+
+    <br>
+    <input type="text" class="pseudo-focus" placeholder="Clique ici pour voir l'effet"/>
+    
+    <h3>Les tailles</h3>
+
+    <p class="text-px">
+        Texte en px (taille fixe)
+    </p>
+
+    <div class="parent">
+        <p class="text-em">Texte en em(depend du parent)</p>
+    </div>
+
+    <p class="text-rem">
+        Texte en rem(dépend de la taille à la racine)
+    </p>
+
+    <div class="parent-pourcent">
+        <div class="enfant-pourcent">
+            Largeur en %
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+﻿@using TP_asp.netMVC.ViewModels
+@model List<ProduitListItemViewModel>
+
+@{
+    ViewData["Title"] = "Liste des produits";
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Succès !</strong> @TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Liste des produits</h1>
+    <a asp-controller="Produit" asp-action="Create" class="btn btn-primary">
+        Nouveau produit
+    </a>
+</div>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nom</th>
+                <th>Prix</th>
+                <th>Catégorie</th>
+                <th>Stock</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var produit in Model)
+            {
+                <tr>
+                    <td>@produit.Id</td>
+                    <td>@produit.Nom</td>
+                    <td>@produit.PrixFormate</td>
+                    <td>@produit.NomCategorie</td>
+                    <td>
+                        @if (produit.EstEnStock)
+                        {
+                            <span class="badge bg-success">En stock</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Rupture</span>
+                        }
+                    </td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-action="Details" asp-route-id="@produit.Id" class="btn btn-sm btn-info">
+                                Voir
+                            </a>
+                            <a asp-action="Edit" asp-route-id="@produit.Id" class="btn btn-sm btn-warning">
+                                Modifier
+                            </a>
+                            <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal@(produit.Id)">
+                                Supprimer
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        <p>Aucun produit disponible. <a asp-action="Create">Créez-en un maintenant !</a></p>
+    </div>
+}
+
+@foreach (var produit in Model)
+{
+    <div class="modal fade" id="deleteModal@(produit.Id)" tabindex="-1" aria-labelledby="deleteModalLabel@(produit.Id)" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title" id="deleteModalLabel@(produit.Id)">
+                        Confirmer la suppression
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Êtes-vous sûr de vouloir supprimer le produit <strong>@produit.Nom</strong> ?</p>
+                    <p class="text-danger"><strong>Cette action est irréversible.</strong></p>
+                </div>
+                <div class="modal-footer">
+                    <form asp-action="Delete" asp-route-id="@produit.Id" method="post" style="display: inline;">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger">
+                            Oui, supprimer
+                        </button>
+                    </form>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Annuler
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

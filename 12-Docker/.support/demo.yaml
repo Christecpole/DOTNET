@@ -1,0 +1,30 @@
+maCle: valeur
+maCleNumerique: 123
+maCleBooleenne: true
+
+monListinigVide: []
+
+monListing: [texte, 123, true, blabla]
+
+monListingBis: 
+  - texte
+  - 123
+  - true
+  - blabla
+
+monObjectVide: {}
+
+monObjetComplexe: {cleA: valeur, cleB: valeur, cleC: 123}
+
+monObjectBis:
+  cleA: valeur
+  cleB: valeur
+  cleC: 123
+
+monListingObjets:
+  - cleA: valeur
+    cleB: valeur
+    cleC: 123
+  - cleA: valeurBis
+    cleB: valeurBis
+    cleC: 456

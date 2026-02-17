@@ -1,0 +1,20 @@
+﻿<div class="alert alert-@Type alert-dismissible">
+    @Message
+    <button type="button" class="btn-close" @onclick="Fermer"></button>
+</div>
+
+@code {
+    [Parameter]
+    public string Message { get; set; } = "";
+
+    [Parameter]
+    public string Type { get; set; } = "info";
+
+    [Parameter]
+    public EventCallback OnClose { get; set; }
+
+    private async Task Fermer()
+    {
+        await OnClose.InvokeAsync();
+    }
+}

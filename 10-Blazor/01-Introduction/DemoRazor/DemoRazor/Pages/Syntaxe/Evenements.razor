@@ -1,0 +1,83 @@
+﻿@page "/syntaxe/evenements"
+@layout SyntaxeLayout
+
+<h3>Evenements</h3>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+    @@Onclick simple
+    </div>
+    <div class="card-body text-center">
+        <h2 class="display-3 mb-4">@compteur</h2>
+        <button class="btn btn-primary btn-lg" @onclick="Incrementer">+ Ajouter 1</button>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-success text-white">
+        @@Onclick avec parametres
+    </div>
+    <div class="card-body text-center">
+        <h2 class="display-3 mb-4">@compteur2</h2>
+        <div class="btn-group">
+            <button class="btn btn-danger" @onclick="()=> Ajouter(-5)">-5</button>
+            <button class="btn btn-warning" @onclick="() => Ajouter(-1)">-1</button>
+            <button class="btn btn-secondary" @onclick="Reset">RESET</button>
+            <button class="btn btn-info" @onclick="()=> Ajouter(1)">+1</button>
+            <button class="btn btn-success" @onclick="() => Ajouter(5)">+5</button>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-secondary text-white">
+        @@Onclick Liste dynamique
+    </div>
+    <div class="card-body text-center">
+        <ul class="list-group mb-3">
+            @foreach(var item in items)
+            {
+                <li>
+                    @item
+                    <button class="btn btn-sm btn-danger" @onclick="()=>Supprimer(item)">X</button>
+                </li>
+            }
+        </ul>
+        <button class="btn btn-primary" @onclick="AjouterItem">+ Ajouter</button>
+
+    </div>
+</div>
+
+
+
+
+@code {
+
+    private List<string> items = new() { "Item 1", "Item 2", "Item 3" };
+
+    private void AjouterItem()
+    {
+        items.Add($"Item {items.Count + 1 }");
+    }
+
+    private void Supprimer(string item)
+    {
+        items.Remove(item);
+    }
+    private int compteur = 0;
+    private int compteur2 = 0;
+
+    private void Ajouter(int valeur)
+    {
+        compteur2 += valeur;
+    }
+
+    private void Reset()
+    {
+        compteur2 = 0;
+    }
+    private void Incrementer()
+    {
+        compteur++;
+    }
+}

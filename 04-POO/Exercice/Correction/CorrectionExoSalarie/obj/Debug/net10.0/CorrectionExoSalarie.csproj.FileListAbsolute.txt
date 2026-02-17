@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\bin\Debug\net10.0\CorrectionExoSalarie.exe
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\bin\Debug\net10.0\CorrectionExoSalarie.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\bin\Debug\net10.0\CorrectionExoSalarie.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\bin\Debug\net10.0\CorrectionExoSalarie.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\bin\Debug\net10.0\CorrectionExoSalarie.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\CorrectionExoSalarie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\CorrectionExoSalarie.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\CorrectionExoSalarie.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\CorrectionExoSalarie.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\CorrectionExoSalarie.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\CorrectionExoSalarie.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\refint\CorrectionExoSalarie.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\CorrectionExoSalarie.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\CorrectionExoSalarie.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Exercice\Correction\CorrectionExoSalarie\obj\Debug\net10.0\ref\CorrectionExoSalarie.dll

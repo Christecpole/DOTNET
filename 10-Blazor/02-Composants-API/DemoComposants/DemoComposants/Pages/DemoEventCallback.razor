@@ -1,0 +1,52 @@
+﻿@page "/DemoEventcallback"
+
+<h1>EventCallback : Communication Enfant -> Parent</h1>
+
+<hr />
+
+<h2>Résultat : @resultat</h2>
+
+<div class="d-flex gap-2">
+    <Bouton Texte="Ajouter" Couleur="success" OnClick="AjouterClique" /> 
+    <Bouton Texte="Modifier" Couleur="warning" OnClick="ModifierClique" />
+    <Bouton Texte="Supprimer" Couleur="danger" OnClick="SupprimerClique" />
+</div>
+
+<hr />
+
+<h1>EventCallback avec des données </h1>
+
+<h2>Résultat : @derniereAction</h2>
+
+<div class="d-flex gap-2">
+    <Bouton Texte="Ajouter" Couleur="success" OnClick="ActionApplique" />
+    <Bouton Texte="Modifier" Couleur="warning" OnClick="ActionApplique" />
+    <Bouton Texte="Supprimer" Couleur="danger" OnClick="ActionApplique" />
+</div>
+
+
+
+@code {
+    private string resultat = "aucune action";
+    private string derniereAction = "aucune";
+
+    //Le parametre texte contient la valeur envoyé à l'enfant
+    private void ActionApplique(string texte)
+    {
+
+        derniereAction = $"Vous avez cliqué sur : {texte}";
+    }
+
+    private void AjouterClique()
+    {
+        resultat = "Ajout en cours...";
+    }
+    private void ModifierClique()
+    {
+        resultat = "Modification en cours...";
+    }
+    private void SupprimerClique()
+    {
+        resultat = "Suppression en cours...";
+    }
+}

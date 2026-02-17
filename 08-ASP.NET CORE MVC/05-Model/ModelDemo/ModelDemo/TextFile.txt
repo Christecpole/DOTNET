@@ -1,0 +1,26 @@
+﻿Créer une page **liste** et une page **détails** 
+qui utilisent des propriétés calculées dans le Model pour changer l'affichage (couleurs, badges, messages). pour un produit
+
+
+1. **Créez le Model `Product`** avec des propriétés calculées :
+   - `IsAvailable` (booléen : true si stock > 0)
+   - `StockStatus` (texte : "Rupture", "Stock faible", "En stock")
+   - `StockCssClass` (classe CSS Bootstrap : "bg-danger", "bg-warning", "bg-success")
+   - `PriceFormatted` (prix formaté en euros)
+   - `IsExpensive` (booléen : true si prix > 500€)
+   - `PriceCssClass` (classe CSS : "text-danger" si cher, "text-success" sinon)
+
+2. **Créez le Controller `ProductController`** avec :
+   - Action `Index()` qui retourne la liste des produits
+   - Action `Details(int id)` qui retourne un produit
+
+3. **Créez la vue `Index.cshtml`** :
+   - Tableau avec tous les produits
+   - Utilisez `@product.StockCssClass` pour le badge de stock
+   - Utilisez `@product.PriceCssClass` pour la couleur du prix
+   - Lien vers la page détails avec `asp-action="Details"`
+
+4. **Créez la vue `Details.cshtml`** :
+   - Affichez les détails du produit
+   - Utilisez `@if (Model.IsAvailable)` pour afficher conditionnellement
+   - Utilisez les propriétés calculées pour changer les couleurs et badges

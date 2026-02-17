@@ -1,0 +1,297 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{957FAEAA-A2F4-4D68-B484-C36A4C6CAFDA}|CorrectionExoException\\CorrectionExoException.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexoexception\\classes\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{957FAEAA-A2F4-4D68-B484-C36A4C6CAFDA}|CorrectionExoException\\CorrectionExoException.csproj|solutionrelative:correctionexoexception\\classes\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{957FAEAA-A2F4-4D68-B484-C36A4C6CAFDA}|CorrectionExoException\\CorrectionExoException.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexoexception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{957FAEAA-A2F4-4D68-B484-C36A4C6CAFDA}|CorrectionExoException\\CorrectionExoException.csproj|solutionrelative:correctionexoexception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{957FAEAA-A2F4-4D68-B484-C36A4C6CAFDA}|CorrectionExoException\\CorrectionExoException.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexoexception\\exceptions\\invalideageexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{957FAEAA-A2F4-4D68-B484-C36A4C6CAFDA}|CorrectionExoException\\CorrectionExoException.csproj|solutionrelative:correctionexoexception\\exceptions\\invalideageexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{957FAEAA-A2F4-4D68-B484-C36A4C6CAFDA}|CorrectionExoException\\CorrectionExoException.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexoexception\\exceptions\\negativevalueexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{957FAEAA-A2F4-4D68-B484-C36A4C6CAFDA}|CorrectionExoException\\CorrectionExoException.csproj|solutionrelative:correctionexoexception\\exceptions\\negativevalueexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAA343B-C668-41E1-A8AD-AE7B53C49316}|CorrectionExoInterface\\CorrectionExoInterface.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexointerface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAA343B-C668-41E1-A8AD-AE7B53C49316}|CorrectionExoInterface\\CorrectionExoInterface.csproj|solutionrelative:correctionexointerface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAA343B-C668-41E1-A8AD-AE7B53C49316}|CorrectionExoInterface\\CorrectionExoInterface.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexointerface\\classe\\paypal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAA343B-C668-41E1-A8AD-AE7B53C49316}|CorrectionExoInterface\\CorrectionExoInterface.csproj|solutionrelative:correctionexointerface\\classe\\paypal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAA343B-C668-41E1-A8AD-AE7B53C49316}|CorrectionExoInterface\\CorrectionExoInterface.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexointerface\\classe\\cartedecredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAA343B-C668-41E1-A8AD-AE7B53C49316}|CorrectionExoInterface\\CorrectionExoInterface.csproj|solutionrelative:correctionexointerface\\classe\\cartedecredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAA343B-C668-41E1-A8AD-AE7B53C49316}|CorrectionExoInterface\\CorrectionExoInterface.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexointerface\\classe\\ipayement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAA343B-C668-41E1-A8AD-AE7B53C49316}|CorrectionExoInterface\\CorrectionExoInterface.csproj|solutionrelative:correctionexointerface\\classe\\ipayement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexocomptebancaire\\classes\\ihm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|solutionrelative:correctionexocomptebancaire\\classes\\ihm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexocomptebancaire\\classes\\statut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|solutionrelative:correctionexocomptebancaire\\classes\\statut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexocomptebancaire\\classes\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|solutionrelative:correctionexocomptebancaire\\classes\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexocomptebancaire\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|solutionrelative:correctionexocomptebancaire\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexocomptebancaire\\classes\\compte\\comptebancaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|solutionrelative:correctionexocomptebancaire\\classes\\compte\\comptebancaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexocomptebancaire\\classes\\compte\\compteepargne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|solutionrelative:correctionexocomptebancaire\\classes\\compte\\compteepargne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexocomptebancaire\\classes\\compte\\comptepayant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|solutionrelative:correctionexocomptebancaire\\classes\\compte\\comptepayant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexocomptebancaire\\classes\\compte\\comptecourant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|solutionrelative:correctionexocomptebancaire\\classes\\compte\\comptecourant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\poo\\exercice\\correction\\correctionexocomptebancaire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54494526-1B6D-47E3-B1F8-00B453EE7E1C}|CorrectionExoCompteBancaire\\CorrectionExoCompteBancaire.csproj|solutionrelative:correctionexocomptebancaire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvalideAgeException.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoException\\Exceptions\\InvalideAgeException.cs",
+              "RelativeDocumentMoniker": "CorrectionExoException\\Exceptions\\InvalideAgeException.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoException\\Exceptions\\InvalideAgeException.cs",
+              "RelativeToolTip": "CorrectionExoException\\Exceptions\\InvalideAgeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:56:31.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoException\\Classes\\Student.cs",
+              "RelativeDocumentMoniker": "CorrectionExoException\\Classes\\Student.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoException\\Classes\\Student.cs",
+              "RelativeToolTip": "CorrectionExoException\\Classes\\Student.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:54:35.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NegativeValueException.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoException\\Exceptions\\NegativeValueException.cs",
+              "RelativeDocumentMoniker": "CorrectionExoException\\Exceptions\\NegativeValueException.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoException\\Exceptions\\NegativeValueException.cs",
+              "RelativeToolTip": "CorrectionExoException\\Exceptions\\NegativeValueException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:45:36.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoException\\Program.cs",
+              "RelativeDocumentMoniker": "CorrectionExoException\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoException\\Program.cs",
+              "RelativeToolTip": "CorrectionExoException\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswE8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:36:20.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Paypal.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoInterface\\Classe\\Paypal.cs",
+              "RelativeDocumentMoniker": "CorrectionExoInterface\\Classe\\Paypal.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoInterface\\Classe\\Paypal.cs",
+              "RelativeToolTip": "CorrectionExoInterface\\Classe\\Paypal.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAxwB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:39:38.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarteDeCredit.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoInterface\\Classe\\CarteDeCredit.cs",
+              "RelativeDocumentMoniker": "CorrectionExoInterface\\Classe\\CarteDeCredit.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoInterface\\Classe\\CarteDeCredit.cs",
+              "RelativeToolTip": "CorrectionExoInterface\\Classe\\CarteDeCredit.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA6wA8AAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:35:14.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPayement.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoInterface\\Classe\\IPayement.cs",
+              "RelativeDocumentMoniker": "CorrectionExoInterface\\Classe\\IPayement.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoInterface\\Classe\\IPayement.cs",
+              "RelativeToolTip": "CorrectionExoInterface\\Classe\\IPayement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:33:20.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoInterface\\Program.cs",
+              "RelativeDocumentMoniker": "CorrectionExoInterface\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoInterface\\Program.cs",
+              "RelativeToolTip": "CorrectionExoInterface\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:32:08.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Program.cs",
+              "RelativeDocumentMoniker": "CorrectionExoCompteBancaire\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Program.cs",
+              "RelativeToolTip": "CorrectionExoCompteBancaire\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:07:25.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ihm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Ihm.cs",
+              "RelativeDocumentMoniker": "CorrectionExoCompteBancaire\\Classes\\Ihm.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Ihm.cs",
+              "RelativeToolTip": "CorrectionExoCompteBancaire\\Classes\\Ihm.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAwKQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:36:47.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompteEpargne.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Compte\\CompteEpargne.cs",
+              "RelativeDocumentMoniker": "CorrectionExoCompteBancaire\\Classes\\Compte\\CompteEpargne.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Compte\\CompteEpargne.cs",
+              "RelativeToolTip": "CorrectionExoCompteBancaire\\Classes\\Compte\\CompteEpargne.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowCEAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:35:23.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CompteCourant.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Compte\\CompteCourant.cs",
+              "RelativeDocumentMoniker": "CorrectionExoCompteBancaire\\Classes\\Compte\\CompteCourant.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Compte\\CompteCourant.cs",
+              "RelativeToolTip": "CorrectionExoCompteBancaire\\Classes\\Compte\\CompteCourant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:33:45.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CompteBancaire.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Compte\\CompteBancaire.cs",
+              "RelativeDocumentMoniker": "CorrectionExoCompteBancaire\\Classes\\Compte\\CompteBancaire.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Compte\\CompteBancaire.cs",
+              "RelativeToolTip": "CorrectionExoCompteBancaire\\Classes\\Compte\\CompteBancaire.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwB0AAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:33:21.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Statut.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Statut.cs",
+              "RelativeDocumentMoniker": "CorrectionExoCompteBancaire\\Classes\\Statut.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Statut.cs",
+              "RelativeToolTip": "CorrectionExoCompteBancaire\\Classes\\Statut.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:27:19.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Operation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Operation.cs",
+              "RelativeDocumentMoniker": "CorrectionExoCompteBancaire\\Classes\\Operation.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Operation.cs",
+              "RelativeToolTip": "CorrectionExoCompteBancaire\\Classes\\Operation.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:22:15.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Client.cs",
+              "RelativeDocumentMoniker": "CorrectionExoCompteBancaire\\Classes\\Client.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Client.cs",
+              "RelativeToolTip": "CorrectionExoCompteBancaire\\Classes\\Client.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBoAAACiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:19:13.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ComptePayant.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Compte\\ComptePayant.cs",
+              "RelativeDocumentMoniker": "CorrectionExoCompteBancaire\\Classes\\Compte\\ComptePayant.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\POO\\Exercice\\Correction\\CorrectionExoCompteBancaire\\Classes\\Compte\\ComptePayant.cs",
+              "RelativeToolTip": "CorrectionExoCompteBancaire\\Classes\\Compte\\ComptePayant.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowAoAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:18:37.115Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

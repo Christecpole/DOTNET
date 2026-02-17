@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<PageTitle>Démonstration des composants</PageTitle>
+
+@* <h1>Démonstration des composants</h1>
+
+<Bouton />
+<Bouton />
+<Bouton /> *@
+
+<h1> Composants avec paramètres</h1>
+
+<Bouton />
+<Bouton Texte="Un parametre texte"/>
+<Bouton Couleur="info" />
+<Bouton Texte="Ajouter" Couleur="success"/>
+<Bouton Texte="Modifier" Couleur="warning"/>
+<Bouton Texte="Supprimer" Couleur="danger"/>
+
+
+<hr />
+
+<h1>Test du composant Alert</h1>
+
+<Alerte Message="Opérations réussie!" Type="success"/>
+<Alerte Message="Attention, fichier volumineux" Type="warning"/>
+<Alerte Message="Erreur de connexion" Type="danger"/>
+<Alerte Message="Information importante"/>

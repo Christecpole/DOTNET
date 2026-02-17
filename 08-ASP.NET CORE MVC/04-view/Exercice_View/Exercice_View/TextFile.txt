@@ -1,0 +1,38 @@
+﻿**Consigne :** Créer un formulaire de contact complet avec Tag Helpers
+
+**1. Créer le modèle `ContactForm`** :
+   - Créer une classe `ContactForm` dans `Models/ContactForm.cs`
+   - Ajouter les propriétés suivantes (sans attributs de validation pour l'instant) :
+     - `Name` (string) : nom du contact
+     - `Email` (string) : adresse email
+     - `Subject` (string) : sujet du message (pour la liste déroulante)
+     - `Message` (string) : contenu du message
+  
+
+**2. Créer le contrôleur `ContactController`** avec deux actions :
+   - **Action GET `Create()`** :
+     - Affiche le formulaire vide
+     - Remplit `ViewBag.Subjects` avec une liste de `SelectListItem` contenant :
+       - "Question"
+       - "Réclamation"
+       - "Suggestion"
+   - **Action POST `Create(ContactForm model)`** :
+     - Reçoit les données du formulaire via le modèle `ContactForm`
+     - Pour cet exercice simple, redirige directement vers une page de succès
+
+**3. Créer la vue `Views/Contact/Create.cshtml`** avec Tag Helpers :
+   - Utiliser `<form>` avec `asp-controller` et `asp-action` pour générer l'URL automatiquement
+   - Utiliser `<input asp-for="...">` pour tous les champs de texte (Name, Email)
+   - Utiliser `<textarea asp-for="...">` pour le champ Message
+   - Utiliser `<select asp-for="..." asp-items="...">` pour la liste déroulante Subject
+   - Utiliser `<label asp-for="...">` pour les étiquettes (générées automatiquement)
+   - Ajouter un bouton de soumission (`type="submit"`)
+
+
+
+**Objectifs fonctionnels :**
+1. Le formulaire s'affiche correctement à l'URL `/Contact/Create`
+2. Tous les champs utilisent les Tag Helpers `asp-for` (génération automatique de `id`, `name`, `value`)
+3. La liste déroulante est remplie avec les sujets depuis `ViewBag.Subjects`
+4. Le formulaire redirige vers une autre page de confirmation
+5. Le champ Email utilise automatiquement `type="email"` grâce au Tag Helper

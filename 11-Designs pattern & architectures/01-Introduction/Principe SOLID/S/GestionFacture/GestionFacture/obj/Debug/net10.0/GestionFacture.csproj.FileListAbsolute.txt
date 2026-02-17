@@ -1,0 +1,14 @@
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\bin\Debug\net10.0\GestionFacture.exe
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\bin\Debug\net10.0\GestionFacture.deps.json
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\bin\Debug\net10.0\GestionFacture.runtimeconfig.json
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\bin\Debug\net10.0\GestionFacture.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\bin\Debug\net10.0\GestionFacture.pdb
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\obj\Debug\net10.0\GestionFacture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\obj\Debug\net10.0\GestionFacture.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\obj\Debug\net10.0\GestionFacture.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\obj\Debug\net10.0\GestionFacture.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\obj\Debug\net10.0\GestionFacture.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\obj\Debug\net10.0\refint\GestionFacture.dll
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\obj\Debug\net10.0\GestionFacture.pdb
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\obj\Debug\net10.0\GestionFacture.genruntimeconfig.cache
+C:\Users\Administrateur\Desktop\11-Designs pattern & architectures\01-Introduction\Principe SOLID\S\GestionFacture\GestionFacture\obj\Debug\net10.0\ref\GestionFacture.dll

@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\bin\Debug\net10.0\Demo05Interface.exe
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\bin\Debug\net10.0\Demo05Interface.deps.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\bin\Debug\net10.0\Demo05Interface.runtimeconfig.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\bin\Debug\net10.0\Demo05Interface.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\bin\Debug\net10.0\Demo05Interface.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\Demo05Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\Demo05Interface.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\Demo05Interface.AssemblyInfo.cs
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\Demo05Interface.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\Demo05Interface.sourcelink.json
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\Demo05Interface.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\refint\Demo05Interface.dll
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\Demo05Interface.pdb
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\Demo05Interface.genruntimeconfig.cache
+C:\Users\Administrateur\Documents\poec_net_1512\POO\Demo\DemoInterface\obj\Debug\net10.0\ref\Demo05Interface.dll

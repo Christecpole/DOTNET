@@ -1,0 +1,47 @@
+﻿@page "/databinding"
+
+<h3 class="text-center text-danger">One way binding : c# => html</h3>
+
+<p>Compteur = <strong>@compteur</strong></p>
+<p>Message = @message</p>
+
+<hr />
+
+<h3 class="text-center text-danger">Event binding : HTML => c#</h3>
+
+<p>Compteur : <strong>@compteur2</strong></p>
+
+<button class="btn btn-primary" @onclick="Incrementer">
+    + Incrémenter
+</button>
+
+<button class="btn btn-secondary" @onclick="Decrementer">
+    + Décrémenter
+</button>
+
+<hr />
+
+<h3 class="text-center text-danger">Two way binding : C# => Html && Html => C#</h3>
+
+<p>Tapez votre recherche :</p>
+<input type="text" class="form-control" @bind="recherche"/>
+
+<p>Vous cherchez : <strong>@recherche</strong></p>
+
+
+@code {
+    private string recherche = "";
+    private int compteur = 0;
+    private string message = "Bonjour !";
+
+    private int compteur2 = 0;
+    private void Incrementer()
+    {
+        compteur2++;
+    }
+
+    private void Decrementer()
+    {
+        compteur2--;
+    }
+}

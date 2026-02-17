@@ -1,0 +1,68 @@
+﻿@page "/syntaxe/conditions"
+@layout SyntaxeLayout
+
+<h3>Conditions</h3>
+
+<div class="card mb-4">
+    <div class="card-header bg-info text-white">
+        @@if / @@else
+    </div>
+    <div class="card-body">
+
+        <div class="form-check form-switch mb-3">
+            <input class="form-check-input" type="checkbox" @bind="estConnecte"/>
+            <label class="form-check-label">Utilisateur connecté</label>
+        </div>
+        @if (estConnecte)
+        {
+            <div class="alert alert-success mb-0">
+                Bienvenue ! vous êtes connecté.
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning mb-0">
+                Veuillez vous connecter.
+            </div>
+        }
+
+    </div>
+
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-info text-white">
+        @@else if (condition multiple)
+    </div>
+    <div class="card-body">
+
+        <select class="form-select mb-3 " @bind="niveau">
+            <option value="1">Débutant</option>
+            <option value="2">Intermédiaire</option>
+            <option value="3">Avancé</option>
+        </select>
+        @if (niveau == 1)
+        {
+            <span class="badge bg-success fs-5">Débutant</span>
+
+        }
+        else if (niveau == 2)
+        {
+            <span class="badge bg-warning fs-5">Intermédiaire</span>
+
+        }
+        else
+        {
+            <span class="badge bg-danger fs-5">Avancé</span>
+        }
+
+    </div>
+
+</div>
+
+
+
+@code {
+    private bool estConnecte = true;
+    private int niveau = 1;
+}

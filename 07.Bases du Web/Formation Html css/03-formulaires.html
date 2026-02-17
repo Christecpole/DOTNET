@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les formulaires</title>
+</head>
+<body>
+    <form action="/home/Inscription" method="post">
+        <div class="rouge">
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" placeholder="Entrez votre nom">
+        </div>
+        <div>
+            <label for="prenom">Prénom <sup>*</sup></label>
+            <input id="prenom" type="text" value="Jean Michel" required minlength="2" maxlength="10" placeholder="Entrez votre prénom">
+        </div>
+        <div>
+            <label for="age">Age <sup>*</sup></label>
+            <input id="age" type="number" required min="1" max="120">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="mail">
+        </div>
+
+        <div>
+            <label for="tel">telephone</label>
+            <input type="tel" id="tel">
+        </div>
+
+        <div>
+            <label for="quantite">Quantité</label>
+            <input type="range" min="0" max="100" step="10" id="quantite">
+        </div>
+
+        <div>
+            <label for="ok">Est ce que ça va ?</label>
+            <input type="checkbox" id="ok" checked>
+        </div>
+
+        <fieldset>
+            <legend>Livraison</legend>
+            <div>
+                <label for="place">Sur place</label>
+                <input type="radio" id="place" name="livraison" value="sur-place">
+            </div>
+            <div>
+                <label for="emporte">A emporter</label>
+                <input type="radio" id="emporte" name="livraison" value="a-emporte">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Crudités</legend>
+            <div>
+                <label for="tomate">Tomates</label>
+                <input type="checkbox" id="tomate" name="crud" value="tomates">
+            </div>
+            <div>
+                <label for="salade">Salade</label>
+                <input type="checkbox" id="salade" name="crud" value="salade">
+            </div>
+            <div>
+                <label for="oignons">Oignons</label>
+                <input type="checkbox" id="oignons" name="crud" value="oignons">
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="animal">Quel est votre animal préféré ?</label>
+
+            <select id="animal">
+                <option value="croco">Alligator</option>
+                <option value="shark">Requin</option>
+                <option value="mantis">Mante religieuse</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="date">Date de livraison</label>
+            <input type="date" id="date" min="2026-01-19" max="2026-01-25" >
+        </div>
+
+        <div>
+            <label for="heure">Heure de livraison</label>
+            <input type="time" id="heure" min="08:00" max="20:00">
+        </div>
+
+        <div>
+            <label for="commentaire">Votre commentaire</label>
+            <textarea id="commentaire" maxlength="100">message par defaut</textarea>
+        </div>
+
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Envoyer</button>
+        </div>
+
+    </form>
+</body>
+</html>

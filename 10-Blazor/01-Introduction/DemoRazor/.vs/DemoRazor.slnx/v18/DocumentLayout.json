@@ -1,0 +1,295 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\pages\\syntaxe\\binding.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\pages\\syntaxe\\binding.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\exercice.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\exercice.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\pages\\syntaxe\\conditions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\pages\\syntaxe\\conditions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\pages\\syntaxe\\evenements.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\pages\\syntaxe\\evenements.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\pages\\syntaxe\\boucles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\pages\\syntaxe\\boucles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\pages\\syntaxe\\variables.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\pages\\syntaxe\\variables.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\pages\\syntaxe\\syntaxelayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\pages\\syntaxe\\syntaxelayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|c:\\users\\administrateur\\desktop\\10-blazor\\01-introduction\\demorazor\\demorazor\\pages\\demo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B782065-8FF9-3D63-5C1F-D11F1C1ED01A}|DemoRazor\\DemoRazor.csproj|solutionrelative:demorazor\\pages\\demo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\_Imports.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\_Imports.razor",
+              "RelativeToolTip": "DemoRazor\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T14:47:50.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Binding.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Binding.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Pages\\Syntaxe\\Binding.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Binding.razor",
+              "RelativeToolTip": "DemoRazor\\Pages\\Syntaxe\\Binding.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T09:16:59.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Evenements.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Evenements.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Pages\\Syntaxe\\Evenements.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Evenements.razor",
+              "RelativeToolTip": "DemoRazor\\Pages\\Syntaxe\\Evenements.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T08:48:18.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Boucles.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Boucles.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Pages\\Syntaxe\\Boucles.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Boucles.razor",
+              "RelativeToolTip": "DemoRazor\\Pages\\Syntaxe\\Boucles.razor",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T08:23:33.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "DemoRazor\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "DemoRazor\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAlwBcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T16:22:00.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "DemoRazor\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "DemoRazor\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T16:04:13.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conditions.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Conditions.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Pages\\Syntaxe\\Conditions.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Conditions.razor",
+              "RelativeToolTip": "DemoRazor\\Pages\\Syntaxe\\Conditions.razor",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T15:49:40.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Variables.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Variables.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Pages\\Syntaxe\\Variables.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\Variables.razor",
+              "RelativeToolTip": "DemoRazor\\Pages\\Syntaxe\\Variables.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T15:29:09.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exercice.md",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Exercice.md",
+              "RelativeDocumentMoniker": "DemoRazor\\Exercice.md",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Exercice.md",
+              "RelativeToolTip": "DemoRazor\\Exercice.md",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAH8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-04T13:49:41.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SyntaxeLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\SyntaxeLayout.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Pages\\Syntaxe\\SyntaxeLayout.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Syntaxe\\SyntaxeLayout.razor",
+              "RelativeToolTip": "DemoRazor\\Pages\\Syntaxe\\SyntaxeLayout.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T14:22:24.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Counter.razor",
+              "RelativeToolTip": "DemoRazor\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T14:03:01.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Program.cs",
+              "RelativeDocumentMoniker": "DemoRazor\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Program.cs",
+              "RelativeToolTip": "DemoRazor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T14:02:55.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\App.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\App.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\App.razor",
+              "RelativeToolTip": "DemoRazor\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T14:02:50.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "DemoRazor\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T13:51:56.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Home.razor",
+              "RelativeToolTip": "DemoRazor\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T13:51:54.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "DemoRazor\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T13:08:34.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Demo.razor",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Demo.razor",
+              "RelativeDocumentMoniker": "DemoRazor\\Pages\\Demo.razor",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\10-Blazor\\01-Introduction\\DemoRazor\\DemoRazor\\Pages\\Demo.razor",
+              "RelativeToolTip": "DemoRazor\\Pages\\Demo.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T13:07:01.643Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\dtos\\todoitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:dtos\\todoitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\dtos\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:dtos\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\todolistapi_avecbdd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:todolistapi_avecbdd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\migrations\\20260206000406_ajoutlienentretable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:migrations\\20260206000406_ajoutlienentretable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\migrations\\20260205222002_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:migrations\\20260205222002_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\dtos\\todoitemupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:dtos\\todoitemupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\repositories\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:repositories\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\extensions\\todoitemextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:extensions\\todoitemextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\10-blazor\\tp  todolist\\todolistblazor backend\\avec bdd\\todolistapi\\migrations\\20260206155051_creationdenotrebddtodolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C90254-D413-4011-AF98-0FE90757E23B}|TodoListApi_avecBDD.csproj|solutionrelative:migrations\\20260206155051_creationdenotrebddtodolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodoItemCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\TodoItemCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TodoItemCreateDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\TodoItemCreateDto.cs",
+              "RelativeToolTip": "DTOs\\TodoItemCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TodoItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\TodoItemDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TodoItemDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\TodoItemDto.cs",
+              "RelativeToolTip": "DTOs\\TodoItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "Controllers\\TodoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T08:04:22.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Services\\AuthService.cs*",
+              "RelativeToolTip": "Services\\AuthService.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwFUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T08:04:21.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAIMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TodoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Repositories\\TodoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TodoRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Repositories\\TodoRepository.cs",
+              "RelativeToolTip": "Repositories\\TodoRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TodoItemUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\TodoItemUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TodoItemUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\TodoItemUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\TodoItemUpdateDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20260206155051_CreationDeNotreBDDTodoList.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Migrations\\20260206155051_CreationDeNotreBDDTodoList.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260206155051_CreationDeNotreBDDTodoList.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Migrations\\20260206155051_CreationDeNotreBDDTodoList.cs",
+              "RelativeToolTip": "Migrations\\20260206155051_CreationDeNotreBDDTodoList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T15:50:52.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIBZwDMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Models\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Models\\TodoItem.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAADwvzoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260206000406_AjoutLienEntreTable.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Migrations\\20260206000406_AjoutLienEntreTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260206000406_AjoutLienEntreTable.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Migrations\\20260206000406_AjoutLienEntreTable.cs",
+              "RelativeToolTip": "Migrations\\20260206000406_AjoutLienEntreTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Services\\TodoService.cs",
+              "RelativeDocumentMoniker": "Services\\TodoService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Services\\TodoService.cs",
+              "RelativeToolTip": "Services\\TodoService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAvwEsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITodoService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Services\\ITodoService.cs",
+              "RelativeDocumentMoniker": "Services\\ITodoService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Services\\ITodoService.cs",
+              "RelativeToolTip": "Services\\ITodoService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITodoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Repositories\\ITodoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ITodoRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Repositories\\ITodoRepository.cs",
+              "RelativeToolTip": "Repositories\\ITodoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TodoItemExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Extensions\\TodoItemExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\TodoItemExtensions.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Extensions\\TodoItemExtensions.cs",
+              "RelativeToolTip": "Extensions\\TodoItemExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260205222002_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Migrations\\20260205222002_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260205222002_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Migrations\\20260205222002_InitialMigration.cs",
+              "RelativeToolTip": "Migrations\\20260205222002_InitialMigration.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:21.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TodoListApi_avecBDD.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\TodoListApi_avecBDD.csproj",
+              "RelativeDocumentMoniker": "TodoListApi_avecBDD.csproj",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\TodoListApi_avecBDD.csproj",
+              "RelativeToolTip": "TodoListApi_avecBDD.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-06T08:04:21.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Middlewares\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Middlewares\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Middlewares\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "Middlewares\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwDEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:22.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\10-Blazor\\TP  todolist\\TodoListBlazor BACKEND\\Avec BDD\\TodoListApi\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:22.056Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

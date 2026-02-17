@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\viewmodel\\etudiantinscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\viewmodel\\etudiantinscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\validation\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\validation\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\controllers\\etudiantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\controllers\\etudiantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\views\\etudiant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\views\\etudiant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\views\\etudiant\\inscription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\views\\etudiant\\inscription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\models\\etudiantcours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\models\\etudiantcours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\textfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\textfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\models\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\models\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\models\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\models\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\models\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\models\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|c:\\users\\administrateur\\desktop\\formation asp .net mvc core\\05-model\\modeldemo\\modeldemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D21FF1-60A9-4B7D-A603-C70C3039DE16}|ModelDemo\\ModelDemo.csproj|solutionrelative:modeldemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Views\\Etudiant\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModelDemo\\Views\\Etudiant\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Views\\Etudiant\\Index.cshtml",
+              "RelativeToolTip": "ModelDemo\\Views\\Etudiant\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T13:35:11.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inscription.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Views\\Etudiant\\Inscription.cshtml",
+              "RelativeDocumentMoniker": "ModelDemo\\Views\\Etudiant\\Inscription.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Views\\Etudiant\\Inscription.cshtml",
+              "RelativeToolTip": "ModelDemo\\Views\\Etudiant\\Inscription.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T13:28:47.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TextFile1.txt",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\TextFile1.txt",
+              "RelativeDocumentMoniker": "ModelDemo\\TextFile1.txt",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\TextFile1.txt",
+              "RelativeToolTip": "ModelDemo\\TextFile1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-27T13:23:56.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MinimumAgeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Validation\\MinimumAgeAttribute.cs",
+              "RelativeDocumentMoniker": "ModelDemo\\Validation\\MinimumAgeAttribute.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Validation\\MinimumAgeAttribute.cs",
+              "RelativeToolTip": "ModelDemo\\Validation\\MinimumAgeAttribute.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T13:12:06.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EtudiantInscriptionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Viewmodel\\EtudiantInscriptionViewModel.cs",
+              "RelativeDocumentMoniker": "ModelDemo\\Viewmodel\\EtudiantInscriptionViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Viewmodel\\EtudiantInscriptionViewModel.cs*",
+              "RelativeToolTip": "ModelDemo\\Viewmodel\\EtudiantInscriptionViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:46:13.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TextFile.txt",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\TextFile.txt",
+              "RelativeDocumentMoniker": "ModelDemo\\TextFile.txt",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\TextFile.txt",
+              "RelativeToolTip": "ModelDemo\\TextFile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-27T10:16:22.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EtudiantCours.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Models\\EtudiantCours.cs",
+              "RelativeDocumentMoniker": "ModelDemo\\Models\\EtudiantCours.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Models\\EtudiantCours.cs",
+              "RelativeToolTip": "ModelDemo\\Models\\EtudiantCours.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:12:47.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cours.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Models\\Cours.cs",
+              "RelativeDocumentMoniker": "ModelDemo\\Models\\Cours.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Models\\Cours.cs",
+              "RelativeToolTip": "ModelDemo\\Models\\Cours.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:08:54.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Classe.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Models\\Classe.cs",
+              "RelativeDocumentMoniker": "ModelDemo\\Models\\Classe.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Models\\Classe.cs",
+              "RelativeToolTip": "ModelDemo\\Models\\Classe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:03:41.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EtudiantController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Controllers\\EtudiantController.cs",
+              "RelativeDocumentMoniker": "ModelDemo\\Controllers\\EtudiantController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Controllers\\EtudiantController.cs",
+              "RelativeToolTip": "ModelDemo\\Controllers\\EtudiantController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAD4vyoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T09:52:29.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ModelDemo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ModelDemo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T09:52:07.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Etudiant.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Models\\Etudiant.cs",
+              "RelativeDocumentMoniker": "ModelDemo\\Models\\Etudiant.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\Formation Asp .net mvc core\\05-Model\\ModelDemo\\ModelDemo\\Models\\Etudiant.cs",
+              "RelativeToolTip": "ModelDemo\\Models\\Etudiant.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T09:48:58.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

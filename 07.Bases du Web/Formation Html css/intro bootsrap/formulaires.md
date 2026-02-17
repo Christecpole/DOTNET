@@ -1,0 +1,57 @@
+### Objectifs
+Faire des formulaires propres et lisible (en mvc pour les page create / Edit )
+
+### classes essentielles
+-Label : 'form-label'
+-Input : 'form-control'
+-Select : 'form-select'
+-Checkbox : 'form-check', 'form-check-input', 'form-check-label'
+-Validation : 'is-valid ', 'is-invalid'(champs passe en rouge),'invalid-feedback'(petit message d'erreur en dessous du champ)
+
+
+### exemple de formulaire
+
+```html
+<form class="container" style="max-width: 720px;">
+  <h1 class="h3 my-4">Créer un produit</h1>
+
+  <div class="row g-3">
+    <div class="col-12 col-md-6">
+      <label class="form-label" for="name">Nom</label>
+      <input class="form-control" id="name" type="text" placeholder="Nom du produit">
+    </div>
+
+    <div class="col-12 col-md-6">
+      <label class="form-label" for="price">Prix</label>
+      <input class="form-control is-invalid" id="price" type="number" step="0.01">
+      <div class="invalid-feedback">Le prix doit être supérieur à 0.</div>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <label class="form-label" for="category">Catégorie</label>
+      <select class="form-select" id="category">
+        <option>Boissons</option>
+        <option>Snacks</option>
+        <option>Autre</option>
+      </select>
+    </div>
+
+    <div class="col-12 col-md-6 d-flex align-items-end">
+      <div class="form-check">
+        <input class="form-check-input" id="active" type="checkbox" checked>
+        <label class="form-check-label" for="active">Actif</label>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <label class="form-label" for="desc">Description</label>
+      <textarea class="form-control" id="desc" rows="3"></textarea>
+    </div>
+
+    <div class="col-12 d-flex gap-2 flex-wrap mt-2">
+      <button class="btn btn-primary" type="submit">Enregistrer</button>
+      <a class="btn btn-outline-secondary" href="#">Annuler</a>
+    </div>
+  </div>
+</form>
+```

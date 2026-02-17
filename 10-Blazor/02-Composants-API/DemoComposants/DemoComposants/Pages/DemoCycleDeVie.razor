@@ -1,0 +1,46 @@
+﻿@page "/demoCycleVie"
+
+<h1>Demo Cycle De Vie</h1>
+
+<h2>Liste des utilisateurs</h2>
+
+@if (isLoading)
+{
+    <div class="d-flex align-items-center">
+        <div class="spinner-border text-primary me-2"></div>
+        <span>Chargement en cours....</span>
+    </div>
+}
+else
+{
+    <ul>
+        @foreach (var user in utilisateurs)
+        {
+            <li>@user</li>
+        }
+    </ul>
+}
+
+
+@code {
+    private List<string> utilisateurs = new();
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+
+        //simulation d'un chargement depuis une API(2sec)
+        await Task.Delay(3000);
+
+        // données "chargées"
+        utilisateurs = new List<string>
+        {
+            "Alice",
+            "Michel",
+            "Charlie"
+        };
+
+        isLoading = false;
+    }
+}

@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\articles.api_avecbdd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\articles.api_avecbdd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\data\\dbfake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\data\\dbfake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\services\\iauteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\services\\iauteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\repositories\\auteurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\repositories\\auteurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\controllers\\auteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\controllers\\auteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\services\\auteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\services\\auteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\services\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\services\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\repositories\\iauteurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\repositories\\iauteurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\services\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\services\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\extensions\\articlemappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\extensions\\articlemappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\models\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\models\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\extensions\\auteurmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\extensions\\auteurmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\09-asp.net web api\\03-avec ef core\\articles.api\\articles.api\\repositories\\iarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49870B1A-2723-BD20-94CC-8C38707DF831}|Articles.Api\\Articles.Api_AvecBDD.csproj|solutionrelative:articles.api\\repositories\\iarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Articles.Api_AvecBDD",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Articles.Api_AvecBDD.csproj",
+              "RelativeDocumentMoniker": "Articles.Api\\Articles.Api_AvecBDD.csproj",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Articles.Api_AvecBDD.csproj",
+              "RelativeToolTip": "Articles.Api\\Articles.Api_AvecBDD.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-11T22:10:36.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbFake.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Data\\DbFake.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Data\\DbFake.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Data\\DbFake.cs",
+              "RelativeToolTip": "Articles.Api\\Data\\DbFake.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCUAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T11:05:49.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Articles.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T10:47:12.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuteurService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\IAuteurService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\IAuteurService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\IAuteurService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\IAuteurService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:33:32.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\AuthService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\AuthService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:23:29.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Articles.Api\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:31:01.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Articles.Api\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T11:01:33.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "Articles.Api\\Controllers\\ArticleController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAcwEEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T10:40:48.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuteurController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Controllers\\AuteurController.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Controllers\\AuteurController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Controllers\\AuteurController.cs",
+              "RelativeToolTip": "Articles.Api\\Controllers\\AuteurController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwC4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T10:45:26.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Program.cs",
+              "RelativeToolTip": "Articles.Api\\Program.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAIBJwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T10:53:41.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuteurService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\AuteurService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\AuteurService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\AuteurService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\AuteurService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:33:27.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ArticleService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\ArticleService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\ArticleService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\ArticleService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\ArticleService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:33:15.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IArticleService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\IArticleService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\IArticleService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\IArticleService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\IArticleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:29:32.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Articles.Api\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:22:48.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Auteur.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Models\\Auteur.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Models\\Auteur.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Models\\Auteur.cs",
+              "RelativeToolTip": "Articles.Api\\Models\\Auteur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:16:46.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuteurRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Repositories\\AuteurRepository.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Repositories\\AuteurRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Repositories\\AuteurRepository.cs",
+              "RelativeToolTip": "Articles.Api\\Repositories\\AuteurRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:57:54.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuteurRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Repositories\\IAuteurRepository.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Repositories\\IAuteurRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Repositories\\IAuteurRepository.cs",
+              "RelativeToolTip": "Articles.Api\\Repositories\\IAuteurRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:57:52.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Models\\Article.cs",
+              "RelativeToolTip": "Articles.Api\\Models\\Article.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:39:13.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "Articles.Api\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:39:09.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ArticleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Repositories\\ArticleRepository.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Repositories\\ArticleRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Repositories\\ArticleRepository.cs",
+              "RelativeToolTip": "Articles.Api\\Repositories\\ArticleRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwBYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:27:32.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ArticleMappingExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Extensions\\ArticleMappingExtension.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Extensions\\ArticleMappingExtension.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Extensions\\ArticleMappingExtension.cs",
+              "RelativeToolTip": "Articles.Api\\Extensions\\ArticleMappingExtension.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBIAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:26:58.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuteurMappingExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Extensions\\AuteurMappingExtension.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Extensions\\AuteurMappingExtension.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Extensions\\AuteurMappingExtension.cs",
+              "RelativeToolTip": "Articles.Api\\Extensions\\AuteurMappingExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:26:57.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IArticleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Repositories\\IArticleRepository.cs",
+              "RelativeDocumentMoniker": "Articles.Api\\Repositories\\IArticleRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\09-ASP.NET WEB API\\03-Avec EF Core\\Articles.Api\\Articles.Api\\Repositories\\IArticleRepository.cs",
+              "RelativeToolTip": "Articles.Api\\Repositories\\IArticleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:26:45.263Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

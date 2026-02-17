@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\.NET\\SolutionCours\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8412A162-33E0-4713-ABDE-9D8F72A3FA5A}|Fonction\\Fonction.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\.net\\solutioncours\\fonction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8412A162-33E0-4713-ABDE-9D8F72A3FA5A}|Fonction\\Fonction.csproj|solutionrelative:fonction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC78296-6701-4E25-A4D0-5E6FDABD445E}|StructControle\\StructControle.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\.net\\solutioncours\\structcontrole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC78296-6701-4E25-A4D0-5E6FDABD445E}|StructControle\\StructControle.csproj|solutionrelative:structcontrole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805D4E9-BA22-40C4-B98F-D0FE6A679EA3}|Tableaux\\Tableaux.csproj|c:\\users\\administrateur\\documents\\poec_net_1512\\.net\\solutioncours\\tableaux\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C805D4E9-BA22-40C4-B98F-D0FE6A679EA3}|Tableaux\\Tableaux.csproj|solutionrelative:tableaux\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\.NET\\SolutionCours\\Fonction\\Program.cs",
+              "RelativeDocumentMoniker": "Fonction\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\.NET\\SolutionCours\\Fonction\\Program.cs",
+              "RelativeToolTip": "Fonction\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:01:48.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\.NET\\SolutionCours\\StructControle\\Program.cs",
+              "RelativeDocumentMoniker": "StructControle\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\.NET\\SolutionCours\\StructControle\\Program.cs",
+              "RelativeToolTip": "StructControle\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T08:31:21.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\.NET\\SolutionCours\\Tableaux\\Program.cs",
+              "RelativeDocumentMoniker": "Tableaux\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Documents\\poec_net_1512\\.NET\\SolutionCours\\Tableaux\\Program.cs",
+              "RelativeToolTip": "Tableaux\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T14:00:09.775Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
