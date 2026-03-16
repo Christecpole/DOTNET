@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\bin\Debug\net10.0\DemoBaseTDD.exe
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\bin\Debug\net10.0\DemoBaseTDD.deps.json
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\bin\Debug\net10.0\DemoBaseTDD.runtimeconfig.json
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\bin\Debug\net10.0\DemoBaseTDD.dll
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\bin\Debug\net10.0\DemoBaseTDD.pdb
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\DemoBaseTDD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\DemoBaseTDD.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\DemoBaseTDD.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\DemoBaseTDD.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\DemoBaseTDD.sourcelink.json
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\DemoBaseTDD.dll
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\refint\DemoBaseTDD.dll
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\DemoBaseTDD.pdb
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\DemoBaseTDD.genruntimeconfig.cache
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\DemoBaseTDD\obj\Debug\net10.0\ref\DemoBaseTDD.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Exercice4Bowling/1.0.0": {
+        "runtime": {
+          "Exercice4Bowling.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercice4Bowling/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

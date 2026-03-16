@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\02-demos\\DemoBaseTDD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{765766A8-AAC4-4326-9225-93C724EA1F38}|Demo03Mock.Tests\\Demo03Mock.Tests.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\14 - tdd\\02-demos\\demobasetdd\\demo03mock.tests\\jeutest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{765766A8-AAC4-4326-9225-93C724EA1F38}|Demo03Mock.Tests\\Demo03Mock.Tests.csproj|solutionrelative:demo03mock.tests\\jeutest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F858D1-4A5E-4DD9-AD3B-3101E9166D3F}|Demo03Mock.Core\\Demo03Mock.Core.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\14 - tdd\\02-demos\\demobasetdd\\demo03mock.core\\jeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F858D1-4A5E-4DD9-AD3B-3101E9166D3F}|Demo03Mock.Core\\Demo03Mock.Core.csproj|solutionrelative:demo03mock.core\\jeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F858D1-4A5E-4DD9-AD3B-3101E9166D3F}|Demo03Mock.Core\\Demo03Mock.Core.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\14 - tdd\\02-demos\\demobasetdd\\demo03mock.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F858D1-4A5E-4DD9-AD3B-3101E9166D3F}|Demo03Mock.Core\\Demo03Mock.Core.csproj|solutionrelative:demo03mock.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F858D1-4A5E-4DD9-AD3B-3101E9166D3F}|Demo03Mock.Core\\Demo03Mock.Core.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\14 - tdd\\02-demos\\demobasetdd\\demo03mock.core\\ide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F858D1-4A5E-4DD9-AD3B-3101E9166D3F}|Demo03Mock.Core\\Demo03Mock.Core.csproj|solutionrelative:demo03mock.core\\ide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\02-demos\\DemoBaseTDD\\Demo03Mock.Core\\Program.cs",
+              "RelativeDocumentMoniker": "Demo03Mock.Core\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\02-demos\\DemoBaseTDD\\Demo03Mock.Core\\Program.cs",
+              "RelativeToolTip": "Demo03Mock.Core\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:02:49.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JeuTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\02-demos\\DemoBaseTDD\\Demo03Mock.Tests\\JeuTest.cs",
+              "RelativeDocumentMoniker": "Demo03Mock.Tests\\JeuTest.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\02-demos\\DemoBaseTDD\\Demo03Mock.Tests\\JeuTest.cs",
+              "RelativeToolTip": "Demo03Mock.Tests\\JeuTest.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA1wFcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:00:56.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Jeu.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\02-demos\\DemoBaseTDD\\Demo03Mock.Core\\Jeu.cs",
+              "RelativeDocumentMoniker": "Demo03Mock.Core\\Jeu.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\02-demos\\DemoBaseTDD\\Demo03Mock.Core\\Jeu.cs",
+              "RelativeToolTip": "Demo03Mock.Core\\Jeu.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T12:57:52.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDe.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\02-demos\\DemoBaseTDD\\Demo03Mock.Core\\IDe.cs",
+              "RelativeDocumentMoniker": "Demo03Mock.Core\\IDe.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\02-demos\\DemoBaseTDD\\Demo03Mock.Core\\IDe.cs",
+              "RelativeToolTip": "Demo03Mock.Core\\IDe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T12:57:21.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

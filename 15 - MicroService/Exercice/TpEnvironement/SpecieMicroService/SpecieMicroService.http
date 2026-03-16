@@ -1,0 +1,6 @@
+@SpecieMicroService_HostAddress = http://localhost:5128
+
+GET {{SpecieMicroService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

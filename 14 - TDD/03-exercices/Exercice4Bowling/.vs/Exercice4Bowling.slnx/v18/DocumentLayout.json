@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\03-exercices\\Exercice4Bowling\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F84BCCEE-6AE1-9E16-D589-9A5794FE217B}|Exercice4Bowling\\Exercice4Bowling.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\14 - tdd\\03-exercices\\exercice4bowling\\exercice4bowling\\frame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84BCCEE-6AE1-9E16-D589-9A5794FE217B}|Exercice4Bowling\\Exercice4Bowling.csproj|solutionrelative:exercice4bowling\\frame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A13EF81-7173-2E4F-553E-8166AE430B4B}|Exercice4BowlingTest\\Exercice4BowlingTest.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\14 - tdd\\03-exercices\\exercice4bowling\\exercice4bowlingtest\\frametest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A13EF81-7173-2E4F-553E-8166AE430B4B}|Exercice4BowlingTest\\Exercice4BowlingTest.csproj|solutionrelative:exercice4bowlingtest\\frametest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84BCCEE-6AE1-9E16-D589-9A5794FE217B}|Exercice4Bowling\\Exercice4Bowling.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\14 - tdd\\03-exercices\\exercice4bowling\\exercice4bowling\\roll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84BCCEE-6AE1-9E16-D589-9A5794FE217B}|Exercice4Bowling\\Exercice4Bowling.csproj|solutionrelative:exercice4bowling\\roll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84BCCEE-6AE1-9E16-D589-9A5794FE217B}|Exercice4Bowling\\Exercice4Bowling.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\14 - tdd\\03-exercices\\exercice4bowling\\exercice4bowling\\igenerateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84BCCEE-6AE1-9E16-D589-9A5794FE217B}|Exercice4Bowling\\Exercice4Bowling.csproj|solutionrelative:exercice4bowling\\igenerateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrameTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\03-exercices\\Exercice4Bowling\\Exercice4BowlingTest\\FrameTest.cs",
+              "RelativeDocumentMoniker": "Exercice4BowlingTest\\FrameTest.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\03-exercices\\Exercice4Bowling\\Exercice4BowlingTest\\FrameTest.cs",
+              "RelativeToolTip": "Exercice4BowlingTest\\FrameTest.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAADwv/EAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T15:07:25.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Roll.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\03-exercices\\Exercice4Bowling\\Exercice4Bowling\\Roll.cs",
+              "RelativeDocumentMoniker": "Exercice4Bowling\\Roll.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\03-exercices\\Exercice4Bowling\\Exercice4Bowling\\Roll.cs",
+              "RelativeToolTip": "Exercice4Bowling\\Roll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T14:59:18.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frame.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\03-exercices\\Exercice4Bowling\\Exercice4Bowling\\Frame.cs",
+              "RelativeDocumentMoniker": "Exercice4Bowling\\Frame.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\03-exercices\\Exercice4Bowling\\Exercice4Bowling\\Frame.cs",
+              "RelativeToolTip": "Exercice4Bowling\\Frame.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAIwG8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T14:59:17.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGenerateur.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\03-exercices\\Exercice4Bowling\\Exercice4Bowling\\IGenerateur.cs",
+              "RelativeDocumentMoniker": "Exercice4Bowling\\IGenerateur.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\14 - TDD\\03-exercices\\Exercice4Bowling\\Exercice4Bowling\\IGenerateur.cs",
+              "RelativeToolTip": "Exercice4Bowling\\IGenerateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T14:56:41.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Demo02TDD.Core/1.0.0": {
+        "runtime": {
+          "Demo02TDD.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demo02TDD.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "MicroService",
+    "Projects": [
+      {
+        "Path": "AuthMicroService\\AuthMicroService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SpecieMicroService\\SpecieMicroService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ObservationService\\ObservationService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TravelLogMicroService\\TravelLogMicroService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gateway\\Gateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,541 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\gateway\\controllers\\voyagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|solutionrelative:gateway\\controllers\\voyagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\gateway\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|solutionrelative:gateway\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\gateway\\dto\\reservationsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|solutionrelative:gateway\\dto\\reservationsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\dtos\\reservationreceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\dtos\\reservationreceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\dtos\\reservationsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\dtos\\reservationsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\controllers\\voyagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\controllers\\voyagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\repository\\voyagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\repository\\voyagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\dto\\voyagesend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\dto\\voyagesend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\dto\\voyagereceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\dto\\voyagereceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\models\\voyage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\models\\voyage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\gateway\\dto\\voyagesend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|solutionrelative:gateway\\dto\\voyagesend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\gateway\\dto\\voyagereceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|solutionrelative:gateway\\dto\\voyagereceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\gateway\\dto\\reservationreceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|solutionrelative:gateway\\dto\\reservationreceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\gateway\\restclient\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4AC40C7-AFAE-42E7-AD6B-0B33ED223838}|Gateway\\Gateway.csproj|solutionrelative:gateway\\restclient\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\servicevoyage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D27A46-C927-42BF-3AC0-90C80258F21D}|ServiceVoyage\\ServiceVoyage.csproj|solutionrelative:servicevoyage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\client\\restclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\client\\restclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|c:\\users\\administrateur\\desktop\\poec_net_1512\\15 - microservice\\exercice\\exercice1_microservice\\reservationservice\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F78388B-EE6D-9258-1F75-114269D8589C}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VoyageController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Controllers\\VoyageController.cs",
+              "RelativeDocumentMoniker": "Gateway\\Controllers\\VoyageController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Controllers\\VoyageController.cs",
+              "RelativeToolTip": "Gateway\\Controllers\\VoyageController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:40:57.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationReceive.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Dtos\\ReservationReceive.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Dtos\\ReservationReceive.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Dtos\\ReservationReceive.cs",
+              "RelativeToolTip": "ReservationService\\Dtos\\ReservationReceive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:38:33.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReservationSend.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Dtos\\ReservationSend.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Dtos\\ReservationSend.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Dtos\\ReservationSend.cs",
+              "RelativeToolTip": "ReservationService\\Dtos\\ReservationSend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:33:59.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Repository\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Repository\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Repository\\ReservationRepository.cs",
+              "RelativeToolTip": "ReservationService\\Repository\\ReservationRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:33:36.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Repository\\IRepository.cs",
+              "RelativeToolTip": "ReservationService\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:33:35.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ReservationService\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:33:30.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Models\\Reservation.cs",
+              "RelativeToolTip": "ReservationService\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:32:46.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VoyageController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Controllers\\VoyageController.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Controllers\\VoyageController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Controllers\\VoyageController.cs",
+              "RelativeToolTip": "ServiceVoyage\\Controllers\\VoyageController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:32:01.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Service\\Service.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Service\\Service.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Service\\Service.cs",
+              "RelativeToolTip": "ServiceVoyage\\Service\\Service.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCoAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:30:47.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Service\\IService.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Service\\IService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Service\\IService.cs",
+              "RelativeToolTip": "ServiceVoyage\\Service\\IService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:30:45.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Repository\\IRepository.cs",
+              "RelativeToolTip": "ServiceVoyage\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:30:22.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VoyageSend.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Dto\\VoyageSend.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Dto\\VoyageSend.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Dto\\VoyageSend.cs",
+              "RelativeToolTip": "ServiceVoyage\\Dto\\VoyageSend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:30:11.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VoyageReceive.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Dto\\VoyageReceive.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Dto\\VoyageReceive.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Dto\\VoyageReceive.cs",
+              "RelativeToolTip": "ServiceVoyage\\Dto\\VoyageReceive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:29:56.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ServiceVoyage\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:29:25.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Voyage.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Models\\Voyage.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Models\\Voyage.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Models\\Voyage.cs",
+              "RelativeToolTip": "ServiceVoyage\\Models\\Voyage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:29:03.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ReservationService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ReservationService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-03T10:33:50.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VoyageSend.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Dto\\VoyageSend.cs",
+              "RelativeDocumentMoniker": "Gateway\\Dto\\VoyageSend.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Dto\\VoyageSend.cs",
+              "RelativeToolTip": "Gateway\\Dto\\VoyageSend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:32:49.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VoyageReceive.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Dto\\VoyageReceive.cs",
+              "RelativeDocumentMoniker": "Gateway\\Dto\\VoyageReceive.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Dto\\VoyageReceive.cs",
+              "RelativeToolTip": "Gateway\\Dto\\VoyageReceive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:32:45.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationSend.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Dto\\ReservationSend.cs",
+              "RelativeDocumentMoniker": "Gateway\\Dto\\ReservationSend.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Dto\\ReservationSend.cs",
+              "RelativeToolTip": "Gateway\\Dto\\ReservationSend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:32:19.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReservationReceive.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Dto\\ReservationReceive.cs",
+              "RelativeDocumentMoniker": "Gateway\\Dto\\ReservationReceive.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Dto\\ReservationReceive.cs",
+              "RelativeToolTip": "Gateway\\Dto\\ReservationReceive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:32:14.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Gateway\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Gateway\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:30:01.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\RestClient\\Client.cs",
+              "RelativeDocumentMoniker": "Gateway\\RestClient\\Client.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\Gateway\\RestClient\\Client.cs",
+              "RelativeToolTip": "Gateway\\RestClient\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:06:51.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "ReservationService\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:36:02.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Program.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Program.cs",
+              "RelativeToolTip": "ReservationService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:32:38.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Program.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Program.cs",
+              "RelativeToolTip": "ServiceVoyage\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:32:34.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RestClient.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Client\\RestClient.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Client\\RestClient.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Client\\RestClient.cs",
+              "RelativeToolTip": "ReservationService\\Client\\RestClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:01:38.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Services\\Service.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Services\\Service.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Services\\Service.cs",
+              "RelativeToolTip": "ReservationService\\Services\\Service.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:00:09.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Services\\IService.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Services\\IService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ReservationService\\Services\\IService.cs",
+              "RelativeToolTip": "ReservationService\\Services\\IService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T14:55:11.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VoyageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Repository\\VoyageRepository.cs",
+              "RelativeDocumentMoniker": "ServiceVoyage\\Repository\\VoyageRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\poec_net_1512\\15 - MicroService\\Exercice\\Exercice1_MicroService\\ServiceVoyage\\Repository\\VoyageRepository.cs",
+              "RelativeToolTip": "ServiceVoyage\\Repository\\VoyageRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T14:28:21.452Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

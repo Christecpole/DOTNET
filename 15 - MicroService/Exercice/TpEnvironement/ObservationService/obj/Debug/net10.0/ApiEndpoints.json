@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "ObservationService.Controllers.ObservationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Observation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ObservationService.Controllers.ObservationController",
+    "Method": "Create",
+    "RelativePath": "api/Observation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ObservationService.Dto.ObservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ObservationService.Controllers.ObservationController",
+    "Method": "GetById",
+    "RelativePath": "api/Observation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ObservationService.Controllers.ObservationController",
+    "Method": "GetByLocation",
+    "RelativePath": "api/Observation/by-location/{location}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ObservationService.Controllers.ObservationController",
+    "Method": "GetByLocation",
+    "RelativePath": "api/Observation/by-Species/{speciesId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "speciesId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ObservationService.Controllers.ObservationController",
+    "Method": "GetByUser",
+    "RelativePath": "api/Observation/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

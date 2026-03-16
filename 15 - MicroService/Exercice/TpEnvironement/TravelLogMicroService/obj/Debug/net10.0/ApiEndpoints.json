@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "TravelLogMicroService.Controllers.TravelLogsController",
+    "Method": "GetAll",
+    "RelativePath": "api/TravelLogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TravelLogMicroService.Controllers.TravelLogsController",
+    "Method": "Create",
+    "RelativePath": "api/TravelLogs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TravelLogMicroService.Dto.TravelLogsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TravelLogMicroService.Controllers.TravelLogsController",
+    "Method": "GetById",
+    "RelativePath": "api/TravelLogs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

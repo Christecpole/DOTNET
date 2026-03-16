@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="AjoutDependance/AjoutDependance.csproj" />
+  <Project Path="Demo02TDD.Core/Demo02TDD.Core.csproj" Id="b3e71639-ba8a-4feb-b0b7-5380ad73e8c0" />
+  <Project Path="Demo02TDD.Tests/Demo02TDD.Tests.csproj" Id="da4b264f-e073-41f8-9c48-8ea8430b6f6f" />
+  <Project Path="Demo03Mock.Core/Demo03Mock.Core.csproj" Id="94f858d1-4a5e-4dd9-ad3b-3101e9166d3f" />
+  <Project Path="Demo03Mock.Tests/Demo03Mock.Tests.csproj" Id="765766a8-aac4-4326-9225-93c724ea1f38" />
+  <Project Path="DemoBaseTDD.Tests/DemoBaseTDD.Tests.csproj" />
+  <Project Path="DemoBaseTDD.TestsNUnit/DemoBaseTDD.TestsNUnit.csproj" Id="e4b7d07c-9bbe-4508-97e6-79070117d990" />
+  <Project Path="DemoBaseTDD.TestXUnit/DemoBaseTDD.TestXUnit.csproj" Id="3e2b1442-1669-4512-bb63-b468d176cfc2" />
+  <Project Path="DemoBaseTDD/DemoBaseTDD.csproj" />
+  <Project Path="Exercices.Test/Exercices.Test.csproj" Id="000dcbdc-63f0-4de3-8cc6-132566a624da" />
+  <Project Path="Exercices/Exercices.csproj" Id="eca13d74-25a6-47d2-bec3-ce3be3473613" />
+</Solution>

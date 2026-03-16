@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Gateway/Gateway.csproj" Id="b4ac40c7-afae-42e7-ad6b-0b33ed223838" />
+  <Project Path="ReservationService/ReservationService.csproj" />
+  <Project Path="ServiceVoyage/ServiceVoyage.csproj" />
+</Solution>

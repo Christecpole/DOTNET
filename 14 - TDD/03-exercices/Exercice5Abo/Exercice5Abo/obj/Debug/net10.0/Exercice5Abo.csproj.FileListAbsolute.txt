@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\bin\Debug\net10.0\Exercice5Abo.exe
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\bin\Debug\net10.0\Exercice5Abo.deps.json
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\bin\Debug\net10.0\Exercice5Abo.runtimeconfig.json
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\bin\Debug\net10.0\Exercice5Abo.dll
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\bin\Debug\net10.0\Exercice5Abo.pdb
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\obj\Debug\net10.0\Exercice5Abo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\obj\Debug\net10.0\Exercice5Abo.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\obj\Debug\net10.0\Exercice5Abo.AssemblyInfo.cs
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\obj\Debug\net10.0\Exercice5Abo.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\obj\Debug\net10.0\Exercice5Abo.dll
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\obj\Debug\net10.0\refint\Exercice5Abo.dll
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\obj\Debug\net10.0\Exercice5Abo.pdb
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\obj\Debug\net10.0\Exercice5Abo.genruntimeconfig.cache
+C:\Users\admin\Desktop\Exercice5Abo\Exercice5Abo\obj\Debug\net10.0\ref\Exercice5Abo.dll

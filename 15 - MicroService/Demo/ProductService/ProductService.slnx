@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AuthentificationService/AuthentificationService.csproj" Id="fdfc597d-1de1-4df0-b66d-e62d88ca2e79" />
+  <Project Path="Gateway/Gateway.csproj" />
+  <Project Path="OrderService/OrderService.csproj" />
+  <Project Path="ProductService/ProductService.csproj" />
+</Solution>

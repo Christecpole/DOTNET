@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AjoutDependance/1.0.0": {
+        "dependencies": {
+          "DemoBaseTDD": "1.0.0"
+        },
+        "runtime": {
+          "AjoutDependance.dll": {}
+        }
+      },
+      "DemoBaseTDD/1.0.0": {
+        "runtime": {
+          "DemoBaseTDD.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AjoutDependance/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DemoBaseTDD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

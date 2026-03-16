@@ -1,0 +1,6 @@
+@ServiceVoyage_HostAddress = http://localhost:8081
+
+GET {{ServiceVoyage_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

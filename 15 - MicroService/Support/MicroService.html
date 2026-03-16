@@ -1,0 +1,2137 @@
+<!DOCTYPE html><html lang="fr-FR"><head><title>Microservices avec .NET</title><meta property="og:title" content="Microservices avec .NET"><meta name="author" content="DIEUDONNE Antoine"><meta property="article:author" content="DIEUDONNE Antoine"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><style>@media screen{body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button{-webkit-tap-highlight-color:transparent;appearance:none;background-color:transparent;border:0;color:inherit;cursor:pointer;font-size:inherit;opacity:.8;outline:none;padding:0;transition:opacity .2s linear}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:disabled,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:disabled,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:disabled,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:disabled{cursor:not-allowed;opacity:.15!important}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover{opacity:1}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:active,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:active,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover:active,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover:active{opacity:.6}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:not(:disabled),body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:not(:disabled),body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover:not(:disabled),body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover:not(:disabled){transition:none}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button.bespoke-marp-presenter-info-page-prev{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNNjggOTAgMjggNTBsNDAtNDAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button.bespoke-marp-presenter-info-page-next{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJtMzIgOTAgNDAtNDAtNDAtNDAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen]{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6NXB4fTwvc3R5bGU+PC9kZWZzPjxyZWN0IHdpZHRoPSI4MCIgaGVpZ2h0PSI2MCIgeD0iMTAiIHk9IjIwIiBjbGFzcz0iYSIgcng9IjUuNjciLz48cGF0aCBkPSJNNDAgNzBIMjBWNTBtMjAgMEwyMCA3MG00MC00MGgyMHYyMG0tMjAgMCAyMC0yMCIgY2xhc3M9ImEiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button.exit[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button.exit[data-bespoke-marp-osc=fullscreen]{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6NXB4fTwvc3R5bGU+PC9kZWZzPjxyZWN0IHdpZHRoPSI4MCIgaGVpZ2h0PSI2MCIgeD0iMTAiIHk9IjIwIiBjbGFzcz0iYSIgcng9IjUuNjciLz48cGF0aCBkPSJNMjAgNTBoMjB2MjBtLTIwIDAgMjAtMjBtNDAgMEg2MFYzMG0yMCAwTDYwIDUwIiBjbGFzcz0iYSIvPjwvc3ZnPg==")}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter]{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNODcuOCA0Ny41Qzg5IDUwIDg3LjcgNTIgODUgNTJIMzVhOC43IDguNyAwIDAgMS03LjItNC41bC0xNS42LTMxQzExIDE0IDEyLjIgMTIgMTUgMTJoNTBhOC44IDguOCAwIDAgMSA3LjIgNC41ek02MCA1MnYzNm0tMTAgMGgyME00NSA0MmgyMCIvPjwvc3ZnPg==") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button.bespoke-marp-presenter-note-bigger{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNMTIgNTBoODBNNTIgOTBWMTAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button.bespoke-marp-presenter-note-smaller{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNMTIgNTBoODAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}}@keyframes __bespoke_marp_transition_reduced_outgoing__{0%{opacity:1}to{opacity:0}}@keyframes __bespoke_marp_transition_reduced_incoming__{0%{mix-blend-mode:plus-lighter;opacity:0}to{mix-blend-mode:plus-lighter;opacity:1}}.bespoke-marp-note,.bespoke-marp-osc,.bespoke-progress-parent{display:none;transition:none}@media screen{::view-transition-group(*){animation-duration:var(--marp-bespoke-transition-animation-duration,.5s);animation-timing-function:ease}::view-transition-new(*),::view-transition-old(*){animation-delay:0s;animation-direction:var(--marp-bespoke-transition-animation-direction,normal);animation-duration:var(--marp-bespoke-transition-animation-duration,.5s);animation-fill-mode:both;animation-name:var(--marp-bespoke-transition-animation-name,var(--marp-bespoke-transition-animation-name-fallback,__bespoke_marp_transition_no_animation__));mix-blend-mode:normal}::view-transition-old(*){--marp-bespoke-transition-animation-name-fallback:__bespoke_marp_transition_reduced_outgoing__;animation-timing-function:ease}::view-transition-new(*){--marp-bespoke-transition-animation-name-fallback:__bespoke_marp_transition_reduced_incoming__;animation-timing-function:ease}::view-transition-new(root),::view-transition-old(root){animation-timing-function:linear}::view-transition-new(__bespoke_marp_transition_osc__),::view-transition-old(__bespoke_marp_transition_osc__){animation-duration:0s!important;animation-name:__bespoke_marp_transition_osc__!important}::view-transition-new(__bespoke_marp_transition_osc__){opacity:0!important}.bespoke-marp-transition-warming-up::view-transition-group(*),.bespoke-marp-transition-warming-up::view-transition-new(*),.bespoke-marp-transition-warming-up::view-transition-old(*){animation-play-state:paused!important}body,html{height:100%;margin:0}body{background:#000;overflow:hidden}svg.bespoke-marp-slide{content-visibility:hidden;opacity:0;pointer-events:none;z-index:-1}svg.bespoke-marp-slide:not(.bespoke-marp-active) *{view-transition-name:none!important}svg.bespoke-marp-slide.bespoke-marp-active{content-visibility:visible;opacity:1;pointer-events:auto;z-index:0}svg.bespoke-marp-slide.bespoke-marp-active.bespoke-marp-active-ready *{animation-name:__bespoke_marp__!important}@supports not (content-visibility:hidden){svg.bespoke-marp-slide[data-bespoke-marp-load=hideable]{display:none}svg.bespoke-marp-slide[data-bespoke-marp-load=hideable].bespoke-marp-active{display:block}}}@media screen and (prefers-reduced-motion:reduce){svg.bespoke-marp-slide *{view-transition-name:none!important}}@media screen{[data-bespoke-marp-fragment=inactive]{visibility:hidden}body[data-bespoke-view=""] .bespoke-marp-parent,body[data-bespoke-view=next] .bespoke-marp-parent{inset:0;position:absolute}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc{view-transition-name:__bespoke_marp_transition_osc__;background:rgba(0,0,0,.65);border-radius:7px;bottom:50px;color:#fff;contain:paint;display:block;font-family:Helvetica,Arial,sans-serif;font-size:16px;left:50%;line-height:0;opacity:1;padding:12px;position:absolute;touch-action:manipulation;transform:translateX(-50%);transition:opacity .2s linear;-webkit-user-select:none;user-select:none;white-space:nowrap;will-change:transform;z-index:1}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>*,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>*{margin-left:6px}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>:first-child,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>:first-child{margin-left:0}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>span,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>span{opacity:.8}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>span[data-bespoke-marp-osc=page],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>span[data-bespoke-marp-osc=page]{display:inline-block;min-width:140px;text-align:center}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev]{height:32px;line-height:32px;width:32px}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next]{height:32px;line-height:32px;width:32px}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen]{height:32px;line-height:32px;width:32px}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter]{height:32px;line-height:32px;width:32px}body[data-bespoke-view=""] .bespoke-marp-parent.bespoke-marp-inactive,body[data-bespoke-view=next] .bespoke-marp-parent.bespoke-marp-inactive{cursor:none}body[data-bespoke-view=""] .bespoke-marp-parent.bespoke-marp-inactive>.bespoke-marp-osc,body[data-bespoke-view=next] .bespoke-marp-parent.bespoke-marp-inactive>.bespoke-marp-osc{opacity:0;pointer-events:none}body[data-bespoke-view=""] svg.bespoke-marp-slide,body[data-bespoke-view=next] svg.bespoke-marp-slide{height:100%;left:0;position:absolute;top:0;width:100%}body[data-bespoke-view=""] .bespoke-progress-parent{background:#222;display:flex;height:5px;width:100%}body[data-bespoke-view=""] .bespoke-progress-parent+.bespoke-marp-parent{top:5px}body[data-bespoke-view=""] .bespoke-progress-parent .bespoke-progress-bar{background:#0288d1;flex:0 0 0;transition:flex-basis .2s cubic-bezier(0,1,1,1)}body[data-bespoke-view=next]{background:transparent}body[data-bespoke-view=presenter]{background:#161616}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container{display:grid;font-family:Helvetica,Arial,sans-serif;grid-template:"current dragbar next" minmax(140px,1fr) "current dragbar note" 2fr "info    dragbar note" 3em;grid-template-columns:minmax(3px,var(--bespoke-marp-presenter-split-ratio,66%)) 0 minmax(3px,1fr);height:100%;left:0;position:absolute;top:0;width:100%}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-parent{grid-area:current;overflow:hidden;position:relative}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-parent svg.bespoke-marp-slide{height:calc(100% - 40px);left:20px;pointer-events:none;position:absolute;top:20px;-webkit-user-select:none;user-select:none;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-parent svg.bespoke-marp-slide.bespoke-marp-active{filter:drop-shadow(0 3px 10px rgba(0,0,0,.5))}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container{background:#0288d1;cursor:col-resize;grid-area:dragbar;margin-left:-3px;opacity:0;position:relative;transition:opacity .4s linear .1s;width:6px;z-index:10}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container:hover{opacity:1}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container.active{opacity:1;transition-delay:0s}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container{background:#222;cursor:pointer;display:none;grid-area:next;overflow:hidden;position:relative}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container.active{display:block}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container iframe.bespoke-marp-presenter-next{background:transparent;border:0;display:block;filter:drop-shadow(0 3px 10px rgba(0,0,0,.5));height:calc(100% - 40px);left:20px;pointer-events:none;position:absolute;top:20px;-webkit-user-select:none;user-select:none;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container{background:#222;color:#eee;grid-area:note;position:relative;z-index:1}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button{height:1.5em;line-height:1.5em;width:1.5em}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-wrapper{display:block;inset:0;position:absolute}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-buttons{background:rgba(0,0,0,.65);border-radius:4px;bottom:0;display:flex;gap:4px;margin:12px;opacity:0;padding:6px;pointer-events:none;position:absolute;right:0;transition:opacity .2s linear}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-buttons:focus-within,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-wrapper:focus-within+.bespoke-marp-presenter-note-buttons,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container:hover .bespoke-marp-presenter-note-buttons{opacity:1;pointer-events:auto}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note{word-wrap:break-word;box-sizing:border-box;font-size:calc(1.1em*var(--bespoke-marp-note-font-scale, 1));height:calc(100% - 40px);margin:20px;overflow:auto;padding-right:3px;scrollbar-color:hsla(0,0%,93%,.5) transparent;scrollbar-width:thin;white-space:pre-wrap;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar{width:6px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar-track{background:transparent}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar-thumb{background:hsla(0,0%,93%,.5);border-radius:6px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note:empty{pointer-events:none}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note.active{display:block}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note p:first-child{margin-top:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note p:last-child{margin-bottom:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container{align-items:center;box-sizing:border-box;color:#eee;display:flex;flex-wrap:nowrap;grid-area:info;justify-content:center;overflow:hidden;padding:0 10px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-time,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer{box-sizing:border-box;display:block;padding:0 10px;white-space:nowrap;width:100%}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button{height:1.5em;line-height:1.5em;width:1.5em}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page{order:2;text-align:center}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page .bespoke-marp-presenter-info-page-text{display:inline-block;min-width:120px;text-align:center}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-time{color:#999;order:1;text-align:left}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer{color:#999;order:3;text-align:right}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer:hover{cursor:pointer}}@media print{.bespoke-marp-presenter-info-container,.bespoke-marp-presenter-next-container,.bespoke-marp-presenter-note-container{display:none}}</style><style>@charset "UTF-8";@import "https://fonts.bunny.net/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap";div#\:\$p>svg>foreignObject>section{width:1280px;height:720px;box-sizing:border-box;overflow:hidden;position:relative;scroll-snap-align:center center}div#\:\$p>svg>foreignObject>section:after{bottom:0;content:attr(data-marpit-pagination);padding:inherit;pointer-events:none;position:absolute;right:0}div#\:\$p>svg>foreignObject>section:not([data-marpit-pagination]):after{display:none}/* Normalization */div#\:\$p>svg>foreignObject>section :is(h1,marp-h1){font-size:2em;margin:0.67em 0}div#\:\$p>svg>foreignObject>section video::-webkit-media-controls{will-change:transform}@page{size:1280px 720px;margin:0}@media print{body,html{background-color:#fff;margin:0;page-break-inside:avoid;break-inside:avoid-page}div#\:\$p>svg>foreignObject>section{page-break-before:always;break-before:page}div#\:\$p>svg>foreignObject>section,div#\:\$p>svg>foreignObject>section *{-webkit-print-color-adjust:exact!important;animation-delay:0s!important;animation-duration:0s!important;color-adjust:exact!important;transition:none!important}div#\:\$p>svg[data-marpit-svg]{display:block;height:100vh;width:100vw}}
+/*!
+ * Marp / Marpit Gaia theme.
+ *
+ * @theme gaia
+ * @author Yuki Hattori
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
+ */div#\:\$p>svg>foreignObject>section :is(pre,marp-pre) code.hljs{display:block;overflow-x:auto;padding:1em}div#\:\$p>svg>foreignObject>section code.hljs{padding:3px 5px}div#\:\$p>svg>foreignObject>section .hljs{background:#000;color:#f8f8f8}div#\:\$p>svg>foreignObject>section .hljs-comment,div#\:\$p>svg>foreignObject>section .hljs-quote{color:#aeaeae;font-style:italic}div#\:\$p>svg>foreignObject>section .hljs-keyword,div#\:\$p>svg>foreignObject>section .hljs-selector-tag,div#\:\$p>svg>foreignObject>section .hljs-type{color:#e28964}div#\:\$p>svg>foreignObject>section .hljs-string{color:#65b042}div#\:\$p>svg>foreignObject>section .hljs-subst{color:#daefa3}div#\:\$p>svg>foreignObject>section .hljs-link,div#\:\$p>svg>foreignObject>section .hljs-regexp{color:#e9c062}div#\:\$p>svg>foreignObject>section .hljs-name,div#\:\$p>svg>foreignObject>section .hljs-section,div#\:\$p>svg>foreignObject>section .hljs-tag,div#\:\$p>svg>foreignObject>section .hljs-title{color:#89bdff}div#\:\$p>svg>foreignObject>section .hljs-class .hljs-title,div#\:\$p>svg>foreignObject>section .hljs-doctag,div#\:\$p>svg>foreignObject>section .hljs-title.class_{text-decoration:underline}div#\:\$p>svg>foreignObject>section .hljs-bullet,div#\:\$p>svg>foreignObject>section .hljs-number,div#\:\$p>svg>foreignObject>section .hljs-symbol{color:#3387cc}div#\:\$p>svg>foreignObject>section .hljs-params,div#\:\$p>svg>foreignObject>section .hljs-template-variable,div#\:\$p>svg>foreignObject>section .hljs-variable{color:#3e87e3}div#\:\$p>svg>foreignObject>section .hljs-attribute{color:#cda869}div#\:\$p>svg>foreignObject>section .hljs-meta{color:#8996a8}div#\:\$p>svg>foreignObject>section .hljs-formula{background-color:#0e2231;color:#f8f8f8;font-style:italic}div#\:\$p>svg>foreignObject>section .hljs-addition{background-color:#253b22;color:#f8f8f8}div#\:\$p>svg>foreignObject>section .hljs-deletion{background-color:#420e09;color:#f8f8f8}div#\:\$p>svg>foreignObject>section .hljs-selector-class{color:#9b703f}div#\:\$p>svg>foreignObject>section .hljs-selector-id{color:#8b98ab}div#\:\$p>svg>foreignObject>section .hljs-emphasis{font-style:italic}div#\:\$p>svg>foreignObject>section .hljs-strong{font-weight:700}div#\:\$p>svg>foreignObject>section :is(h1,marp-h1),div#\:\$p>svg>foreignObject>section :is(h2,marp-h2),div#\:\$p>svg>foreignObject>section :is(h3,marp-h3),div#\:\$p>svg>foreignObject>section :is(h4,marp-h4),div#\:\$p>svg>foreignObject>section :is(h5,marp-h5),div#\:\$p>svg>foreignObject>section :is(h6,marp-h6){margin:.5em 0 0}div#\:\$p>svg>foreignObject>section :is(h1,marp-h1) strong,div#\:\$p>svg>foreignObject>section :is(h2,marp-h2) strong,div#\:\$p>svg>foreignObject>section :is(h3,marp-h3) strong,div#\:\$p>svg>foreignObject>section :is(h4,marp-h4) strong,div#\:\$p>svg>foreignObject>section :is(h5,marp-h5) strong,div#\:\$p>svg>foreignObject>section :is(h6,marp-h6) strong{font-weight:inherit}div#\:\$p>svg>foreignObject>section :is(h1,marp-h1)::part(auto-scaling),div#\:\$p>svg>foreignObject>section :is(h2,marp-h2)::part(auto-scaling),div#\:\$p>svg>foreignObject>section :is(h3,marp-h3)::part(auto-scaling),div#\:\$p>svg>foreignObject>section :is(h4,marp-h4)::part(auto-scaling),div#\:\$p>svg>foreignObject>section :is(h5,marp-h5)::part(auto-scaling),div#\:\$p>svg>foreignObject>section :is(h6,marp-h6)::part(auto-scaling){max-height:580px}div#\:\$p>svg>foreignObject>section :is(h1,marp-h1){font-size:1.8em}div#\:\$p>svg>foreignObject>section :is(h2,marp-h2){font-size:1.5em}div#\:\$p>svg>foreignObject>section :is(h3,marp-h3){font-size:1.3em}div#\:\$p>svg>foreignObject>section :is(h4,marp-h4){font-size:1.1em}div#\:\$p>svg>foreignObject>section :is(h5,marp-h5){font-size:1em}div#\:\$p>svg>foreignObject>section :is(h6,marp-h6){font-size:.9em}div#\:\$p>svg>foreignObject>section blockquote,div#\:\$p>svg>foreignObject>section p{margin:1em 0 0}div#\:\$p>svg>foreignObject>section ol>li,div#\:\$p>svg>foreignObject>section ul>li{margin:.3em 0 0}div#\:\$p>svg>foreignObject>section ol>li>p,div#\:\$p>svg>foreignObject>section ul>li>p{margin:.6em 0 0}div#\:\$p>svg>foreignObject>section code{display:inline-block;font-family:Roboto Mono,monospace;font-size:.8em;letter-spacing:0;margin:-.1em .15em;padding:.1em .2em;vertical-align:baseline}div#\:\$p>svg>foreignObject>section :is(pre,marp-pre){display:block;margin:1em 0 0;overflow:visible}div#\:\$p>svg>foreignObject>section :is(pre,marp-pre) code{box-sizing:border-box;font-size:.7em;margin:0;min-width:100%;padding:.5em}div#\:\$p>svg>foreignObject>section :is(pre,marp-pre)::part(auto-scaling){max-height:calc(580px - 1em)}div#\:\$p>svg>foreignObject>section blockquote{margin:1em 0 0;padding:0 1em;position:relative}div#\:\$p>svg>foreignObject>section blockquote:after,div#\:\$p>svg>foreignObject>section blockquote:before{content:"“";display:block;font-family:Times New Roman,serif;font-weight:700;position:absolute}div#\:\$p>svg>foreignObject>section blockquote:before{left:0;top:0}div#\:\$p>svg>foreignObject>section blockquote:after{bottom:0;right:0;transform:rotate(180deg)}div#\:\$p>svg>foreignObject>section blockquote>:first-child{margin-top:0}div#\:\$p>svg>foreignObject>section mark{background:transparent}div#\:\$p>svg>foreignObject>section table{border-collapse:collapse;border-spacing:0;margin:1em 0 0}div#\:\$p>svg>foreignObject>section table td,div#\:\$p>svg>foreignObject>section table th{border-style:solid;border-width:1px;padding:.2em .4em}div#\:\$p>svg>foreignObject>section footer,div#\:\$p>svg>foreignObject>section header,div#\:\$p>svg>foreignObject>section:after{box-sizing:border-box;font-size:66%;height:70px;line-height:50px;overflow:hidden;padding:10px 25px;position:absolute}div#\:\$p>svg>foreignObject>section:after{--marpit-root-font-size:66%}div#\:\$p>svg>foreignObject>section header{top:0}div#\:\$p>svg>foreignObject>section footer,div#\:\$p>svg>foreignObject>section header{left:0;right:0}div#\:\$p>svg>foreignObject>section footer{bottom:0}div#\:\$p>svg>foreignObject>section{word-wrap:break-word;--color-background:#fff8e1;--color-background-stripe:rgba(69,90,100,.1);--color-foreground:#455a64;--color-dimmed:#6a7a7d;--color-highlight:#0288d1;background-color:var(--color-background);background-image:linear-gradient(135deg,hsla(0,0%,53%,0),hsla(0,0%,53%,.02) 50%,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.05));color:var(--color-foreground);font-family:Lato,Avenir Next,Avenir,Trebuchet MS,Segoe UI,sans-serif;font-size:35px;height:720px;letter-spacing:1.25px;line-height:1.35;padding:70px;width:1280px}div#\:\$p>svg>foreignObject>section{--marpit-root-font-size:35px}div#\:\$p>svg>foreignObject>section:after{bottom:0;font-size:80%;right:0}div#\:\$p>svg>foreignObject>section:after{--marpit-root-font-size:80%}div#\:\$p>svg>foreignObject>section a,div#\:\$p>svg>foreignObject>section mark{color:var(--color-highlight)}div#\:\$p>svg>foreignObject>section code{background:var(--color-dimmed);color:var(--color-background)}div#\:\$p>svg>foreignObject>section :is(h1,marp-h1) strong,div#\:\$p>svg>foreignObject>section :is(h2,marp-h2) strong,div#\:\$p>svg>foreignObject>section :is(h3,marp-h3) strong,div#\:\$p>svg>foreignObject>section :is(h4,marp-h4) strong,div#\:\$p>svg>foreignObject>section :is(h5,marp-h5) strong,div#\:\$p>svg>foreignObject>section :is(h6,marp-h6) strong{color:var(--color-highlight)}div#\:\$p>svg>foreignObject>section :is(pre,marp-pre){background:var(--color-foreground)}div#\:\$p>svg>foreignObject>section :is(pre,marp-pre)>code{background:transparent}div#\:\$p>svg>foreignObject>section blockquote:after,div#\:\$p>svg>foreignObject>section blockquote:before,div#\:\$p>svg>foreignObject>section footer,div#\:\$p>svg>foreignObject>section header,div#\:\$p>svg>foreignObject>section section:after{color:var(--color-dimmed)}div#\:\$p>svg>foreignObject>section table td,div#\:\$p>svg>foreignObject>section table th{border-color:var(--color-foreground)}div#\:\$p>svg>foreignObject>section table thead th{background:var(--color-foreground);color:var(--color-background)}div#\:\$p>svg>foreignObject>section table tbody>tr:nth-child(odd) td,div#\:\$p>svg>foreignObject>section table tbody>tr:nth-child(odd) th{background:var(--color-background-stripe,transparent)}div#\:\$p>svg>foreignObject>section>:first-child,div#\:\$p>svg>foreignObject>section>header:first-child+*{margin-top:0}div#\:\$p>svg>foreignObject>section:where(.invert){--color-background:#455a64;--color-background-stripe:rgba(255,248,225,.1);--color-foreground:#fff8e1;--color-dimmed:#dad8c8;--color-highlight:#81d4fa}div#\:\$p>svg>foreignObject>section:where(.gaia){--color-background:#0288d1;--color-background-stripe:rgba(255,248,225,.1);--color-foreground:#fff8e1;--color-dimmed:#cce2de;--color-highlight:#81d4fa}div#\:\$p>svg>foreignObject>section:where(.lead){display:flex;flex-flow:column nowrap;justify-content:center}div#\:\$p>svg>foreignObject>section:where(.lead) :is(h1,marp-h1),div#\:\$p>svg>foreignObject>section:where(.lead) :is(h2,marp-h2),div#\:\$p>svg>foreignObject>section:where(.lead) :is(h3,marp-h3),div#\:\$p>svg>foreignObject>section:where(.lead) :is(h4,marp-h4),div#\:\$p>svg>foreignObject>section:where(.lead) :is(h5,marp-h5),div#\:\$p>svg>foreignObject>section:where(.lead) :is(h6,marp-h6){text-align:center}div#\:\$p>svg>foreignObject>section:where(.lead) p{text-align:center}div#\:\$p>svg>foreignObject>section:where(.lead) blockquote>:is(h1,marp-h1),div#\:\$p>svg>foreignObject>section:where(.lead) blockquote>:is(h2,marp-h2),div#\:\$p>svg>foreignObject>section:where(.lead) blockquote>:is(h3,marp-h3),div#\:\$p>svg>foreignObject>section:where(.lead) blockquote>:is(h4,marp-h4),div#\:\$p>svg>foreignObject>section:where(.lead) blockquote>:is(h5,marp-h5),div#\:\$p>svg>foreignObject>section:where(.lead) blockquote>:is(h6,marp-h6),div#\:\$p>svg>foreignObject>section:where(.lead) blockquote>p{text-align:left}div#\:\$p>svg>foreignObject>section:where(.lead) ol>li>p,div#\:\$p>svg>foreignObject>section:where(.lead) ul>li>p{text-align:left}div#\:\$p>svg>foreignObject>section:where(.lead) table{margin-left:auto;margin-right:auto}div#\:\$p>svg>foreignObject>:where(section){container-type:size}div#\:\$p>svg>foreignObject>section img[data-marp-twemoji]{background:transparent;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em;width:1em}
+
+/* @theme utopios */div#\:\$p>svg>foreignObject>:where(section):not([root]){--blue-utopios:#438ecc;--blue-secondary:#6165ab}div#\:\$p>svg>foreignObject>section :is(h1,marp-h1),div#\:\$p>svg>foreignObject>section :is(h2,marp-h2),div#\:\$p>svg>foreignObject>section :is(h3,marp-h3),div#\:\$p>svg>foreignObject>section :is(h4,marp-h4),div#\:\$p>svg>foreignObject>section :is(h5,marp-h5),div#\:\$p>svg>foreignObject>section :is(h6,marp-h6){color:var(--blue-utopios)}div#\:\$p>svg>foreignObject>section li,div#\:\$p>svg>foreignObject>section p,div#\:\$p>svg>foreignObject>section ul{margin:0;text-align:justify}
+
+/* header and footer items are centered */div#\:\$p>svg>foreignObject>section footer,div#\:\$p>svg>foreignObject>section header{color:white;display:flex;align-items:center;justify-content:center}div#\:\$p>svg>foreignObject>section{background:white}
+
+/* add gradient on title cover, header and footer */div#\:\$p>svg>foreignObject>section footer,div#\:\$p>svg>foreignObject>section header,div#\:\$p>svg>foreignObject>section.lead{background:linear-gradient(90deg,var(--blue-secondary) 0%,var(--blue-utopios) 100%)}
+
+/* setup title cover */div#\:\$p>svg>foreignObject>section.lead :is(h1,marp-h1),div#\:\$p>svg>foreignObject>section.lead :is(h2,marp-h2),div#\:\$p>svg>foreignObject>section.lead :is(h3,marp-h3),div#\:\$p>svg>foreignObject>section.lead :is(h4,marp-h4),div#\:\$p>svg>foreignObject>section.lead :is(h5,marp-h5),div#\:\$p>svg>foreignObject>section.lead :is(h6,marp-h6){color:white}div#\:\$p>svg>foreignObject>section.cover{display:flex;flex-flow:column nowrap;justify-content:center;align-items:center;background:white}div#\:\$p>svg>foreignObject>section.cover :is(h1,marp-h1){max-width:55%;text-align:center}
+
+/* set pagination to white */div#\:\$p>svg>foreignObject>section:after{color:white}
+
+/* STRUCTURE */div#\:\$p>svg>foreignObject>section .columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:calc(var(--marpit-root-font-size, 1rem) * 1)
+    /* justify-content: center !important; */}div#\:\$p>svg>foreignObject>section .columns-center{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:calc(var(--marpit-root-font-size, 1rem) * 1);justify-items:center;justify-content:center;align-items:center}div#\:\$p>svg>foreignObject>section .columns3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:calc(var(--marpit-root-font-size, 1rem) * 1)
+    /* justify-content: center !important; */}div#\:\$p>svg>foreignObject>section .columns3-center{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:calc(var(--marpit-root-font-size, 1rem) * 1);justify-items:center;justify-content:center;align-items:center}div#\:\$p>svg>foreignObject>section table{font-size:calc(var(--marpit-root-font-size, 1rem) * 0.7)}div#\:\$p>svg>foreignObject>section table thead th{color:white;background-color:var(--blue-utopios)}div#\:\$p>svg>foreignObject>section a{text-decoration:underline}div#\:\$p>svg>foreignObject>section .flex-column-center{display:flex;flex-direction:column;align-items:center}
+
+/* SYNTAX HIGHLIGHTER */
+
+/* Squiggly underlines that indicate errors */div#\:\$p>svg>foreignObject>section .squiggle{background:url("https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/squiggle.svg") no-repeat bottom left;padding-bottom:0.2em}
+
+/* Inline code */div#\:\$p>svg>foreignObject>section :not(:is(pre,marp-pre))>code{background-color:#e6e6e6;color:#161616;border-radius:5px;margin:0}
+
+/* Left align code blocks inside lists */div#\:\$p>svg>foreignObject>section li marp-pre,div#\:\$p>svg>foreignObject>section ul marp-pre{text-align:left}
+
+/* Fallback highlighter (highlight.js) */
+
+/* Marp code block */div#\:\$p>svg>foreignObject>section :is(pre,marp-pre),div#\:\$p>svg>foreignObject>section marp-pre{margin:calc(var(--marpit-root-font-size, 1rem) * 0.25) 0;background-color:#1e1e1e}div#\:\$p>svg>foreignObject>section .hljs-title{color:#dcdcaa!important}div#\:\$p>svg>foreignObject>section .hljs-class .hljs-title,div#\:\$p>svg>foreignObject>section .hljs-doctag,div#\:\$p>svg>foreignObject>section .hljs-title.class_{text-decoration:none}div#\:\$p>svg>foreignObject>section .hljs-built_in,div#\:\$p>svg>foreignObject>section .hljs-keyword{color:#569cd6!important}div#\:\$p>svg>foreignObject>section .hljs-string{color:#ce9178!important}div#\:\$p>svg>foreignObject>section .hljs-comment{color:#6a9955!important;font-style:normal}div#\:\$p>svg>foreignObject>section .hljs-params,div#\:\$p>svg>foreignObject>section :is(pre,marp-pre) code{color:#d4d4d4!important}div#\:\$p>svg>foreignObject>section[data-marpit-scope-ghm0ebyU].lead{background:white}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure>figcaption{position:absolute;border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;white-space:nowrap;width:1px}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content],div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#\:\$p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id=":$p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-marpit-scope-ghm0ebyU="" data-class="lead" data-theme="utopios" lang="fr-FR" class="lead" style="--class:lead;--theme:utopios;" data-marpit-advanced-background="background"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/entete_m2i.svg&quot;);background-size:contain;"></figure></div></section></foreignObject><foreignObject width="1280" height="720"><section id="1" data-marpit-scope-ghm0ebyU="" data-class="lead" data-theme="utopios" lang="fr-FR" class="lead" style="--class:lead;--theme:utopios;" data-marpit-advanced-background="content">
+<h1 id="net">.NET</h1>
+<h2 id="aspnet-core---microservices">ASP.NET Core - Microservices</h2>
+</section>
+</foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-marpit-scope-ghm0ebyU="" data-class="lead" data-theme="utopios" lang="fr-FR" class="lead" style="" data-marpit-advanced-background="pseudo"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="2" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="sommaire">Sommaire</h2>
+<div class="columns">
+<div>
+<ul>
+<li>Introduction</li>
+<li>Premier microservice</li>
+<li>Communication synchrone</li>
+<li>Service Discovery</li>
+</ul>
+</div>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="3" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h1 id="introduction">Introduction</h1>
+<h2 id="quest-ce-quun-monolithe">Qu'est-ce qu'un monolithe ?</h2>
+<p><strong>Définition</strong> : Application déployée comme une unité unique.</p>
+<p><strong>Caractéristiques</strong> :</p>
+<ul>
+<li>Une seule base de code</li>
+<li>Un seul déploiement</li>
+<li>Une seule base de données</li>
+<li>Couplage fort entre modules</li>
+</ul>
+<p><em>Exemple</em> : Application e-commerce où UI, gestion produits, commandes et paiements sont dans le même WAR/JAR.</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="4" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h1 id="avantages-du-monolithe">Avantages du monolithe</h1>
+<table>
+<thead>
+<tr>
+<th>Avantage</th>
+<th>Explication</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Simplicité</strong></td>
+<td>Un seul projet, facile à comprendre</td>
+</tr>
+<tr>
+<td><strong>Développement</strong></td>
+<td>IDE unique, debug simplifié</td>
+</tr>
+<tr>
+<td><strong>Déploiement</strong></td>
+<td>Un artifact à déployer</td>
+</tr>
+<tr>
+<td><strong>Tests</strong></td>
+<td>Tests d'intégration simples</td>
+</tr>
+<tr>
+<td><strong>Performance</strong></td>
+<td>Appels en mémoire (pas de réseau)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Idéal pour démarrer un projet ou une petite équipe</em></p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="5" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h1 id="inconv%C3%A9nients-du-monolithe">Inconvénients du monolithe</h1>
+<table>
+<thead>
+<tr>
+<th>Problème</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scalabilité</strong></td>
+<td>Tout ou rien, pas de scaling partiel</td>
+</tr>
+<tr>
+<td><strong>Déploiement</strong></td>
+<td>Tout redéployer pour un petit changement</td>
+</tr>
+<tr>
+<td><strong>Technologies</strong></td>
+<td>Stack unique imposée</td>
+</tr>
+<tr>
+<td><strong>Équipes</strong></td>
+<td>Conflits et coordination complexe</td>
+</tr>
+<tr>
+<td><strong>Fiabilité</strong></td>
+<td>Un bug peut tout faire tomber</td>
+</tr>
+</tbody>
+</table>
+<p><em>Devient problématique quand l'application grandit</em></p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="6" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h1 id="quest-ce-quun-microservice">Qu'est-ce qu'un microservice ?</h1>
+<p><strong>Définition</strong> : Service autonome focalisé sur une capacité métier.</p>
+<p><strong>Caractéristiques clés</strong> :</p>
+<ul>
+<li>Responsabilité unique (principe SRP)</li>
+<li>Déployable indépendamment</li>
+<li>Base de données propre</li>
+<li>Communication via API (REST, messaging)</li>
+</ul>
+<p><em>Chaque service = une petite application complète</em></p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="7" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h5 id="les-9-caract%C3%A9ristiques-martin-fowler">Les 9 caractéristiques (Martin Fowler)</h5>
+<ol>
+<li>Componentisation via services</li>
+<li>Organisation autour des capacités métier</li>
+<li>Produits, pas projets</li>
+<li>Endpoints intelligents, pipes simples</li>
+<li>Gouvernance décentralisée</li>
+<li>Gestion décentralisée des données</li>
+<li>Automatisation de l'infrastructure</li>
+<li>Design for failure</li>
+<li>Design évolutif</li>
+</ol>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="8" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h1 id="avantages-des-microservices">Avantages des microservices</h1>
+<table>
+<thead>
+<tr>
+<th>Avantage</th>
+<th>Bénéfice concret</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scalabilité</strong></td>
+<td>Scaler uniquement ce qui est nécessaire</td>
+</tr>
+<tr>
+<td><strong>Agilité</strong></td>
+<td>Déployer un service sans impacter les autres</td>
+</tr>
+<tr>
+<td><strong>Résilience</strong></td>
+<td>Isolation des pannes</td>
+</tr>
+<tr>
+<td><strong>Technologies</strong></td>
+<td>Choisir le bon outil pour chaque besoin</td>
+</tr>
+<tr>
+<td><strong>Équipes</strong></td>
+<td>Équipes autonomes par domaine</td>
+</tr>
+</tbody>
+</table>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="9" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h1 id="inconv%C3%A9nients-des-microservices">Inconvénients des microservices</h1>
+<table>
+<thead>
+<tr>
+<th>Défi</th>
+<th>Complexité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Réseau</strong></td>
+<td>Latence, pannes réseau à gérer</td>
+</tr>
+<tr>
+<td><strong>Données</strong></td>
+<td>Pas de transactions distribuées simples</td>
+</tr>
+<tr>
+<td><strong>Tests</strong></td>
+<td>Tests end-to-end complexes</td>
+</tr>
+<tr>
+<td><strong>Ops</strong></td>
+<td>Plus de services à monitorer</td>
+</tr>
+<tr>
+<td><strong>Debug</strong></td>
+<td>Traçabilité des requêtes</td>
+</tr>
+</tbody>
+</table>
+<p><em>Les microservices ne sont pas gratuits !</em></p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="10" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h1 id="quand-choisir-quoi">Quand choisir quoi ?</h1>
+<div class="columns">
+<div>
+<h3 id="monolithe-%E2%9C%85">Monolithe <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2705.svg" data-marp-twemoji=""/></h3>
+<ul>
+<li>Nouveau projet (MVP)</li>
+<li>Petite équipe (&lt; 5 devs)</li>
+<li>Domaine simple</li>
+<li>Time-to-market court</li>
+<li>Budget limité</li>
+</ul>
+</div>
+<div>
+<h3 id="microservices-%E2%9C%85">Microservices <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2705.svg" data-marp-twemoji=""/></h3>
+<ul>
+<li>Application mature</li>
+<li>Grande équipe (&gt; 10 devs)</li>
+<li>Domaine complexe</li>
+<li>Besoin de scalabilité</li>
+<li>Équipes distribuées</li>
+</ul>
+</div>
+</div>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="11" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h1 id="premier-microservice">Premier microservice</h1>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="12" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="les-api-rest">Les API REST</h2>
+<p>Un microservice n'est au final ni plus ni moins qu'une application de type API. Cette application va être consommée pour permettre l'accès et le traitement à une portion des données de notre projet, ce qui peut, si besoin, demander l'appel d'autres microservices pour alimenter les données en dépendances (par exemple un panier de produits devra contenir les produits qui se trouvent être traités par un autre microservice).</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="13" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="entities">Entities</h2>
+<p>Pour pouvoir avoir nos données présentes dans une base de données, il convient de créer des entités Entity Framework Core. Pour ce faire, il nous suffit de créer des classes C# disposant des attributs appropriés:</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="14" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="14" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<br />
+<pre is="marp-pre" data-auto-scaling="downscale-only" class="shiki shiki-themes dark-plus dark-plus" style="background-color:#1E1E1E;--shiki-dark-bg:#1E1E1E;color:#D4D4D4;--shiki-dark:#D4D4D4" tabindex="0"><code class="language-csharp"><span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> class</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> Client</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">{</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    [</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">Key</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">]</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> Guid</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Id</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">set</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> string</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Firstname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">set</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> string</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Lastname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">set</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> string</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Email</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">set</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">}</span></span></code></pre>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="15" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="dbcontext">DbContext</h2>
+<p>Pour gérer l'accès à la base de données, nous utilisons un <strong>DbContext</strong> qui représente une session avec la base de données:</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="16" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<br />
+<pre is="marp-pre" data-auto-scaling="downscale-only" class="shiki shiki-themes dark-plus dark-plus" style="background-color:#1E1E1E;--shiki-dark-bg:#1E1E1E;color:#D4D4D4;--shiki-dark:#D4D4D4" tabindex="0"><code class="language-csharp"><span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> class</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> ApplicationDbContext</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> : </span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">DbContext</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">{</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA"> ApplicationDbContext</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">DbContextOptions</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ApplicationDbContext</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">> </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">options</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">        : </span><span style="color:#569CD6;--shiki-dark:#569CD6">base</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">options</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    {</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> DbSet</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">Client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">> </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Clients</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">set</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    protected</span><span style="color:#569CD6;--shiki-dark:#569CD6"> override</span><span style="color:#569CD6;--shiki-dark:#569CD6"> void</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA"> OnModelCreating</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ModelBuilder</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> modelBuilder</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    {</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">        base</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">OnModelCreating</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">modelBuilder</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#6A9955;--shiki-dark:#6A9955">        // Configuration des entités</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    }</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">}</span></span></code></pre>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="17" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="configuration-de-la-base-de-donn%C3%A9es">Configuration de la base de données</h2>
+<p>Dans le fichier <strong>appsettings.json</strong> et dans <strong>Program.cs</strong>:</p>
+<pre is="marp-pre" data-auto-scaling="downscale-only" class="shiki shiki-themes dark-plus dark-plus" style="background-color:#1E1E1E;--shiki-dark-bg:#1E1E1E;color:#D4D4D4;--shiki-dark:#D4D4D4" tabindex="0"><code class="language-json"><span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">{</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">  "ConnectionStrings"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">: {</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">    "DefaultConnection"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">: </span><span style="color:#CE9178;--shiki-dark:#CE9178">"Server=localhost;Database=ClientsDb;..."</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">  }</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">}</span></span></code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only" class="shiki shiki-themes dark-plus dark-plus" style="background-color:#1E1E1E;--shiki-dark-bg:#1E1E1E;color:#D4D4D4;--shiki-dark:#D4D4D4" tabindex="0"><code class="language-csharp"><span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">builder</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Services</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">AddDbContext</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ApplicationDbContext</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">>(</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">options</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> =></span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">    options</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">UseSqlServer</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">        builder</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Configuration</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">GetConnectionString</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#CE9178;--shiki-dark:#CE9178">"DefaultConnection"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)));</span></span></code></pre>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="18" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="les-dtos">Les DTOs</h2>
+<p>Afin d'éviter de perturber la base de données en permanence, il est fréquent d'avoir recours à des objets de type <strong>DTOs</strong>. Ces DTOs sont généralement une copie des objets de type <strong>Entité</strong> mais avec des modifications de typage ou l'absence / renommage de propriétés pour correspondre à la demande des clients ou les spécificités du format JSON.</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="19" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<br />
+<pre is="marp-pre" data-auto-scaling="downscale-only" class="shiki shiki-themes dark-plus dark-plus" style="background-color:#1E1E1E;--shiki-dark-bg:#1E1E1E;color:#D4D4D4;--shiki-dark:#D4D4D4" tabindex="0"><code class="language-csharp"><span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> record</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> ClientDto</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">{</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> Guid</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Id</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">init</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> string</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Firstname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">init</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> string</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Lastname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">init</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> string</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Email</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">init</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> record</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> CreateClientDto</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">{</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> string</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Firstname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">init</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> string</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Lastname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">init</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> string</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> Email</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> { </span><span style="color:#569CD6;--shiki-dark:#569CD6">get</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; </span><span style="color:#569CD6;--shiki-dark:#569CD6">init</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">; }</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">}</span></span></code></pre>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="20" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="services">Services</h2>
+<p>Pour pouvoir réaliser les opérations, nous allons centraliser les manipulations de notre DbContext dans une classe de service:</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="21" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<pre is="marp-pre" data-auto-scaling="downscale-only" class="shiki shiki-themes dark-plus dark-plus" style="background-color:#1E1E1E;--shiki-dark-bg:#1E1E1E;color:#D4D4D4;--shiki-dark:#D4D4D4" tabindex="0"><code class="language-csharp"><span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> interface</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> IClientService</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">{</span></span>
+<span class="line"><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">    Task</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ClientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">> </span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">AddClientAsync</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">CreateClientDto</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> clientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">    Task</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ClientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">?> </span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">GetClientByIdAsync</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">Guid</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> id</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">    Task</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">IEnumerable</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ClientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">>> </span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">GetAllClientsAsync</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">();</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> class</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> ClientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> : </span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">IClientService</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">{</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    private</span><span style="color:#569CD6;--shiki-dark:#569CD6"> readonly</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> ApplicationDbContext</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> _context</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA"> ClientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ApplicationDbContext</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> context</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    {</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">        _context</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">context</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> async</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> Task</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ClientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">> </span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">AddClientAsync</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">CreateClientDto</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> clientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    {</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">        var</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#569CD6;--shiki-dark:#569CD6">new</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> Client</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">        {</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">            Id</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Guid</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">NewGuid</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(),</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">            Firstname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">clientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Firstname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">,</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">            Lastname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">clientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Lastname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">,</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">            Email</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">clientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Email</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">        };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">        _context</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Clients</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">Add</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">        await</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> _context</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">SaveChangesAsync</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">();</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#C586C0;--shiki-dark:#C586C0">        return</span><span style="color:#569CD6;--shiki-dark:#569CD6"> new</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> ClientDto</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">        {</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">            Id</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Id</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">,</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">            Firstname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Firstname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">,</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">            Lastname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Lastname</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">,</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">            Email</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Email</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">        };</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    }</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">}</span></span></code></pre>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="22" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="enregistrement-des-services">Enregistrement des services</h2>
+<p>Dans <strong>Program.cs</strong>, il faut enregistrer nos services dans le conteneur d'injection de dépendances:</p>
+<pre is="marp-pre" data-auto-scaling="downscale-only" class="shiki shiki-themes dark-plus dark-plus" style="background-color:#1E1E1E;--shiki-dark-bg:#1E1E1E;color:#D4D4D4;--shiki-dark:#D4D4D4" tabindex="0"><code class="language-csharp"><span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">builder</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Services</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">AddScoped</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">IClientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">, </span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ClientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">>();</span></span></code></pre>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="23" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="controllers">Controllers</h2>
+<p>Enfin, la récupération et l'envoi des requêtes HTTP se dérouleront dans un <strong>Controller</strong>. Ce contrôleur sera le lieu principal du traitement des requêtes, dont le routing sera globalement fixé via l'attribut <strong>[Route]</strong>.</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="24" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<pre is="marp-pre" data-auto-scaling="downscale-only" class="shiki shiki-themes dark-plus dark-plus" style="background-color:#1E1E1E;--shiki-dark-bg:#1E1E1E;color:#D4D4D4;--shiki-dark:#D4D4D4" tabindex="0"><code class="language-csharp"><span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">[</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ApiController</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">]</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">[</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">Route</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#CE9178;--shiki-dark:#CE9178">"api/v1/[controller]"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)]</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> class</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> ClientsController</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> : </span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ControllerBase</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">{</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    private</span><span style="color:#569CD6;--shiki-dark:#569CD6"> readonly</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> IClientService</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> _clientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    private</span><span style="color:#569CD6;--shiki-dark:#569CD6"> readonly</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> ILogger</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ClientsController</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">> </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">_logger</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA"> ClientsController</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span></span>
+<span class="line"><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">        IClientService</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> clientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">, </span></span>
+<span class="line"><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">        ILogger</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ClientsController</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">> </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">logger</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    {</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">        _clientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">clientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">        _logger</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">logger</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">;</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    [</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">HttpPost</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">]</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> async</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> Task</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ActionResult</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ClientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">>> </span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">AddClient</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">        [</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">FromBody</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">] </span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">CreateClientDto</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> newClient</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    {</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">        _logger</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">LogInformation</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#CE9178;--shiki-dark:#CE9178">"Adding new client"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">        var</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> savedClient</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#569CD6;--shiki-dark:#569CD6">await</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> _clientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">AddClientAsync</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">newClient</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#C586C0;--shiki-dark:#C586C0">        return</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA"> Ok</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">savedClient</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    [</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">HttpGet</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#CE9178;--shiki-dark:#CE9178">"{id}"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)]</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">    public</span><span style="color:#569CD6;--shiki-dark:#569CD6"> async</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> Task</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ActionResult</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">ClientDto</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">>> </span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">GetClient</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0">Guid</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> id</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    {</span></span>
+<span class="line"><span style="color:#569CD6;--shiki-dark:#569CD6">        var</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#569CD6;--shiki-dark:#569CD6">await</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE"> _clientService</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">GetClientByIdAsync</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">id</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#C586C0;--shiki-dark:#C586C0">        if</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> (</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> == </span><span style="color:#569CD6;--shiki-dark:#569CD6">null</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#C586C0;--shiki-dark:#C586C0">            return</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA"> NotFound</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">();</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">            </span></span>
+<span class="line"><span style="color:#C586C0;--shiki-dark:#C586C0">        return</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA"> Ok</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">    }</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">}</span></span></code></pre>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-class="lead" data-theme="utopios" lang="fr-FR" class="lead" style="--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--class:lead;--theme:utopios;">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+
+<h1 id="communication-synchrone">Communication Synchrone</h1>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="26" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="protocole-http">Protocole HTTP</h2>
+<p>La méthode la plus aisée d'assurer une communication entre nos composants de façon synchrone est certainement d'utiliser le protocole HTTP. Après tout, les micro-services sont des API REST prévues de base à la gestion de ce protocole.</p>
+<p>Le protocole fonctionne d'ailleurs, peu importe le verbe, via l'envoi d'une requête et l'attente d'une réponse. De par ce constat, il suffit de créer des endpoints sur nos micro-services servant à d'autres micro-services pour la récupération des données propres à chaque section de notre application. Pour cela, .NET nous offre plusieurs façons de créer des appels REST.</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="27" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="httpclient-12">HttpClient (1/2)</h2>
+<p>La méthode moderne et recommandée est l'utilisation de <strong>HttpClient</strong> via <strong>IHttpClientFactory</strong>. Pour utiliser cette méthodologie, il faut dans un premier temps configurer le client HTTP dans <strong>Program.cs</strong>:</p>
+<pre is="marp-pre" data-auto-scaling="downscale-only" class="shiki shiki-themes dark-plus dark-plus" style="background-color:#1E1E1E;--shiki-dark-bg:#1E1E1E;color:#D4D4D4;--shiki-dark:#D4D4D4" tabindex="0"><code class="language-csharp"><span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">builder</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">Services</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">AddHttpClient</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#CE9178;--shiki-dark:#CE9178">"AuthService"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">, </span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> =></span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">{</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">    client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">BaseAddress</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4"> = </span><span style="color:#569CD6;--shiki-dark:#569CD6">new</span><span style="color:#4EC9B0;--shiki-dark:#4EC9B0"> Uri</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#CE9178;--shiki-dark:#CE9178">"http://localhost:8082"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">    client</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#9CDCFE;--shiki-dark:#9CDCFE">DefaultRequestHeaders</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">.</span><span style="color:#DCDCAA;--shiki-dark:#DCDCAA">Add</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">(</span><span style="color:#CE9178;--shiki-dark:#CE9178">"Accept"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">, </span><span style="color:#CE9178;--shiki-dark:#CE9178">"application/json"</span><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#D4D4D4;--shiki-dark:#D4D4D4">});</span></span></code></pre>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="28" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="httpclient-22">HttpClient (2/2)</h2>
+<p>Une fois configuré, HttpClient devient ainsi accessible au sein de nos micro-services pour appeler d'autres micro-services et ainsi alimenter leur propre réponse des données issues de leurs &quot;collègues&quot;:</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="29" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="limitations-actuelles">Limitations actuelles</h2>
+<p>Dans notre manière de fonctionner actuelle, nous sommes dans l'incapacité de profiter de l'un des avantages majeurs d'une architecture micro-service: la scalabilité.</p>
+<p>En effet, en cas de surcharge d'un micro-service, il est fréquent que celui-ci soit cloné et qu'une multitude d'instances se répartissent ensuite la charge de travail. Ceci causera cependant la création de plusieurs ensembles nom de domaine / ports pour accéder à nos micro-services.</p>
+<p>Il devient ainsi impossible de spécifier à nos services vers quel port ils devront envoyer leurs requêtes...</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="30" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-class="lead" data-theme="utopios" lang="fr-FR" class="lead" style="--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--class:lead;--theme:utopios;">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+
+<h1 id="service-discovery">Service Discovery</h1>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="31" data-paginate="true" data-header="![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg)" data-footer="Utopios® Tous droits réservés" data-theme="utopios" lang="fr-FR" data-marpit-pagination="31" style="--paginate:true;--header:![h:70px](https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg);--footer:Utopios® Tous droits réservés;--theme:utopios;" data-marpit-pagination-total="31">
+<header><img src="https://utopios-marp-assets.s3.eu-west-3.amazonaws.com/logo_blanc.svg" alt="" style="height:70px;" /></header>
+<h2 id="%C3%A0-quoi-%C3%A7a-sert">À quoi ça sert ?</h2>
+<p>Il va ainsi falloir à notre application un moyen de garder une trace de tous les micro-services, de leurs adresses et de leurs ports pour pouvoir permettre aux autres services de s'en servir.</p>
+<p>Le mécanisme du Service Discovery est en réalité un micro-service dont le rôle est la synchronisation d'un carnet d'adresse en temps réel entre tous les services de notre application. À un intervalle régulier, les micro-services vont transmettre leur nom d'hôte et leur port et ainsi alimenter un répertoire complet de notre application, qui se verra automatiquement transmis à tous les micro-services, également à intervalle plus ou moins régulier.</p>
+<footer>Utopios® Tous droits réservés</footer>
+</section>
+<script>!function(){"use strict";const t={h1:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"1"},style:"display: block; font-size: 2em; margin-block-start: 0.67em; margin-block-end: 0.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h2:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"2"},style:"display: block; font-size: 1.5em; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h3:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"3"},style:"display: block; font-size: 1.17em; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h4:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"4"},style:"display: block; margin-block-start: 1.33em; margin-block-end: 1.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h5:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"5"},style:"display: block; font-size: 0.83em; margin-block-start: 1.67em; margin-block-end: 1.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h6:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"6"},style:"display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},span:{proto:()=>HTMLSpanElement},pre:{proto:()=>HTMLElement,style:"display: block; font-family: monospace; white-space: pre; margin: 1em 0; --marp-auto-scaling-white-space: pre;"}},e="data-marp-auto-scaling-wrapper",i="data-marp-auto-scaling-svg",n="data-marp-auto-scaling-container";class s extends HTMLElement{constructor(){super(),this.svgPreserveAspectRatio="xMinYMid meet";const t=t=>([e])=>{const{width:i,height:n}=e.contentRect;this[t]={width:i,height:n},this.updateSVGRect()};this.attachShadow({mode:"open"}),this.containerObserver=new ResizeObserver(t("containerSize")),this.wrapperObserver=new ResizeObserver(((...e)=>{t("wrapperSize")(...e),this.flushSvgDisplay()}))}static get observedAttributes(){return["data-downscale-only"]}connectedCallback(){var t,s,o,r,a;this.shadowRoot.innerHTML=`\n<style>\n  svg[${i}] { display: block; width: 100%; height: auto; vertical-align: top; }\n  span[${n}] { display: table; white-space: var(--marp-auto-scaling-white-space, nowrap); width: max-content; }\n</style>\n<div ${e}>\n  <svg part="svg" ${i}>\n    <foreignObject><span ${n}><slot></slot></span></foreignObject>\n  </svg>\n</div>\n    `.split(/\n\s*/).join(""),this.wrapper=null!==(t=this.shadowRoot.querySelector(`div[${e}]`))&&void 0!==t?t:void 0;const l=this.svg;this.svg=null!==(o=null===(s=this.wrapper)||void 0===s?void 0:s.querySelector(`svg[${i}]`))&&void 0!==o?o:void 0,this.svg!==l&&(this.svgComputedStyle=this.svg?window.getComputedStyle(this.svg):void 0),this.container=null!==(a=null===(r=this.svg)||void 0===r?void 0:r.querySelector(`span[${n}]`))&&void 0!==a?a:void 0,this.observe()}disconnectedCallback(){this.svg=void 0,this.svgComputedStyle=void 0,this.wrapper=void 0,this.container=void 0,this.observe()}attributeChangedCallback(){this.observe()}flushSvgDisplay(){const{svg:t}=this;t&&(t.style.display="inline",requestAnimationFrame((()=>{t.style.display=""})))}observe(){this.containerObserver.disconnect(),this.wrapperObserver.disconnect(),this.wrapper&&this.wrapperObserver.observe(this.wrapper),this.container&&this.containerObserver.observe(this.container),this.svgComputedStyle&&this.observeSVGStyle(this.svgComputedStyle)}observeSVGStyle(t){const e=()=>{const i=(()=>{const e=t.getPropertyValue("--preserve-aspect-ratio");if(e)return e.trim();return`x${(({textAlign:t,direction:e})=>{if(t.endsWith("left"))return"Min";if(t.endsWith("right"))return"Max";if("start"===t||"end"===t){let i="rtl"===e;return"end"===t&&(i=!i),i?"Max":"Min"}return"Mid"})(t)}YMid meet`})();i!==this.svgPreserveAspectRatio&&(this.svgPreserveAspectRatio=i,this.updateSVGRect()),t===this.svgComputedStyle&&requestAnimationFrame(e)};e()}updateSVGRect(){var t,e,i,n,s,o,r;let a=Math.ceil(null!==(e=null===(t=this.containerSize)||void 0===t?void 0:t.width)&&void 0!==e?e:0);const l=Math.ceil(null!==(n=null===(i=this.containerSize)||void 0===i?void 0:i.height)&&void 0!==n?n:0);void 0!==this.dataset.downscaleOnly&&(a=Math.max(a,null!==(o=null===(s=this.wrapperSize)||void 0===s?void 0:s.width)&&void 0!==o?o:0));const c=null===(r=this.svg)||void 0===r?void 0:r.querySelector(":scope > foreignObject");if(null==c||c.setAttribute("width",`${a}`),null==c||c.setAttribute("height",`${l}`),this.svg&&(this.svg.setAttribute("viewBox",`0 0 ${a} ${l}`),this.svg.setAttribute("preserveAspectRatio",this.svgPreserveAspectRatio),this.svg.style.height=a<=0||l<=0?"0":""),this.container){const t=this.svgPreserveAspectRatio.toLowerCase();this.container.style.marginLeft=t.startsWith("xmid")||t.startsWith("xmax")?"auto":"0",this.container.style.marginRight=t.startsWith("xmi")?"auto":"0"}}}const o=(t,{attrs:e={},style:i})=>class extends t{constructor(...t){super(...t);for(const[t,i]of Object.entries(e))this.hasAttribute(t)||this.setAttribute(t,i);this.attachShadow({mode:"open"})}static get observedAttributes(){return["data-auto-scaling"]}connectedCallback(){this._update()}attributeChangedCallback(){this._update()}_update(){const t=i?`<style>:host { ${i} }</style>`:"";let e="<slot></slot>";const{autoScaling:n}=this.dataset;if(void 0!==n){e=`<marp-auto-scaling exportparts="svg:auto-scaling" ${"downscale-only"===n?"data-downscale-only":""}>${e}</marp-auto-scaling>`}this.shadowRoot.innerHTML=t+e}};let r;const a=Symbol();let l;const c="marpitSVGPolyfill:setZoomFactor,",d=Symbol(),g=Symbol();const h=()=>{const t="Apple Computer, Inc."===navigator.vendor,e=t?[u]:[],i={then:e=>(t?(async()=>{if(void 0===l){const t=document.createElement("canvas");t.width=10,t.height=10;const e=t.getContext("2d"),i=new Image(10,10),n=new Promise((t=>{i.addEventListener("load",(()=>t()))}));i.crossOrigin="anonymous",i.src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%201%201%22%3E%3CforeignObject%20width%3D%221%22%20height%3D%221%22%20requiredExtensions%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%3E%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20style%3D%22width%3A%201px%3B%20height%3A%201px%3B%20background%3A%20red%3B%20position%3A%20relative%22%3E%3C%2Fdiv%3E%3C%2FforeignObject%3E%3C%2Fsvg%3E",await n,e.drawImage(i,0,0),l=e.getImageData(5,5,1,1).data[3]<128}return l})().then((t=>{null==e||e(t?[u]:[])})):null==e||e([]),i)};return Object.assign(e,i)};let p,m;function u(t){const e="object"==typeof t&&t.target||document,i="object"==typeof t?t.zoom:t;window[g]||(Object.defineProperty(window,g,{configurable:!0,value:!0}),document.body.style.zoom=1.0001,document.body.offsetHeight,document.body.style.zoom=1,window.addEventListener("message",(({data:t,origin:e})=>{if(e===window.origin)try{if(t&&"string"==typeof t&&t.startsWith(c)){const[,e]=t.split(","),i=Number.parseFloat(e);Number.isNaN(i)||(m=i)}}catch(t){console.error(t)}})));let n=!1;Array.from(e.querySelectorAll("svg[data-marpit-svg]"),(t=>{var e,s,o,r;t.style.transform||(t.style.transform="translateZ(0)");const a=i||m||t.currentScale||1;p!==a&&(p=a,n=a);const l=t.getBoundingClientRect(),{length:c}=t.children;for(let i=0;i<c;i+=1){const n=t.children[i];if(n.getScreenCTM){const t=n.getScreenCTM();if(t){const i=null!==(s=null===(e=n.x)||void 0===e?void 0:e.baseVal.value)&&void 0!==s?s:0,c=null!==(r=null===(o=n.y)||void 0===o?void 0:o.baseVal.value)&&void 0!==r?r:0,d=n.children.length;for(let e=0;e<d;e+=1){const s=n.children[e];if("SECTION"===s.tagName){const{style:e}=s;e.transformOrigin||(e.transformOrigin=`${-i}px ${-c}px`),e.transform=`scale(${a}) matrix(${t.a}, ${t.b}, ${t.c}, ${t.d}, ${t.e-l.left}, ${t.f-l.top}) translateZ(0.0001px)`;break}}}}}})),!1!==n&&Array.from(e.querySelectorAll("iframe"),(({contentWindow:t})=>{null==t||t.postMessage(`${c}${n}`,"null"===window.origin?"*":window.origin)}))}function v({once:t=!1,target:e=document}={}){const i=function(t=document){if(t[d])return t[d];let e=!0;const i=()=>{e=!1,delete t[d]};Object.defineProperty(t,d,{configurable:!0,value:i});let n=[],s=!1;(async()=>{try{n=await h()}finally{s=!0}})();const o=()=>{for(const e of n)e({target:t});s&&0===n.length||e&&window.requestAnimationFrame(o)};return o(),i}(e);return t?(i(),()=>{}):i}p=1,m=void 0;const b=Symbol(),w=(e=document)=>{if("undefined"==typeof window)throw new Error("Marp Core's browser script is valid only in browser context.");if(((e=document)=>{const i=window[a];i||customElements.define("marp-auto-scaling",s);for(const n of Object.keys(t)){const s=`marp-${n}`,a=t[n].proto();null!=r||(r=!!document.createElement("div",{is:"marp-auto-scaling"}).outerHTML.startsWith("<div is")),r&&a!==HTMLElement?i||customElements.define(s,o(a,{style:t[n].style}),{extends:n}):(i||customElements.define(s,o(HTMLElement,t[n])),e.querySelectorAll(`${n}[is="${s}"]`).forEach((t=>{t.outerHTML=t.outerHTML.replace(new RegExp(`^<${n}`,"i"),`<${s}`).replace(new RegExp(`</${n}>$`,"i"),`</${s}>`)})))}window[a]=!0})(e),e[b])return e[b];const i=v({target:e}),n=()=>{i(),delete e[b]},l=Object.assign(n,{cleanup:n,update:()=>w(e)});return Object.defineProperty(e,b,{configurable:!0,value:l}),l},y=document.currentScript;w(y?y.getRootNode():document)}();
+</script></foreignObject></svg></div><div class="bespoke-marp-note" data-index="30" tabindex="0"><p>---
+
+## Microsoft.Extensions.ServiceDiscovery
+
+**Microsoft.Extensions.ServiceDiscovery** est la solution native de Microsoft pour .NET 8+ offrant une abstraction unifiée pour le Service Discovery:
+
+```csharp
+// Installation du package
+// dotnet add package Microsoft.Extensions.ServiceDiscovery
+
+// Program.cs - Configuration du Service Discovery
+builder.Services.AddServiceDiscovery();
+
+// Ajout du provider de configuration (par défaut ou personnalisé)
+builder.Services.ConfigureHttpClientDefaults(http =&gt;
+{
+    http.AddServiceDiscovery();
+});
+```
+
+---
+
+## Configuration des endpoints
+
+Les endpoints des services peuvent être configurés dans **appsettings.json**:
+
+```json
+{
+  &quot;Services&quot;: {
+    &quot;AuthService&quot;: {
+      &quot;http&quot;: [
+        &quot;http://localhost:5002&quot;,
+        &quot;http://localhost:5003&quot;
+      ],
+      &quot;https&quot;: [
+        &quot;https://localhost:7002&quot;
+      ]
+    },
+    &quot;ProductService&quot;: {
+      &quot;http&quot;: [&quot;http://localhost:5004&quot;]
+    }
+  }
+}
+```
+
+Ou via des variables d'environnement:
+
+```bash
+Services__AuthService__http__0=http://localhost:5002
+Services__AuthService__http__1=http://localhost:5003
+```
+
+---
+
+## Utilisation avec HttpClient
+
+Une fois configuré, le Service Discovery est automatiquement intégré avec HttpClient:
+
+---
+
+```csharp
+public class UserService
+{
+    private readonly HttpClient _httpClient;
+
+    public UserService(IHttpClientFactory httpClientFactory)
+    {
+        // Utiliser le nom du service au lieu d'une URL fixe
+        _httpClient = httpClientFactory.CreateClient();
+    }
+
+    public async Task&lt;AuthResponse&gt; CheckAuthorizationAsync(Guid userId)
+    {
+        // Le nom &quot;http://authservice&quot; sera résolu automatiquement
+        var response = await _httpClient.GetAsync(
+            $&quot;http://authservice/api/v1/auth/{userId}&quot;);
+        
+        if (response.IsSuccessStatusCode)
+        {
+            return await response.Content
+                .ReadFromJsonAsync&lt;AuthResponse&gt;();
+        }
+        
+        return null;
+    }
+}
+```
+
+---
+
+## Configuration par service
+
+Pour configurer spécifiquement un HttpClient avec Service Discovery:
+
+---
+
+```csharp
+// Program.cs
+builder.Services.AddHttpClient&lt;IAuthService, AuthService&gt;(client =&gt;
+{
+    client.BaseAddress = new Uri(&quot;http://authservice&quot;);
+    client.Timeout = TimeSpan.FromSeconds(30);
+})
+.AddServiceDiscovery(); // Active le Service Discovery pour ce client
+
+builder.Services.AddHttpClient&lt;IProductService, ProductService&gt;(client =&gt;
+{
+    client.BaseAddress = new Uri(&quot;http://productservice&quot;);
+})
+.AddServiceDiscovery();
+```
+
+---
+
+## Providers de Service Discovery
+
+Microsoft.Extensions.ServiceDiscovery supporte plusieurs providers:
+
+**Configuration (par défaut)** - Via appsettings.json ou variables d'environnement
+
+**DNS** - Résolution via DNS SRV records
+
+**Consul** - Avec le package additionnel:
+```csharp
+// dotnet add package Microsoft.Extensions.ServiceDiscovery.Consul
+
+builder.Services.AddServiceDiscovery()
+    .AddConsulServiceEndpointProvider();
+```
+
+**Kubernetes** - Détection automatique des services K8s
+
+**YARP** - Intégration native avec YARP pour l'API Gateway</p></div><script>/*!! License: https://unpkg.com/@utopios/marp-cli-shiki@3.4.0/lib/bespoke.js.LICENSE.txt */
+
+(function () {
+	'use strict';
+
+	function getDefaultExportFromCjs (x) {
+		return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
+	}
+
+	var from = function(opts, plugins) {
+	  var parent = (opts.parent || opts).nodeType === 1 ? (opts.parent || opts) : document.querySelector(opts.parent || opts),
+	    slides = [].filter.call(typeof opts.slides === 'string' ? parent.querySelectorAll(opts.slides) : (opts.slides || parent.children), function(el) { return el.nodeName !== 'SCRIPT'; }),
+	    activeSlide = slides[0],
+	    listeners = {},
+
+	    activate = function(index, customData) {
+	      if (!slides[index]) {
+	        return;
+	      }
+
+	      fire('deactivate', createEventData(activeSlide, customData));
+	      activeSlide = slides[index];
+	      fire('activate', createEventData(activeSlide, customData));
+	    },
+
+	    slide = function(index, customData) {
+	      if (arguments.length) {
+	        fire('slide', createEventData(slides[index], customData)) && activate(index, customData);
+	      } else {
+	        return slides.indexOf(activeSlide);
+	      }
+	    },
+
+	    step = function(offset, customData) {
+	      var slideIndex = slides.indexOf(activeSlide) + offset;
+
+	      fire(offset > 0 ? 'next' : 'prev', createEventData(activeSlide, customData)) && activate(slideIndex, customData);
+	    },
+
+	    on = function(eventName, callback) {
+	      (listeners[eventName] || (listeners[eventName] = [])).push(callback);
+	      return off.bind(null, eventName, callback);
+	    },
+
+	    off = function(eventName, callback) {
+	      listeners[eventName] = (listeners[eventName] || []).filter(function(listener) { return listener !== callback; });
+	    },
+
+	    fire = function(eventName, eventData) {
+	      return (listeners[eventName] || [])
+	        .reduce(function(notCancelled, callback) {
+	          return notCancelled && callback(eventData) !== false;
+	        }, true);
+	    },
+
+	    createEventData = function(el, eventData) {
+	      eventData = eventData || {};
+	      eventData.index = slides.indexOf(el);
+	      eventData.slide = el;
+	      return eventData;
+	    },
+
+	    deck = {
+	      on: on,
+	      off: off,
+	      fire: fire,
+	      slide: slide,
+	      next: step.bind(null, 1),
+	      prev: step.bind(null, -1),
+	      parent: parent,
+	      slides: slides
+	    };
+
+	  (plugins || []).forEach(function(plugin) {
+	    plugin(deck);
+	  });
+
+	  activate(0);
+
+	  return deck;
+	};
+
+	var bespoke = {
+	  from: from
+	};
+
+	var bespoke$1 = /*@__PURE__*/getDefaultExportFromCjs(bespoke);
+
+	const body = document.body;
+	const replacer = (...args) => history.replaceState(...args);
+	const ViewModeNormal = '';
+	const ViewModePresenter = 'presenter';
+	const ViewModeNext = 'next';
+	const viewModes = [
+	    ViewModeNormal,
+	    ViewModePresenter,
+	    ViewModeNext,
+	];
+	const classPrefix = 'bespoke-marp-';
+	const dataAttrPrefix = `data-${classPrefix}`;
+	const generateURLfromParams = (params, { protocol, host, pathname, hash } = location) => {
+	    const q = params.toString();
+	    return `${protocol}//${host}${pathname}${q ? '?' : ''}${q}${hash}`;
+	};
+	const getViewMode = () => body.dataset.bespokeView;
+	const readQuery = (name) => new URLSearchParams(location.search).get(name);
+	const popQuery = (name) => {
+	    const value = readQuery(name);
+	    setQuery({ [name]: undefined });
+	    return value;
+	};
+	const setQuery = (queries, opts = {}) => {
+	    var _a;
+	    const options = { location, setter: replacer, ...opts };
+	    const params = new URLSearchParams(options.location.search);
+	    for (const k of Object.keys(queries)) {
+	        const value = queries[k];
+	        if (typeof value === 'string') {
+	            params.set(k, value);
+	        }
+	        else {
+	            params.delete(k);
+	        }
+	    }
+	    try {
+	        options.setter({ ...((_a = window.history.state) !== null && _a !== void 0 ? _a : {}) }, '', generateURLfromParams(params, options.location));
+	    }
+	    catch (e) {
+	        // Safari may throw SecurityError by replacing state 100 times per 30 seconds.
+	        console.error(e);
+	    }
+	};
+	const setHistoryState = (state) => setQuery({}, { setter: (s, ...r) => replacer({ ...s, ...state }, ...r) });
+	const setViewMode = () => {
+	    const view = readQuery('view');
+	    body.dataset.bespokeView =
+	        view === ViewModeNext || view === ViewModePresenter ? view : ViewModeNormal;
+	};
+	const storage = (() => {
+	    const available = (() => {
+	        const key = 'bespoke-marp';
+	        try {
+	            localStorage.setItem(key, key);
+	            localStorage.removeItem(key);
+	            return true;
+	        }
+	        catch (e) {
+	            return false;
+	        }
+	    })();
+	    return {
+	        available,
+	        get: (key) => {
+	            try {
+	                return localStorage.getItem(key);
+	            }
+	            catch (e) {
+	                return null;
+	            }
+	        },
+	        set: (key, value) => {
+	            try {
+	                localStorage.setItem(key, value);
+	                return true;
+	            }
+	            catch (e) {
+	                return false;
+	            }
+	        },
+	        remove: (key) => {
+	            try {
+	                localStorage.removeItem(key);
+	                return true;
+	            }
+	            catch (e) {
+	                return false;
+	            }
+	        },
+	    };
+	})();
+	const toggleAriaHidden = (element, value) => {
+	    const key = 'aria-hidden';
+	    if (value) {
+	        element.setAttribute(key, 'true');
+	    }
+	    else {
+	        element.removeAttribute(key);
+	    }
+	};
+
+	// Based on https://github.com/bespokejs/bespoke-classes
+	const bespokeClasses = (deck) => {
+	    deck.parent.classList.add(`${classPrefix}parent`);
+	    deck.slides.forEach((el) => el.classList.add(`${classPrefix}slide`));
+	    deck.on('activate', (e) => {
+	        const activeClass = `${classPrefix}active`;
+	        const slide = e.slide;
+	        const slideClasses = slide.classList;
+	        const shouldResetAnim = !slideClasses.contains(activeClass);
+	        deck.slides.forEach((el) => {
+	            el.classList.remove(activeClass);
+	            toggleAriaHidden(el, true);
+	        });
+	        slideClasses.add(activeClass);
+	        toggleAriaHidden(slide, false);
+	        if (shouldResetAnim) {
+	            const activeReadyClass = `${activeClass}-ready`;
+	            slideClasses.add(activeReadyClass);
+	            void document.body.clientHeight;
+	            slideClasses.remove(activeReadyClass);
+	        }
+	    });
+	};
+
+	// Based on https://github.com/bespokejs/bespoke-bullets
+	const bespokeFragments = (deck) => {
+	    let activeSlideIdx = 0;
+	    let activeFragmentIdx = 0;
+	    Object.defineProperty(deck, 'fragments', {
+	        enumerable: true,
+	        value: deck.slides.map((slide) => [
+	            null,
+	            ...slide.querySelectorAll('[data-marpit-fragment]'),
+	        ]),
+	    });
+	    const activeSlideHasFragmentByOffset = (offset) => deck.fragments[activeSlideIdx][activeFragmentIdx + offset] !== undefined;
+	    const activate = (slideIdx, fragmentIdx) => {
+	        activeSlideIdx = slideIdx;
+	        activeFragmentIdx = fragmentIdx;
+	        deck.fragments.forEach((slideFragments, slideCurrentIdx) => {
+	            slideFragments.forEach((fragment, fragmentCurrentIdx) => {
+	                if (fragment == null)
+	                    return;
+	                const active = slideCurrentIdx < slideIdx ||
+	                    (slideCurrentIdx === slideIdx && fragmentCurrentIdx <= fragmentIdx);
+	                fragment.setAttribute(`${dataAttrPrefix}fragment`, `${active ? '' : 'in'}active`);
+	                const dataAttrCurrentFragment = `${dataAttrPrefix}current-fragment`;
+	                if (slideCurrentIdx === slideIdx &&
+	                    fragmentCurrentIdx === fragmentIdx) {
+	                    fragment.setAttribute(dataAttrCurrentFragment, 'current');
+	                }
+	                else {
+	                    fragment.removeAttribute(dataAttrCurrentFragment);
+	                }
+	            });
+	        });
+	        deck.fragmentIndex = fragmentIdx;
+	        const fragmentEvent = {
+	            slide: deck.slides[slideIdx],
+	            index: slideIdx,
+	            fragments: deck.fragments[slideIdx],
+	            fragmentIndex: fragmentIdx,
+	        };
+	        deck.fire('fragment', fragmentEvent);
+	    };
+	    deck.on('next', ({ fragment = true }) => {
+	        if (fragment) {
+	            if (activeSlideHasFragmentByOffset(1)) {
+	                activate(activeSlideIdx, activeFragmentIdx + 1);
+	                return false;
+	            }
+	            const nextIdx = activeSlideIdx + 1;
+	            if (deck.fragments[nextIdx])
+	                activate(nextIdx, 0);
+	        }
+	        else {
+	            const fragmentSize = deck.fragments[activeSlideIdx].length;
+	            if (activeFragmentIdx + 1 < fragmentSize) {
+	                activate(activeSlideIdx, fragmentSize - 1);
+	                return false;
+	            }
+	            const nextFragments = deck.fragments[activeSlideIdx + 1];
+	            if (nextFragments)
+	                activate(activeSlideIdx + 1, nextFragments.length - 1);
+	        }
+	    });
+	    deck.on('prev', ({ fragment = true }) => {
+	        if (activeSlideHasFragmentByOffset(-1) && fragment) {
+	            activate(activeSlideIdx, activeFragmentIdx - 1);
+	            return false;
+	        }
+	        const prevIdx = activeSlideIdx - 1;
+	        if (deck.fragments[prevIdx])
+	            activate(prevIdx, deck.fragments[prevIdx].length - 1);
+	    });
+	    deck.on('slide', ({ index, fragment }) => {
+	        let fragmentPos = 0;
+	        if (fragment !== undefined) {
+	            const slideFragments = deck.fragments[index];
+	            if (slideFragments) {
+	                const { length } = slideFragments;
+	                if (fragment === -1) {
+	                    fragmentPos = length - 1;
+	                }
+	                else {
+	                    fragmentPos = Math.min(Math.max(fragment, 0), length - 1);
+	                }
+	            }
+	        }
+	        activate(index, fragmentPos);
+	    });
+	    activate(0, 0);
+	};
+
+	const d = document;
+	const isEnabled = () => !!(d.fullscreenEnabled || d['webkitFullscreenEnabled']);
+	const isFullscreen = () => !!(d.fullscreenElement || d['webkitFullscreenElement']);
+	const enter = (target = d.body) => { var _a; return (_a = (target.requestFullscreen || target['webkitRequestFullscreen'])) === null || _a === void 0 ? void 0 : _a.call(target); };
+	const exit = () => { var _a; return (_a = (d.exitFullscreen || d['webkitExitFullscreen'])) === null || _a === void 0 ? void 0 : _a.call(d); };
+	const toggle = async () => (isFullscreen() ? exit() : enter());
+	const onChange = (callback) => {
+	    for (const prefix of ['', 'webkit']) {
+	        d.addEventListener(prefix + 'fullscreenchange', callback);
+	    }
+	};
+
+	const bespokeFullscreen = (deck) => {
+	    deck.fullscreen = () => {
+	        if (isEnabled())
+	            toggle();
+	    };
+	    document.addEventListener('keydown', (e) => {
+	        // `f` or F11 without modifier key Alt, Control, and Command
+	        if ((e.key === 'f' || e.key === 'F11') &&
+	            !e.altKey &&
+	            !e.ctrlKey &&
+	            !e.metaKey &&
+	            isEnabled()) {
+	            deck.fullscreen();
+	            e.preventDefault();
+	        }
+	    });
+	};
+
+	const inactiveClass = `${classPrefix}inactive`;
+	const bespokeInactive = (timeout = 2000) => ({ parent, fire: _fire }) => {
+	    const classes = parent.classList;
+	    const fireActiveEvent = (isActive) => _fire(`marp-${isActive ? '' : 'in'}active`);
+	    let activeTimer;
+	    const activate = () => {
+	        if (activeTimer)
+	            clearTimeout(activeTimer);
+	        activeTimer = setTimeout(() => {
+	            classes.add(inactiveClass);
+	            fireActiveEvent();
+	        }, timeout);
+	        if (classes.contains(inactiveClass)) {
+	            classes.remove(inactiveClass);
+	            fireActiveEvent(true);
+	        }
+	    };
+	    for (const ev of ['mousedown', 'mousemove', 'touchend']) {
+	        document.addEventListener(ev, activate);
+	    }
+	    setTimeout(activate, 0);
+	};
+
+	// Based on https://github.com/bespokejs/bespoke-forms
+	const interactiveNodes = [
+	    'AUDIO',
+	    'BUTTON',
+	    'INPUT',
+	    'SELECT',
+	    'TEXTAREA',
+	    'VIDEO',
+	];
+	const bespokeInteractive = (deck) => {
+	    deck.parent.addEventListener('keydown', (e) => {
+	        if (!e.target)
+	            return;
+	        const element = e.target;
+	        if (interactiveNodes.includes(element.nodeName) ||
+	            element.contentEditable === 'true')
+	            e.stopPropagation();
+	    });
+	};
+
+	const bespokeLoad = (deck) => {
+	    window.addEventListener('load', () => {
+	        for (const slide of deck.slides) {
+	            // Slides contained Marp Core's fitting elements must not hide via `display: none;`.
+	            // https://github.com/marp-team/marp-cli/issues/153
+	            //
+	            // NOTE: [data-marp-fitting] is used by Marp Core v2
+	            const hasFittingElement = slide.querySelector('marp-auto-scaling, [data-auto-scaling], [data-marp-fitting]');
+	            slide.setAttribute(`${dataAttrPrefix}load`, hasFittingElement ? '' : 'hideable');
+	        }
+	    });
+	};
+
+	const isScrollable = (elm, dir) => hasScrollableArea(elm, dir) &&
+	    hasScrollableOverflow(getComputedStyle(elm), dir);
+	const hasScrollableArea = (elm, dir) => {
+	    const length = dir === 'X' ? 'Width' : 'Height';
+	    return elm[`client${length}`] < elm[`scroll${length}`];
+	};
+	const hasScrollableOverflow = (style, dir) => {
+	    const { overflow } = style;
+	    const overflowDir = style[`overflow${dir}`];
+	    return (overflow === 'auto' ||
+	        overflow === 'scroll' ||
+	        overflowDir === 'auto' ||
+	        overflowDir === 'scroll');
+	};
+	const bespokeNavigation = ({ interval = 250 } = {}) => (deck) => {
+	    document.addEventListener('keydown', (e) => {
+	        if (e.key === ' ' && e.shiftKey) {
+	            deck.prev(); // Previous page
+	        }
+	        else if (e.key === 'ArrowLeft' ||
+	            e.key === 'ArrowUp' ||
+	            e.key === 'PageUp') {
+	            deck.prev({ fragment: !e.shiftKey }); // Previous page (Skip fragments if holding shift)
+	        }
+	        else if (e.key === ' ' && !e.shiftKey) {
+	            deck.next(); // Next page
+	        }
+	        else if (e.key === 'ArrowRight' ||
+	            e.key === 'ArrowDown' ||
+	            e.key === 'PageDown') {
+	            deck.next({ fragment: !e.shiftKey }); // Next page (Skip fragments if holding shift)
+	        }
+	        else if (e.key === 'End') {
+	            deck.slide(deck.slides.length - 1, { fragment: -1 }); // Jump to last page
+	        }
+	        else if (e.key === 'Home') {
+	            deck.slide(0); // Jump to first page
+	        }
+	        else {
+	            return;
+	        }
+	        e.preventDefault(); // Prevent default action when navigated
+	    });
+	    let lastWheelNavigationAt = 0;
+	    let lastWheelDelta;
+	    let wheelIntervalTimer;
+	    deck.parent.addEventListener('wheel', (e) => {
+	        // Detect scrollable element
+	        let scrollable = false;
+	        const detectScrollable = (elm, dir) => {
+	            if (elm)
+	                scrollable = scrollable || isScrollable(elm, dir);
+	            if (elm === null || elm === void 0 ? void 0 : elm.parentElement)
+	                detectScrollable(elm.parentElement, dir);
+	        };
+	        if (e.deltaX !== 0)
+	            detectScrollable(e.target, 'X');
+	        if (e.deltaY !== 0)
+	            detectScrollable(e.target, 'Y');
+	        if (scrollable)
+	            return;
+	        e.preventDefault();
+	        // Prevent too sensitive navigation on trackpad and magic mouse
+	        const currentWheelDelta = Math.sqrt(e.deltaX ** 2 + e.deltaY ** 2);
+	        if (e.wheelDelta !== undefined) {
+	            if (e.webkitForce === undefined) {
+	                // [Chromium]
+	                // Chromium has (a deprecated) wheelDelta value and it is following the
+	                // pre-defeind WHEEL_DELTA (=120). It means a required delta for
+	                // scrolling 3 lines. We have set a threshold as 40 (required to scroll
+	                // 1 line).
+	                if (Math.abs(e.wheelDelta) < 40)
+	                    return;
+	            }
+	            // [WebKit]
+	            // WebKit's wheelDelta value will just return 3 times numbers from the
+	            // standard delta values, so using the standard delta will be better
+	            // than depending on deprecated values.
+	            //
+	            // Both of Chromium and Webkit are starting scroll from 4 pixels by a
+	            // event of the mouse wheel notch. If set a threshold to require 1 line
+	            // of scroll, the navigation by mouse wheel may be insensitive. So we
+	            // have set a threshold as 4 pixels.
+	            //
+	            // It means Safari is more sensitive to Multi-touch devices than other
+	            // browsers.
+	            if (e.deltaMode === e.DOM_DELTA_PIXEL && currentWheelDelta < 4)
+	                return;
+	        }
+	        else {
+	            // [Firefox]
+	            // Firefox only has delta values provided by the standard wheel event.
+	            //
+	            // It will report 36 as the delta of the minimum tick for the regular
+	            // mouse wheel because Firefox's default font size is 12px and 36px is
+	            // required delta to scroll 3 lines at once.
+	            if (e.deltaMode === e.DOM_DELTA_PIXEL && currentWheelDelta < 12)
+	                return;
+	        }
+	        // Suppress momentum scrolling by trackpad
+	        if (wheelIntervalTimer)
+	            clearTimeout(wheelIntervalTimer);
+	        wheelIntervalTimer = setTimeout(() => {
+	            lastWheelDelta = 0;
+	        }, interval);
+	        const debouncing = Date.now() - lastWheelNavigationAt < interval;
+	        const attenuated = currentWheelDelta <= lastWheelDelta;
+	        lastWheelDelta = currentWheelDelta;
+	        if (debouncing || attenuated)
+	            return;
+	        // Navigate
+	        let direction;
+	        if (e.deltaX > 0 || e.deltaY > 0)
+	            direction = 'next';
+	        if (e.deltaX < 0 || e.deltaY < 0)
+	            direction = 'prev';
+	        if (!direction)
+	            return;
+	        deck[direction]();
+	        lastWheelNavigationAt = Date.now();
+	    });
+	};
+
+	const bespokeOSC = (selector = `.${classPrefix}osc`) => {
+	    const osc = document.querySelector(selector);
+	    if (!osc) {
+	        return () => {
+	            /* empty */
+	        };
+	    }
+	    const oscElements = (type, callback) => {
+	        osc
+	            .querySelectorAll(`[${dataAttrPrefix}osc=${JSON.stringify(type)}]`)
+	            .forEach(callback);
+	    };
+	    // Hide fullscreen button in not-supported browser (e.g. phone device)
+	    if (!isEnabled())
+	        oscElements('fullscreen', (btn) => (btn.style.display = 'none'));
+	    // Disable presenter button if using localStorage is restricted
+	    if (!storage.available)
+	        oscElements('presenter', (btn) => {
+	            btn.disabled = true;
+	            btn.title = 'Presenter view is disabled due to restricted localStorage.';
+	        });
+	    return (deck) => {
+	        osc.addEventListener('click', (e) => {
+	            if (e.target instanceof HTMLElement) {
+	                const { bespokeMarpOsc } = e.target.dataset;
+	                if (bespokeMarpOsc)
+	                    e.target.blur();
+	                const navOpts = { fragment: !e.shiftKey };
+	                if (bespokeMarpOsc === 'next') {
+	                    deck.next(navOpts);
+	                }
+	                else if (bespokeMarpOsc === 'prev') {
+	                    deck.prev(navOpts);
+	                }
+	                else if (bespokeMarpOsc === 'fullscreen') {
+	                    deck === null || deck === void 0 ? void 0 : deck.fullscreen();
+	                }
+	                else if (bespokeMarpOsc === 'presenter') {
+	                    deck.openPresenterView();
+	                }
+	            }
+	        });
+	        deck.parent.appendChild(osc);
+	        deck.on('activate', ({ index }) => {
+	            oscElements('page', (page) => (page.textContent = `Page ${index + 1} of ${deck.slides.length}`));
+	        });
+	        deck.on('fragment', ({ index, fragments, fragmentIndex }) => {
+	            oscElements('prev', (prev) => (prev.disabled = index === 0 && fragmentIndex === 0));
+	            oscElements('next', (next) => (next.disabled =
+	                index === deck.slides.length - 1 &&
+	                    fragmentIndex === fragments.length - 1));
+	        });
+	        deck.on('marp-active', () => toggleAriaHidden(osc, false));
+	        deck.on('marp-inactive', () => toggleAriaHidden(osc, true));
+	        if (isEnabled()) {
+	            onChange(() => oscElements('fullscreen', (fs) => fs.classList.toggle('exit', isEnabled() && isFullscreen())));
+	        }
+	    };
+	};
+
+	const nextView = (deck) => {
+	    // Listen "navigate" message from parent
+	    const listener = (e) => {
+	        if (e.origin !== window.origin)
+	            return;
+	        const [dir, args] = e.data.split(':');
+	        if (dir === 'navigate') {
+	            const [sIdx, sFragIdx] = args.split(',');
+	            let idx = Number.parseInt(sIdx, 10);
+	            let fragment = Number.parseInt(sFragIdx, 10) + 1;
+	            if (fragment >= deck.fragments[idx].length) {
+	                idx += 1;
+	                fragment = 0;
+	            }
+	            deck.slide(idx, { fragment });
+	        }
+	    };
+	    window.addEventListener('message', listener);
+	};
+
+	var emptyTags = [
+		'area',
+		'base',
+		'br',
+		'col',
+		'command',
+		'embed',
+		'hr',
+		'img',
+		'input',
+		'keygen',
+		'link',
+		'meta',
+		'param',
+		'source',
+		'track',
+		'wbr'
+	];
+
+	// escape an attribute
+	let esc = str => String(str).replace(/[&<>"']/g, s=>`&${map[s]};`);
+	let map = {'&':'amp','<':'lt','>':'gt','"':'quot',"'":'apos'};
+	let setInnerHTMLAttr = 'dangerouslySetInnerHTML';
+	let DOMAttributeNames = {
+		className: 'class',
+		htmlFor: 'for'
+	};
+
+	let sanitized = {};
+
+	/** Hyperscript reviver that constructs a sanitized HTML string. */
+	function h(name, attrs) {
+		let stack=[], s = '';
+		attrs = attrs || {};
+		for (let i=arguments.length; i-- > 2; ) {
+			stack.push(arguments[i]);
+		}
+
+		// Sortof component support!
+		if (typeof name==='function') {
+			attrs.children = stack.reverse();
+			return name(attrs);
+			// return name(attrs, stack.reverse());
+		}
+
+		if (name) {
+			s += '<' + name;
+			if (attrs) for (let i in attrs) {
+				if (attrs[i]!==false && attrs[i]!=null && i !== setInnerHTMLAttr) {
+					s += ` ${DOMAttributeNames[i] ? DOMAttributeNames[i] : esc(i)}="${esc(attrs[i])}"`;
+				}
+			}
+			s += '>';
+		}
+
+		if (emptyTags.indexOf(name) === -1) {
+			if (attrs[setInnerHTMLAttr]) {
+				s += attrs[setInnerHTMLAttr].__html;
+			}
+			else while (stack.length) {
+				let child = stack.pop();
+				if (child) {
+					if (child.pop) {
+						for (let i=child.length; i--; ) stack.push(child[i]);
+					}
+					else {
+						s += sanitized[child]===true ? child : esc(child);
+					}
+				}
+			}
+
+			s += name ? `</${name}>` : '';
+		}
+
+		sanitized[s] = true;
+		return s;
+	}
+
+	/** @jsx h */
+	/** @jsxFrag Fragment */
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	const Fragment = ({ children }) => h(null, null, ...children);
+	const presenterPrefix = `${classPrefix}presenter-`;
+	const classes = {
+	    container: `${presenterPrefix}container`,
+	    dragbar: `${presenterPrefix}dragbar-container`,
+	    next: `${presenterPrefix}next`,
+	    nextContainer: `${presenterPrefix}next-container`,
+	    noteContainer: `${presenterPrefix}note-container`,
+	    noteWrapper: `${presenterPrefix}note-wrapper`,
+	    noteButtons: `${presenterPrefix}note-buttons`,
+	    infoContainer: `${presenterPrefix}info-container`,
+	    infoPage: `${presenterPrefix}info-page`,
+	    infoPageText: `${presenterPrefix}info-page-text`,
+	    infoPagePrev: `${presenterPrefix}info-page-prev`,
+	    infoPageNext: `${presenterPrefix}info-page-next`,
+	    noteButtonsBigger: `${presenterPrefix}note-bigger`,
+	    noteButtonsSmaller: `${presenterPrefix}note-smaller`,
+	    infoTime: `${presenterPrefix}info-time`,
+	    infoTimer: `${presenterPrefix}info-timer`,
+	};
+	const properties = {
+	    noteFontScale: '--bespoke-marp-note-font-scale',
+	};
+	/** Create function to send message to iframe for navigation */
+	const createNavigateFunc = (iframe) => (index, fragmentIndex) => {
+	    var _a;
+	    return (_a = iframe.contentWindow) === null || _a === void 0 ? void 0 : _a.postMessage(`navigate:${index},${fragmentIndex}`, window.origin === 'null' ? '*' : window.origin);
+	};
+	const presenterView = (deck) => {
+	    const { title } = document;
+	    document.title = `[Presenter view]${title ? ` - ${title}` : ''}`;
+	    // Setup template for presenter view
+	    const buildContainer = (deckElement) => {
+	        const container = document.createElement('div');
+	        container.className = classes.container;
+	        container.appendChild(deckElement);
+	        container.insertAdjacentHTML('beforeend', h(Fragment, null,
+	            h("div", { class: classes.nextContainer },
+	                h("iframe", { class: classes.next, src: "?view=next" })),
+	            h("div", { class: classes.dragbar }),
+	            h("div", { class: classes.noteContainer },
+	                h("div", { class: classes.noteWrapper }),
+	                h("div", { class: classes.noteButtons },
+	                    h("button", { class: classes.noteButtonsSmaller, tabindex: "-1", title: "Smaller notes font size" }, "Smaller notes font size"),
+	                    h("button", { class: classes.noteButtonsBigger, tabindex: "-1", title: "Bigger notes font size" }, "Bigger notes font size"))),
+	            h("div", { class: classes.infoContainer },
+	                h("div", { class: classes.infoPage },
+	                    h("button", { class: classes.infoPagePrev, tabindex: "-1", title: "Previous" }, "Previous"),
+	                    h("span", { class: classes.infoPageText }),
+	                    h("button", { class: classes.infoPageNext, tabindex: "-1", title: "Next" }, "Next")),
+	                h("time", { class: classes.infoTime, title: "Current time" }),
+	                h("time", { class: classes.infoTimer, title: "Timer" }))));
+	        return container;
+	    };
+	    const $cache = {};
+	    const $ = (klass) => {
+	        $cache[klass] = $cache[klass] || document.querySelector(`.${klass}`);
+	        return $cache[klass];
+	    };
+	    const subscribe = (deck) => {
+	        // Splitter
+	        let isDragging = false;
+	        const startDragging = () => {
+	            isDragging = true;
+	            $(classes.dragbar).classList.add('active');
+	        };
+	        const endDragging = () => {
+	            isDragging = false;
+	            $(classes.dragbar).classList.remove('active');
+	        };
+	        const onDragging = (event) => {
+	            if (!isDragging)
+	                return;
+	            const splitRatio = (event.clientX / document.documentElement.clientWidth) * 100;
+	            $(classes.container).style.setProperty('--bespoke-marp-presenter-split-ratio', `${Math.max(0, Math.min(100, splitRatio))}%`);
+	        };
+	        $(classes.dragbar).addEventListener('mousedown', startDragging);
+	        window.addEventListener('mouseup', endDragging);
+	        window.addEventListener('mousemove', onDragging);
+	        // Next slide view
+	        $(classes.nextContainer).addEventListener('click', () => deck.next());
+	        const nextIframe = $(classes.next);
+	        const nextNav = createNavigateFunc(nextIframe);
+	        nextIframe.addEventListener('load', () => {
+	            $(classes.nextContainer).classList.add('active');
+	            // Navigate slide
+	            nextNav(deck.slide(), deck.fragmentIndex);
+	            deck.on('fragment', ({ index, fragmentIndex }) => nextNav(index, fragmentIndex));
+	        });
+	        // Presenter note
+	        const notes = document.querySelectorAll('.bespoke-marp-note');
+	        notes.forEach((note) => {
+	            note.addEventListener('keydown', (e) => e.stopPropagation());
+	            $(classes.noteWrapper).appendChild(note);
+	        });
+	        deck.on('activate', () => notes.forEach((n) => n.classList.toggle('active', n.dataset.index == deck.slide())));
+	        // Presenter note buttons
+	        let notesFontSizeBase = 0;
+	        const resizeNotesFont = (increment) => {
+	            notesFontSizeBase = Math.max(-5, notesFontSizeBase + increment);
+	            $(classes.noteContainer).style.setProperty(properties.noteFontScale, (1.2 ** notesFontSizeBase).toFixed(4));
+	        };
+	        const biggerNotesFont = () => resizeNotesFont(1);
+	        const smallerNotesFont = () => resizeNotesFont(-1);
+	        const noteButtonBigger = $(classes.noteButtonsBigger);
+	        const noteButtonSmaller = $(classes.noteButtonsSmaller);
+	        noteButtonBigger.addEventListener('click', () => {
+	            noteButtonBigger.blur();
+	            biggerNotesFont();
+	        });
+	        noteButtonSmaller.addEventListener('click', () => {
+	            noteButtonSmaller.blur();
+	            smallerNotesFont();
+	        });
+	        document.addEventListener('keydown', (e) => {
+	            if (e.key === '+')
+	                biggerNotesFont();
+	            if (e.key === '-')
+	                smallerNotesFont();
+	        }, true // Ignore stopped propagation in notes
+	        );
+	        // Page info
+	        deck.on('activate', ({ index }) => {
+	            $(classes.infoPageText).textContent = `${index + 1} / ${deck.slides.length}`;
+	        });
+	        const prev = $(classes.infoPagePrev);
+	        const next = $(classes.infoPageNext);
+	        prev.addEventListener('click', (e) => {
+	            prev.blur();
+	            deck.prev({ fragment: !e.shiftKey });
+	        });
+	        next.addEventListener('click', (e) => {
+	            next.blur();
+	            deck.next({ fragment: !e.shiftKey });
+	        });
+	        deck.on('fragment', ({ index, fragments, fragmentIndex }) => {
+	            prev.disabled = index === 0 && fragmentIndex === 0;
+	            next.disabled =
+	                index === deck.slides.length - 1 &&
+	                    fragmentIndex === fragments.length - 1;
+	        });
+	        // Current time and presenter timer
+	        let startTime = new Date();
+	        const update = () => {
+	            const time = new Date();
+	            const formatTime = (time) => `${Math.floor(time)}`.padStart(2, '0');
+	            const diff = time.getTime() - startTime.getTime();
+	            const seconds = formatTime((diff / 1000) % 60);
+	            const minutes = formatTime((diff / 1000 / 60) % 60);
+	            const hours = formatTime((diff / (1000 * 60 * 60)) % 24);
+	            $(classes.infoTime).textContent = time.toLocaleTimeString();
+	            $(classes.infoTimer).textContent = `${hours}:${minutes}:${seconds}`;
+	        };
+	        update();
+	        setInterval(update, 250);
+	        $(classes.infoTimer).addEventListener('click', () => {
+	            startTime = new Date();
+	        });
+	    };
+	    document.body.appendChild(buildContainer(deck.parent));
+	    subscribe(deck);
+	};
+
+	const validateDeck = (deck) => deck.syncKey && typeof deck.syncKey === 'string';
+	const normalView = (deck) => {
+	    if (!validateDeck(deck))
+	        throw new Error('The current instance of Bespoke.js is invalid for Marp bespoke presenter plugin.');
+	    Object.defineProperties(deck, {
+	        openPresenterView: { enumerable: true, value: openPresenterView },
+	        presenterUrl: { enumerable: true, get: presenterUrl },
+	    });
+	    // Register keyboard shortcut if using localStorage is not restricted
+	    if (storage.available)
+	        document.addEventListener('keydown', (e) => {
+	            // `p` without modifier key (Alt, Control, and Command)
+	            if (e.key === 'p' && !e.altKey && !e.ctrlKey && !e.metaKey) {
+	                e.preventDefault();
+	                deck.openPresenterView();
+	            }
+	        });
+	};
+	/** Open new window for presenter view. */
+	function openPresenterView() {
+	    const { max, floor } = Math;
+	    const w = max(floor(window.innerWidth * 0.85), 640);
+	    const h = max(floor(window.innerHeight * 0.85), 360);
+	    return window.open(this.presenterUrl, presenterPrefix + this.syncKey, `width=${w},height=${h},menubar=no,toolbar=no`);
+	}
+	/** Returns URL of presenter view for current page. */
+	function presenterUrl() {
+	    const params = new URLSearchParams(location.search);
+	    params.set('view', 'presenter');
+	    params.set('sync', this.syncKey);
+	    return generateURLfromParams(params);
+	}
+
+	const bespokePresenter = (target) => {
+	    const mode = getViewMode();
+	    // Append blank slide to next view
+	    if (mode === ViewModeNext)
+	        target.appendChild(document.createElement('span'));
+	    return {
+	        [ViewModeNormal]: normalView,
+	        [ViewModePresenter]: presenterView,
+	        [ViewModeNext]: nextView,
+	    }[mode];
+	};
+
+	// Based on https://github.com/bespokejs/bespoke-progress
+	const query = '.bespoke-progress-parent > .bespoke-progress-bar';
+	const basepokeProgress = (deck) => {
+	    deck.on('activate', (e) => {
+	        document.querySelectorAll(query).forEach((bar) => {
+	            bar.style.flexBasis = `${(e.index * 100) / (deck.slides.length - 1)}%`;
+	        });
+	    });
+	};
+
+	const coerceInt = (ns) => {
+	    const coerced = Number.parseInt(ns, 10);
+	    return Number.isNaN(coerced) ? null : coerced;
+	};
+	const bespokeState = (opts = {}) => {
+	    const options = { history: true, ...opts };
+	    return (deck) => {
+	        let internalNavigation = true;
+	        const navInternally = (action) => {
+	            const previous = internalNavigation;
+	            try {
+	                internalNavigation = true;
+	                return action();
+	            }
+	            finally {
+	                internalNavigation = previous;
+	            }
+	        };
+	        const activateSlide = (index, fragment) => {
+	            const { min, max } = Math;
+	            const { fragments, slides } = deck;
+	            const idx = max(0, min(index, slides.length - 1));
+	            const frag = max(0, min(fragment || 0, fragments[idx].length - 1));
+	            if (idx !== deck.slide() || frag !== deck.fragmentIndex)
+	                deck.slide(idx, { fragment: frag });
+	        };
+	        const parseState = (opts = { fragment: true }) => {
+	            let fragment = opts.fragment ? coerceInt(readQuery('f') || '') : null;
+	            const page = (() => {
+	                var _a, _b;
+	                if (location.hash) {
+	                    // Support text fragments: https://web.dev/text-fragments/
+	                    const [hashWithoutDelimiter] = location.hash.slice(1).split(':~:');
+	                    const numMatcher = /^\d+$/.test(hashWithoutDelimiter);
+	                    if (numMatcher)
+	                        return ((_a = coerceInt(hashWithoutDelimiter)) !== null && _a !== void 0 ? _a : 1) - 1;
+	                    const anchorTarget = document.getElementById(hashWithoutDelimiter) ||
+	                        document.querySelector(`a[name="${CSS.escape(hashWithoutDelimiter)}"]`);
+	                    if (anchorTarget) {
+	                        const { length } = deck.slides;
+	                        for (let i = 0; i < length; i += 1) {
+	                            if (deck.slides[i].contains(anchorTarget)) {
+	                                // Detect the fragmented list in the parent element
+	                                const pageFragments = (_b = deck.fragments) === null || _b === void 0 ? void 0 : _b[i];
+	                                const fragmentElement = anchorTarget.closest('[data-marpit-fragment]');
+	                                if (pageFragments && fragmentElement) {
+	                                    const fragmentIndex = pageFragments.indexOf(fragmentElement);
+	                                    if (fragmentIndex >= 0)
+	                                        fragment = fragmentIndex;
+	                                }
+	                                return i;
+	                            }
+	                        }
+	                    }
+	                }
+	                return 0;
+	            })();
+	            activateSlide(page, fragment);
+	        };
+	        deck.on('fragment', ({ index, fragmentIndex }) => {
+	            if (internalNavigation)
+	                return;
+	            setQuery({ f: fragmentIndex === 0 || fragmentIndex.toString() }, {
+	                location: { ...location, hash: `#${index + 1}` },
+	                setter: (...args) => options.history
+	                    ? history.pushState(...args)
+	                    : history.replaceState(...args),
+	            });
+	        });
+	        setTimeout(() => {
+	            parseState();
+	            window.addEventListener('hashchange', () => navInternally(() => {
+	                parseState({ fragment: false });
+	                setQuery({ f: undefined }); // f parameter has to remove
+	            }));
+	            window.addEventListener('popstate', () => {
+	                if (!internalNavigation)
+	                    navInternally(() => parseState());
+	            });
+	            internalNavigation = false;
+	        }, 0);
+	    };
+	};
+
+	const bespokeSync = (opts = {}) => {
+	    var _a;
+	    const key = opts.key ||
+	        ((_a = window.history.state) === null || _a === void 0 ? void 0 : _a.marpBespokeSyncKey) ||
+	        Math.random().toString(36).slice(2);
+	    const storageKey = `bespoke-marp-sync-${key}`;
+	    setHistoryState({ marpBespokeSyncKey: key });
+	    const getState = () => {
+	        const stateJSON = storage.get(storageKey);
+	        if (!stateJSON)
+	            return Object.create(null);
+	        return JSON.parse(stateJSON);
+	    };
+	    const setState = (updater) => {
+	        const currentState = getState();
+	        const newState = { ...currentState, ...updater(currentState) };
+	        storage.set(storageKey, JSON.stringify(newState));
+	        return newState;
+	    };
+	    const initialize = () => {
+	        window.removeEventListener('pageshow', initialize);
+	        setState((prev) => ({ reference: (prev.reference || 0) + 1 }));
+	    };
+	    return (deck) => {
+	        initialize();
+	        Object.defineProperty(deck, 'syncKey', {
+	            value: key,
+	            enumerable: true,
+	        });
+	        // Update storage value to store current page and fragment index
+	        // (Wrap by setTimeout to skip fragment event for initialization)
+	        let updateFragment = true;
+	        setTimeout(() => {
+	            deck.on('fragment', (e) => {
+	                if (updateFragment)
+	                    setState(() => ({ index: e.index, fragmentIndex: e.fragmentIndex }));
+	            });
+	        }, 0);
+	        // Listen "storage" event
+	        window.addEventListener('storage', (e) => {
+	            if (e.key === storageKey && e.oldValue && e.newValue) {
+	                const prev = JSON.parse(e.oldValue);
+	                const current = JSON.parse(e.newValue);
+	                if (prev.index !== current.index ||
+	                    prev.fragmentIndex !== current.fragmentIndex) {
+	                    try {
+	                        updateFragment = false;
+	                        deck.slide(current.index, {
+	                            fragment: current.fragmentIndex,
+	                            forSync: true,
+	                        });
+	                    }
+	                    finally {
+	                        updateFragment = true;
+	                    }
+	                }
+	            }
+	        });
+	        const destructor = () => {
+	            const { reference } = getState();
+	            if (reference === undefined || reference <= 1) {
+	                storage.remove(storageKey);
+	            }
+	            else {
+	                setState(() => ({ reference: reference - 1 }));
+	            }
+	        };
+	        window.addEventListener('pagehide', (e) => {
+	            if (e.persisted)
+	                window.addEventListener('pageshow', initialize);
+	            destructor();
+	        });
+	        deck.on('destroy', destructor);
+	    };
+	};
+
+	const { PI, abs, sqrt, atan2 } = Math;
+	const passiveEventOpts = { passive: true };
+	const bespokeTouch = ({ slope = -0.7, // about -35deg = Math.tan((-35 * Math.PI) / 180)
+	swipeThreshold = 30, } = {}) => (deck) => {
+	    let touchStart;
+	    const parent = deck.parent;
+	    const touchPoint = (touch) => {
+	        const parentRect = parent.getBoundingClientRect();
+	        return {
+	            x: touch.pageX - (parentRect.left + parentRect.right) / 2,
+	            y: touch.pageY - (parentRect.top + parentRect.bottom) / 2,
+	        };
+	    };
+	    parent.addEventListener('touchstart', ({ touches }) => {
+	        touchStart = touches.length === 1 ? touchPoint(touches[0]) : undefined;
+	    }, passiveEventOpts);
+	    parent.addEventListener('touchmove', (e) => {
+	        if (touchStart) {
+	            if (e.touches.length === 1) {
+	                e.preventDefault();
+	                const current = touchPoint(e.touches[0]);
+	                const x = current.x - touchStart.x;
+	                const y = current.y - touchStart.y;
+	                touchStart.delta = sqrt(abs(x) ** 2 + abs(y) ** 2);
+	                touchStart.radian = atan2(x, y);
+	            }
+	            else {
+	                touchStart = undefined;
+	            }
+	        }
+	    });
+	    parent.addEventListener('touchend', (e) => {
+	        if (touchStart) {
+	            if (touchStart.delta &&
+	                touchStart.delta >= swipeThreshold &&
+	                touchStart.radian) {
+	                const radian = ((touchStart.radian - slope + PI) % (PI * 2)) - PI;
+	                deck[radian < 0 ? 'next' : 'prev']();
+	                e.stopPropagation();
+	            }
+	            touchStart = undefined;
+	        }
+	    }, passiveEventOpts);
+	};
+
+	const _resetResolvedKeyframes = () => {
+	    resolvedMarpTransitionKeyframes.clear();
+	    resolvedMarpTransitionKeyframes.set('none', {
+	        backward: { both: undefined, incoming: undefined, outgoing: undefined },
+	        forward: { both: undefined, incoming: undefined, outgoing: undefined },
+	    });
+	};
+	const _testElementAnimation = (elm, callback) => {
+	    /* c8 ignore start */
+	    requestAnimationFrame(() => {
+	        elm.style.animationPlayState = 'running';
+	        requestAnimationFrame(() => callback(undefined));
+	    });
+	    /* c8 ignore stop */
+	};
+	const resolvedMarpTransitionKeyframes = new Map();
+	_resetResolvedKeyframes();
+	const types = {
+	    both: '',
+	    outgoing: 'outgoing-',
+	    incoming: 'incoming-',
+	};
+	const directions = { forward: '', backward: '-backward' };
+	const animCSSVar = (key) => `--marp-bespoke-transition-animation-${key}`;
+	const publicCSSVar = (key) => `--marp-transition-${key}`;
+	const nameCSSVar = animCSSVar('name');
+	const durationCSSVar = animCSSVar('duration');
+	const resolveKeyframeSetting = (keyframe) => new Promise((res) => {
+	    const setting = {};
+	    const elm = document.createElement('div');
+	    const resolve = (ret) => {
+	        elm.remove();
+	        res(ret);
+	    };
+	    elm.addEventListener('animationstart', () => resolve(setting));
+	    Object.assign(elm.style, {
+	        animationName: keyframe,
+	        animationDuration: '1s',
+	        animationFillMode: 'both',
+	        animationPlayState: 'paused',
+	        position: 'absolute',
+	        pointerEvents: 'none',
+	    });
+	    document.body.appendChild(elm);
+	    // Detect default duration for the current animation keyframe.
+	    const currentStyle = getComputedStyle(elm);
+	    const durationVar = currentStyle.getPropertyValue(publicCSSVar('duration'));
+	    if (durationVar) {
+	        setting.defaultDuration = durationVar;
+	    }
+	    // TODO: Consider to abuse animatable property with custom-ident if View
+	    // Transition API had supported in cross-browser and `@property` CSS at-rule
+	    // was not yet supported in other browsers well
+	    //
+	    // else if (
+	    //   // CSS variable that is setting within the keyframe cannot read in some
+	    //   // browsers (Firefox, Safari). So Marp abuses grid-row-start property
+	    //   // in "from" keyframe as a custom value.
+	    //   currentStyle.gridRowStart.startsWith('marp-transition-duration-')
+	    // ) {
+	    //   setting.defaultDuration = currentStyle.gridRowStart
+	    //     .slice(25)
+	    //     .replace(/\\./g, '.')
+	    // }
+	    _testElementAnimation(elm, resolve);
+	});
+	const resolveMarpTransitionKeyframes = (transitionName) => {
+	    const ret = {};
+	    const promises = [];
+	    for (const [type, typePrefix] of Object.entries(types))
+	        for (const [direction, directionSuffix] of Object.entries(directions)) {
+	            const keyframe = `marp-${typePrefix}transition${directionSuffix}-${transitionName}`;
+	            promises.push(resolveKeyframeSetting(keyframe).then((setting) => {
+	                ret[direction] = ret[direction] || {};
+	                ret[direction][type] = setting
+	                    ? { ...setting, name: keyframe }
+	                    : undefined;
+	            }));
+	        }
+	    return Promise.all(promises).then(() => ret);
+	};
+	const fetchMarpTransitionKeyframes = async (transitionName) => {
+	    if (!resolvedMarpTransitionKeyframes.has(transitionName)) {
+	        return resolveMarpTransitionKeyframes(transitionName).then((resolved) => {
+	            resolvedMarpTransitionKeyframes.set(transitionName, resolved);
+	            return resolved;
+	        });
+	    }
+	    return resolvedMarpTransitionKeyframes.get(transitionName);
+	};
+	const getMarpTransitionKeyframes = async (transitionName, { builtinFallback = true } = {}) => {
+	    let keyframes = await fetchMarpTransitionKeyframes(transitionName);
+	    // Fallback to builtin keyframes
+	    if (isMarpTransitionKeyframesEmpty(keyframes)) {
+	        if (!builtinFallback)
+	            return undefined;
+	        keyframes = await fetchMarpTransitionKeyframes(`__builtin__${transitionName}`);
+	        return isMarpTransitionKeyframesEmpty(keyframes) ? undefined : keyframes;
+	    }
+	    return keyframes;
+	};
+	const isMarpTransitionKeyframesEmpty = (keyframes) => Object.values(keyframes)
+	    .flatMap(Object.values)
+	    .every((v) => !v);
+	const prepareMarpTransitions = (...transitionNames) => {
+	    const names = [...new Set(transitionNames).values()];
+	    return Promise.all(names.map((name) => fetchMarpTransitionKeyframes(name))).then();
+	};
+	const resolveAnimationVariables = (keyframes, { type, backward }) => {
+	    const target = keyframes[backward ? 'backward' : 'forward'];
+	    const resolved = (() => {
+	        const detailedKeyframe = target[type];
+	        const resolveStyle = (kf) => ({ [nameCSSVar]: kf.name });
+	        if (detailedKeyframe) {
+	            return resolveStyle(detailedKeyframe);
+	        }
+	        else if (target.both) {
+	            const style = resolveStyle(target.both);
+	            if (type === 'incoming')
+	                style[animCSSVar('direction')] = 'reverse';
+	            return style;
+	        }
+	        return undefined;
+	    })();
+	    if (!resolved && backward)
+	        return resolveAnimationVariables(keyframes, { type, backward: false });
+	    return (resolved || { [nameCSSVar]: '__bespoke_marp_transition_no_animation__' });
+	};
+	const resolveAnimationStyles = (keyframes, opts) => {
+	    const rules = [
+	        `:root{${publicCSSVar('direction')}:${opts.backward ? -1 : 1};}`,
+	        // For marp-bespoke-bespoke-inactive plugin
+	        ':root:has(.bespoke-marp-inactive){cursor:none;}',
+	    ];
+	    const resolveDefaultDuration = (direction) => {
+	        var _a, _b, _c;
+	        const ret = ((_a = keyframes[direction].both) === null || _a === void 0 ? void 0 : _a.defaultDuration) ||
+	            ((_b = keyframes[direction].outgoing) === null || _b === void 0 ? void 0 : _b.defaultDuration) ||
+	            ((_c = keyframes[direction].incoming) === null || _c === void 0 ? void 0 : _c.defaultDuration);
+	        if (direction === 'forward')
+	            return ret;
+	        // Fallback to forward duration
+	        return ret || resolveDefaultDuration('forward');
+	    };
+	    const duration = opts.duration ||
+	        resolveDefaultDuration(opts.backward ? 'backward' : 'forward');
+	    if (duration !== undefined) {
+	        rules.push(`::view-transition-group(*){${durationCSSVar}:${duration};}`);
+	    }
+	    const getStyleMap = (vars) => Object.entries(vars)
+	        .map(([k, v]) => `${k}:${v};`)
+	        .join('');
+	    rules.push(`::view-transition-old(root){${getStyleMap(resolveAnimationVariables(keyframes, { ...opts, type: 'outgoing' }))}}`, `::view-transition-new(root){${getStyleMap(resolveAnimationVariables(keyframes, { ...opts, type: 'incoming' }))}}`);
+	    return rules;
+	};
+	const isTransitionData = (data) => {
+	    if (typeof data !== 'object')
+	        return false;
+	    const transitionData = data;
+	    return (typeof transitionData.name === 'string' &&
+	        (typeof transitionData.duration === 'undefined' ||
+	            typeof transitionData.duration === 'string'));
+	};
+	const parseTransitionData = (rawJSON) => {
+	    if (rawJSON) {
+	        try {
+	            const json = JSON.parse(rawJSON);
+	            if (isTransitionData(json))
+	                return json;
+	        }
+	        catch (_) {
+	            /* fault tolerance */
+	        }
+	    }
+	    return undefined;
+	};
+
+	const transitionStyleId = '_tSId';
+	const transitionApply = '_tA';
+	const transitionDuring = '_tD';
+	const transitionWarmUpClass = 'bespoke-marp-transition-warming-up';
+	const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+	const reducedMotionOutgoingKeyframes = '__bespoke_marp_transition_reduced_outgoing__';
+	const reducedMotionIncomingKeyframes = '__bespoke_marp_transition_reduced_incoming__';
+	const reducedKeyframes = {
+	    forward: {
+	        both: undefined,
+	        incoming: { name: reducedMotionIncomingKeyframes },
+	        outgoing: { name: reducedMotionOutgoingKeyframes },
+	    },
+	    backward: {
+	        both: undefined,
+	        incoming: { name: reducedMotionIncomingKeyframes },
+	        outgoing: { name: reducedMotionOutgoingKeyframes },
+	    },
+	};
+	const bespokeTransition = (deck) => {
+	    if (!document['startViewTransition'])
+	        return;
+	    const transitionDuringState = (value) => {
+	        if (value !== undefined)
+	            deck[transitionDuring] = value;
+	        return deck[transitionDuring];
+	    };
+	    let currentFragment;
+	    transitionDuringState(false);
+	    // Prefetch using keyframes
+	    prepareMarpTransitions(...Array.from(document.querySelectorAll('section[data-transition], section[data-transition-back]')).flatMap((elm) => [elm.dataset.transition, elm.dataset.transitionBack]
+	        .flatMap((raw) => {
+	        const transitionData = parseTransitionData(raw);
+	        return [
+	            transitionData === null || transitionData === void 0 ? void 0 : transitionData.name,
+	            (transitionData === null || transitionData === void 0 ? void 0 : transitionData.builtinFallback)
+	                ? `__builtin__${transitionData.name}`
+	                : undefined,
+	        ];
+	    })
+	        .filter((v) => !!v))).then(() => {
+	        // Workaround for Chrome's animation jank: Disable duration variables in keyframes after prefetch
+	        document.querySelectorAll('style').forEach((style) => {
+	            style.innerHTML = style.innerHTML.replace(/--marp-transition-duration:[^;}]*[;}]/g, (matched) => matched.slice(0, -1) + '!important' + matched.slice(-1));
+	        });
+	    });
+	    const transitionCallback = (fn, { back, cond }) => (e) => {
+	        var _a;
+	        const currentTransition = transitionDuringState();
+	        if (currentTransition) {
+	            if (e[transitionApply])
+	                return true;
+	            if (typeof currentTransition === 'object') {
+	                currentTransition.skipTransition();
+	                if (e.forSync)
+	                    return true;
+	            }
+	            return false;
+	        }
+	        // Check condition
+	        // (The conditional function may modify event object so should be called at first of checks)
+	        if (!cond(e))
+	            return true;
+	        // Check transition
+	        const current = deck.slides[deck.slide()];
+	        const isBack = () => { var _a; return (_a = e.back) !== null && _a !== void 0 ? _a : back; };
+	        const transitionDataTarget = `data-transition${isBack() ? '-back' : ''}`;
+	        const section = current.querySelector(`section[${transitionDataTarget}]`);
+	        if (!section)
+	            return true;
+	        // Parse settings
+	        const transitionData = parseTransitionData((_a = section.getAttribute(transitionDataTarget)) !== null && _a !== void 0 ? _a : undefined);
+	        if (!transitionData)
+	            return true;
+	        getMarpTransitionKeyframes(transitionData.name, {
+	            builtinFallback: transitionData.builtinFallback,
+	        }).then((keyframes) => {
+	            if (!keyframes) {
+	                // Fallback to default navigation
+	                transitionDuringState(true); // true means no transition
+	                try {
+	                    fn(e);
+	                }
+	                finally {
+	                    transitionDuringState(false);
+	                }
+	                return;
+	            }
+	            // Normalize keyframes for preferred reduced motion
+	            let normalizedKeyframes = keyframes;
+	            if (prefersReducedMotion.matches) {
+	                console.warn('Use a constant animation to transition because preferring reduced motion by viewer has detected.');
+	                normalizedKeyframes = reducedKeyframes;
+	            }
+	            // Clean up (A previous style may be remaining if navigated by anchor link)
+	            const existStyle = document.getElementById(transitionStyleId);
+	            if (existStyle)
+	                existStyle.remove();
+	            // Set style for transition effect
+	            const style = document.createElement('style');
+	            style.id = transitionStyleId;
+	            document.head.appendChild(style);
+	            resolveAnimationStyles(normalizedKeyframes, {
+	                backward: isBack(),
+	                duration: transitionData.duration,
+	            }).forEach((styleText) => { var _a; return (_a = style.sheet) === null || _a === void 0 ? void 0 : _a.insertRule(styleText); });
+	            // Start transition
+	            const rootClassList = document.documentElement.classList;
+	            rootClassList.add(transitionWarmUpClass);
+	            let navigated = false;
+	            const navigate = () => {
+	                if (navigated)
+	                    return;
+	                fn(e);
+	                navigated = true;
+	                rootClassList.remove(transitionWarmUpClass);
+	            };
+	            const finalize = () => {
+	                transitionDuringState(false);
+	                style.remove();
+	                rootClassList.remove(transitionWarmUpClass);
+	            };
+	            try {
+	                transitionDuringState(true); // to prevent unexpected navigation
+	                const transition = document['startViewTransition'](navigate);
+	                transitionDuringState(transition);
+	                transition.finished.finally(finalize);
+	            }
+	            catch (e) {
+	                console.error(e);
+	                navigate();
+	                finalize();
+	            }
+	        });
+	        return false;
+	    };
+	    deck.on('prev', transitionCallback((e) => deck.prev({ ...e, [transitionApply]: true }), {
+	        back: true,
+	        cond: (e) => {
+	            var _a;
+	            return e.index > 0 &&
+	                !(((_a = e.fragment) !== null && _a !== void 0 ? _a : true) && currentFragment.fragmentIndex > 0);
+	        },
+	    }));
+	    deck.on('next', transitionCallback((e) => deck.next({ ...e, [transitionApply]: true }), {
+	        cond: (e) => e.index + 1 < deck.slides.length &&
+	            !(currentFragment.fragmentIndex + 1 < currentFragment.fragments.length),
+	    }));
+	    setTimeout(() => {
+	        deck.on('slide', transitionCallback((e) => deck.slide(e.index, { ...e, [transitionApply]: true }), {
+	            cond: (e) => {
+	                const currentIndex = deck.slide();
+	                if (e.index === currentIndex)
+	                    return false;
+	                e.back = e.index < currentIndex;
+	                return true;
+	            },
+	        }));
+	    }, 0);
+	    deck.on('fragment', (e) => {
+	        currentFragment = e;
+	    });
+	};
+
+	let cachedWakeLockApi = undefined;
+	const wakeLockApi = () => {
+	    if (cachedWakeLockApi === undefined) {
+	        cachedWakeLockApi = 'wakeLock' in navigator && navigator['wakeLock'];
+	    }
+	    return cachedWakeLockApi;
+	};
+	const requestWakeLock = async () => {
+	    const api = wakeLockApi();
+	    if (api) {
+	        try {
+	            return await api.request('screen');
+	        }
+	        catch (e) {
+	            console.warn(e);
+	        }
+	    }
+	    return null;
+	};
+	const bespokeWakeLock = async () => {
+	    if (!wakeLockApi())
+	        return;
+	    let wakeLock; // eslint-disable-line prefer-const
+	    const handleVisibilityChange = () => {
+	        if (wakeLock && document.visibilityState === 'visible')
+	            requestWakeLock();
+	    };
+	    for (const event of ['visibilitychange', 'fullscreenchange']) {
+	        document.addEventListener(event, handleVisibilityChange);
+	    }
+	    wakeLock = await requestWakeLock();
+	    return wakeLock;
+	};
+
+	const parse = (...patterns) => {
+	    const i = viewModes.findIndex((v) => getViewMode() === v);
+	    return patterns.map(([pat, plugin]) => pat[i] && plugin).filter((p) => p);
+	};
+	const bespokeTemplate = (target = document.getElementById(':$p')) => {
+	    setViewMode();
+	    const key = popQuery('sync') || undefined;
+	    const deck = bespoke$1.from(target, parse(
+	    //   P  N
+	    [[1, 1, 0], bespokeSync({ key })], [[1, 1, 1], bespokePresenter(target)], [[1, 1, 0], bespokeInteractive], [[1, 1, 1], bespokeClasses], [[1, 0, 0], bespokeInactive()], [[1, 1, 1], bespokeLoad], [[1, 1, 1], bespokeState({ history: false })], [[1, 1, 0], bespokeNavigation()], [[1, 1, 0], bespokeFullscreen], [[1, 0, 0], basepokeProgress], [[1, 1, 0], bespokeTouch()], [[1, 0, 0], bespokeOSC()], [[1, 0, 0], bespokeTransition], [[1, 1, 1], bespokeFragments], [[1, 1, 0], bespokeWakeLock]));
+	    return deck;
+	};
+
+	bespokeTemplate();
+
+})();
+</script></body></html>

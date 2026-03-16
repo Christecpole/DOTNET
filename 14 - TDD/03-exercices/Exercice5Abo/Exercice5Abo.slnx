@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Exercice5Abo.Tests/Exercice5Abo.Tests.csproj" />
+  <Project Path="Exercice5Abo/Exercice5Abo.csproj" />
+</Solution>

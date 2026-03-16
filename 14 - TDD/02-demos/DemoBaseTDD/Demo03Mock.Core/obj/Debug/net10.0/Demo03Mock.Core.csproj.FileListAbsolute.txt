@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\bin\Debug\net10.0\Demo03Mock.Core.exe
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\bin\Debug\net10.0\Demo03Mock.Core.deps.json
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\bin\Debug\net10.0\Demo03Mock.Core.runtimeconfig.json
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\bin\Debug\net10.0\Demo03Mock.Core.dll
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\bin\Debug\net10.0\Demo03Mock.Core.pdb
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\Demo03Mock.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\Demo03Mock.Core.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\Demo03Mock.Core.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\Demo03Mock.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\Demo03Mock.Core.sourcelink.json
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\Demo03Mock.Core.dll
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\refint\Demo03Mock.Core.dll
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\Demo03Mock.Core.pdb
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\Demo03Mock.Core.genruntimeconfig.cache
+C:\Users\Administrateur\Desktop\poec_net_1512\14 - TDD\02-demos\DemoBaseTDD\Demo03Mock.Core\obj\Debug\net10.0\ref\Demo03Mock.Core.dll

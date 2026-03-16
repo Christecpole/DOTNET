@@ -1,0 +1,425 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\authentificationservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|solutionrelative:authentificationservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\orderservice\\orderservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\orderservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\filter\\tokenvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\filter\\tokenvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\productservice\\services\\serviceproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\services\\serviceproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\orderservice\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\orderservice\\restclient\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\restclient\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\authentificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|solutionrelative:authentificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\restclient\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\restclient\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCC5D4C-DCFD-F350-0302-6CEEC93FCB6D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\authentificationservice\\data\\dbfake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|solutionrelative:authentificationservice\\data\\dbfake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\gateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\gateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\authentificationservice\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|solutionrelative:authentificationservice\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\authentificationservice\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFC597D-1DE1-4DF0-B66D-E62D88CA2E79}|AuthentificationService\\AuthentificationService.csproj|solutionrelative:authentificationservice\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|c:\\users\\administrateur\\onedrive - m2i\\bureau\\poec_net_1512\\15 - microservice\\demo\\productservice\\gateway\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CADB68C-FB3B-D474-56C8-AE901F365B9C}|Gateway\\Gateway.csproj|solutionrelative:gateway\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\RestClient\\Client.cs",
+              "RelativeDocumentMoniker": "OrderService\\RestClient\\Client.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\RestClient\\Client.cs",
+              "RelativeToolTip": "OrderService\\RestClient\\Client.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T14:02:24.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\Program.cs",
+              "RelativeDocumentMoniker": "OrderService\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\Program.cs",
+              "RelativeToolTip": "OrderService\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:53:40.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\appsettings.json",
+              "RelativeToolTip": "OrderService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-04T10:53:17.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Gateway\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Gateway\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:36:13.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\Service\\Service.cs",
+              "RelativeDocumentMoniker": "OrderService\\Service\\Service.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\Service\\Service.cs",
+              "RelativeToolTip": "OrderService\\Service\\Service.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T14:05:04.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\ProductService\\Services\\ServiceProduct.cs",
+              "RelativeDocumentMoniker": "ProductService\\Services\\ServiceProduct.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\ProductService\\Services\\ServiceProduct.cs",
+              "RelativeToolTip": "ProductService\\Services\\ServiceProduct.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T14:05:16.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.http",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\OrderService.http",
+              "RelativeDocumentMoniker": "OrderService\\OrderService.http",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\OrderService.http",
+              "RelativeToolTip": "OrderService\\OrderService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-04T10:53:16.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Dto\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Gateway\\Dto\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Dto\\LoginResponseDto.cs",
+              "RelativeToolTip": "Gateway\\Dto\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:56:17.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "OrderService\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\OrderService\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "OrderService\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:53:59.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Gateway.http",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Gateway.http",
+              "RelativeDocumentMoniker": "Gateway\\Gateway.http",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Gateway.http",
+              "RelativeToolTip": "Gateway\\Gateway.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-03T14:48:22.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\Dtos\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "AuthentificationService\\Dtos\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\Dtos\\LoginResponseDto.cs",
+              "RelativeToolTip": "AuthentificationService\\Dtos\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:47:43.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "AuthentificationService\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "AuthentificationService\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:47:40.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DbFake.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\Data\\DbFake.cs",
+              "RelativeDocumentMoniker": "AuthentificationService\\Data\\DbFake.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\Data\\DbFake.cs",
+              "RelativeToolTip": "AuthentificationService\\Data\\DbFake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:46:40.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Gateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Gateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-03T14:45:59.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\ProductService\\Program.cs",
+              "RelativeDocumentMoniker": "ProductService\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\ProductService\\Program.cs",
+              "RelativeToolTip": "ProductService\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:44:43.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthentificationService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\appsettings.json",
+              "RelativeToolTip": "AuthentificationService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-03T14:44:40.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Gateway\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Gateway\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:36:18.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\appsettings.json",
+              "RelativeDocumentMoniker": "Gateway\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\appsettings.json",
+              "RelativeToolTip": "Gateway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-03T14:35:22.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\RestClient\\Client.cs",
+              "RelativeDocumentMoniker": "Gateway\\RestClient\\Client.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\RestClient\\Client.cs",
+              "RelativeToolTip": "Gateway\\RestClient\\Client.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAArwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:33:43.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthentificationService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\AuthentificationService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthentificationService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwDEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:31:36.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Program.cs",
+              "RelativeDocumentMoniker": "Gateway\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Program.cs",
+              "RelativeToolTip": "Gateway\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:30:54.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Gateway\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Gateway\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:25:55.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenValidationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Filter\\TokenValidationFilter.cs",
+              "RelativeDocumentMoniker": "Gateway\\Filter\\TokenValidationFilter.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\poec_net_1512\\15 - MicroService\\Demo\\ProductService\\Gateway\\Filter\\TokenValidationFilter.cs",
+              "RelativeToolTip": "Gateway\\Filter\\TokenValidationFilter.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAnwCsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:55:32.22Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

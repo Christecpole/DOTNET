@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78DBE533-9004-1FF9-CABD-6551A8FA3251}|Exercice5Abo.Tests\\Exercice5Abo.Tests.csproj|c:\\users\\admin\\desktop\\exercice5abo\\exercice5abo.tests\\subscriptionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DBE533-9004-1FF9-CABD-6551A8FA3251}|Exercice5Abo.Tests\\Exercice5Abo.Tests.csproj|solutionrelative:exercice5abo.tests\\subscriptionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|c:\\users\\admin\\desktop\\exercice5abo\\exercice5abo\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|solutionrelative:exercice5abo\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|c:\\users\\admin\\desktop\\exercice5abo\\exercice5abo\\subscriptiondomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|solutionrelative:exercice5abo\\subscriptiondomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|c:\\users\\admin\\desktop\\exercice5abo\\exercice5abo\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|solutionrelative:exercice5abo\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|c:\\users\\admin\\desktop\\exercice5abo\\exercice5abo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|solutionrelative:exercice5abo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|c:\\users\\admin\\desktop\\exercice5abo\\exercice5abo\\plantype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|solutionrelative:exercice5abo\\plantype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|c:\\users\\admin\\desktop\\exercice5abo\\exercice5abo\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509F647A-C5A6-240C-986B-56242CFDCCA7}|Exercice5Abo\\Exercice5Abo.csproj|solutionrelative:exercice5abo\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DBE533-9004-1FF9-CABD-6551A8FA3251}|Exercice5Abo.Tests\\Exercice5Abo.Tests.csproj|c:\\users\\admin\\desktop\\exercice5abo\\exercice5abo.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DBE533-9004-1FF9-CABD-6551A8FA3251}|Exercice5Abo.Tests\\Exercice5Abo.Tests.csproj|solutionrelative:exercice5abo.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubscriptionDomainException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\SubscriptionDomainException.cs",
+              "RelativeDocumentMoniker": "Exercice5Abo\\SubscriptionDomainException.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\SubscriptionDomainException.cs",
+              "RelativeToolTip": "Exercice5Abo\\SubscriptionDomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:48:36.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\Subscription.cs",
+              "RelativeDocumentMoniker": "Exercice5Abo\\Subscription.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\Subscription.cs",
+              "RelativeToolTip": "Exercice5Abo\\Subscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:37:31.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlanType.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\PlanType.cs",
+              "RelativeDocumentMoniker": "Exercice5Abo\\PlanType.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\PlanType.cs",
+              "RelativeToolTip": "Exercice5Abo\\PlanType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:36:59.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\Program.cs",
+              "RelativeDocumentMoniker": "Exercice5Abo\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\Program.cs",
+              "RelativeToolTip": "Exercice5Abo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:35:27.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubscriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\SubscriptionService.cs",
+              "RelativeDocumentMoniker": "Exercice5Abo\\SubscriptionService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\SubscriptionService.cs",
+              "RelativeToolTip": "Exercice5Abo\\SubscriptionService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:51:35.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SubscriptionServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo.Tests\\SubscriptionServiceTests.cs",
+              "RelativeDocumentMoniker": "Exercice5Abo.Tests\\SubscriptionServiceTests.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo.Tests\\SubscriptionServiceTests.cs",
+              "RelativeToolTip": "Exercice5Abo.Tests\\SubscriptionServiceTests.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAIwEEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:52:34.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Interfaces.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\Interfaces.cs",
+              "RelativeDocumentMoniker": "Exercice5Abo\\Interfaces.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo\\Interfaces.cs",
+              "RelativeToolTip": "Exercice5Abo\\Interfaces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:44:26.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo.Tests\\Test1.cs",
+              "RelativeDocumentMoniker": "Exercice5Abo.Tests\\Test1.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Exercice5Abo\\Exercice5Abo.Tests\\Test1.cs",
+              "RelativeToolTip": "Exercice5Abo.Tests\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:36:05.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
